@@ -1,0 +1,8 @@
+4	SF_ENG_051:org:political_religious_affiliation	APW_ENG_20080320.1322.LDC2009T13	-1	0	congressional	0	2856:2868	-1	2833:2932
+6	SF_ENG_051:org:political_religious_affiliation	APW_ENG_20080728.1194.LDC2009T13	-1	0	congress	0	1895:1902	-1	1596:1935
+8	SF_ENG_051:org:political_religious_affiliation	APW_ENG_20081003.0857.LDC2009T13	-1	0	federal	0	360:366	-1	263:466
+1	SF_ENG_051:org:political_religious_affiliation	LTW_ENG_20080929.0093.LDC2009T13	-1	0	Democratic	0	997:1007	-1	930:1206
+2	SF_ENG_051:org:political_religious_affiliation	LTW_ENG_20091214.0022	-1	0	Democrats	0	822:831	-1	644:904
+3	SF_ENG_051:org:political_religious_affiliation	NYT_ENG_20080725.0157.LDC2009T13	1	1	Republican	0	276:286	-1	37:700
+5	SF_ENG_051:org:political_religious_affiliation	NYT_ENG_20080922.0243.LDC2009T13	-1	0	government	0	5067:5076	-1	4902:5102
+7	SF_ENG_051:org:political_religious_affiliation	eng-NG-31-142407-10043672	-1	0	Congressional Record	0	97313:97332	-1	97266:97433

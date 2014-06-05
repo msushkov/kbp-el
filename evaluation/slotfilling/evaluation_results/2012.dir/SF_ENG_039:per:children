@@ -1,0 +1,26 @@
+6	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	1	1	Jane Anderson	0	2249:2261	3	2166:2429
+23	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	1	1	Jane Anderson	0	2249:2261	1	2213:2262
+5	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	1	2	Michael Anderson	0	2314:2320	3	2166:2429
+25	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	1	2	Michael Anderson	0	2314:2320	1	2213:2340
+7	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	1	3	Thomas Anderson	0	2293:2298	3	2166:2429
+24	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	1	3	Thomas Anderson	0	2293:2298	1	2213:2312
+4	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	1	4	William Anderson	0	2346:2352	3	2166:2429
+26	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	1	4	William Anderson	0	2346:2352	1	2213:2375
+18	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	-1	0	government official	0	0:0	-1	0:0
+19	SF_ENG_039:per:children	NYT_ENG_20070305.0262.LDC2009T13	-1	0	hoover	0	0:0	-1	0:0
+22	SF_ENG_039:per:children	NYT_ENG_20070409.0133.LDC2009T13	-1	0	Terry Burgler	0	682:694	-1	467:792
+20	SF_ENG_039:per:children	NYT_ENG_20071104.0045.LDC2009T13	-1	0	governance gap	0	0:0	-1	0:0
+21	SF_ENG_039:per:children	NYT_ENG_20071104.0045.LDC2009T13	-1	0	wright	0	0:0	-1	0:0
+3	SF_ENG_039:per:children	eng-NG-31-106370-8896735	-1	0	Dorothy Rabinowitz	0	2310:2327	-1	2276:2510
+1	SF_ENG_039:per:children	eng-NG-31-138478-9808763	-1	0	Richard Kevin Edwards Dennis	0	15719:15747	-1	15719:15767
+8	SF_ENG_039:per:children	eng-NG-31-141808-8670939	-1	0	child	0	0:0	-1	0:0
+9	SF_ENG_039:per:children	eng-NG-31-141808-8670939	-1	0	student learning	0	0:0	-1	0:0
+10	SF_ENG_039:per:children	eng-NG-31-141808-9965833	-1	0	connection	0	0:0	-1	0:0
+11	SF_ENG_039:per:children	eng-NG-31-141808-9966857	-1	0	experience	0	0:0	-1	0:0
+12	SF_ENG_039:per:children	eng-NG-31-141808-9966857	-1	0	house arrest	0	0:0	-1	0:0
+13	SF_ENG_039:per:children	eng-NG-31-141808-9966857	-1	0	music	0	0:0	-1	0:0
+14	SF_ENG_039:per:children	eng-NG-31-141808-9966857	-1	0	part	0	0:0	-1	0:0
+15	SF_ENG_039:per:children	eng-NG-31-141808-9966857	-1	0	responsibility	0	0:0	-1	0:0
+16	SF_ENG_039:per:children	eng-NG-31-141808-9966857	-1	0	work	0	0:0	-1	0:0
+17	SF_ENG_039:per:children	eng-NG-31-141808-9968104	-1	0	stop in front	0	0:0	-1	0:0
+2	SF_ENG_039:per:children	eng-NG-31-142161-10037392	-1	0	Antonio M.	0	6125:6134	-1	6101:6384

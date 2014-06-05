@@ -1,0 +1,21 @@
+
+rs = {}
+for l in open('../evaluation_results/correct.tsv'):
+    (q, slot, rel) = l.rstrip('\n').split('\t')
+    if q not in rs:
+        rs[q] = []
+    rs[q].append([slot, rel])
+
+import re
+cid = ""
+for l in open('2010.xml'):
+    m = re.search('<query id="(.*?)">', l)
+    if m:
+        cid = m.group(1)
+
+    m = re.search('<name>(.*?)</name>', l)
+    if m:
+        a = []
+        if cid in rs:
+            for (a,b) in rs[cid]:
+                print cid + "\t" + m.group(1) + "\t" + b + "\t" + a

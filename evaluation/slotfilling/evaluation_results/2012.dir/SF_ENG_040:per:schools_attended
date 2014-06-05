@@ -1,0 +1,23 @@
+17	SF_ENG_040:per:schools_attended	AFP_ENG_20070614.0465.LDC2009T13	2	1	University of Vienna	0	630:649	1	450:650
+6	SF_ENG_040:per:schools_attended	APW_ENG_20070614.0933.LDC2009T13	1	2	Consular Academy	0	171:187	1	0:279
+19	SF_ENG_040:per:schools_attended	APW_ENG_20070614.0933.LDC2009T13	1	2	Consular Academy	0	4633:4648	1	4532:4684
+23	SF_ENG_040:per:schools_attended	APW_ENG_20070614.0933.LDC2009T13	1	2	Consular Academy	0	4633:4648	1	4574:4685
+14	SF_ENG_040:per:schools_attended	APW_ENG_20070614.0933.LDC2009T13	3	0	University	0	4605:4615	1	4532:4686
+1	SF_ENG_040:per:schools_attended	APW_ENG_20070614.0933.LDC2009T13	2	1	Vienna University	0	137:154	-1	0:279
+18	SF_ENG_040:per:schools_attended	APW_ENG_20070614.0933.LDC2009T13	2	1	Vienna University	0	4598:4614	1	4532:4684
+20	SF_ENG_040:per:schools_attended	APW_ENG_20070614.0933.LDC2009T13	3	0	law at vienna university	0	0:0	-1	0:0
+21	SF_ENG_040:per:schools_attended	APW_ENG_20070614.0933.LDC2009T13	-1	0	town	0	0:0	-1	0:0
+16	SF_ENG_040:per:schools_attended	APW_ENG_20080301.0180.LDC2009T13	-1	0	Haverford College	0	685:701	-1	631:726
+7	SF_ENG_040:per:schools_attended	CNN779-5.950622.LDC98T25	-1	0	Department of Justice	0	36:57	-1	0:184
+4	SF_ENG_040:per:schools_attended	LTW_ENG_20070615.0073.LDC2009T13	-1	0	Central Intelligence Agency	0	73:100	-1	0:388
+11	SF_ENG_040:per:schools_attended	LTW_ENG_20070615.0073.LDC2009T13	-1	0	Semitic Nazi	0	157:169	-1	0:487
+10	SF_ENG_040:per:schools_attended	LTW_ENG_20070615.0073.LDC2009T13	-1	0	toward his doctorate at the University	0	162:200	-1	0:451
+12	SF_ENG_040:per:schools_attended	LTW_ENG_20070615.0075.LDC2009T13	-1	0	Nazi army	0	334:343	-1	0:393
+5	SF_ENG_040:per:schools_attended	LTW_ENG_20070615.0075.LDC2009T13	-1	0	in law and diplomacy at university	0	66:100	-1	0:111
+22	SF_ENG_040:per:schools_attended	LTW_ENG_20070615.0075.LDC2009T13	-1	0	law school , vienna	0	0:0	-1	0:0
+8	SF_ENG_040:per:schools_attended	NYT_ENG_20070614.0182.LDC2009T13	-1	0	Congress	0	99:107	-1	0:342
+9	SF_ENG_040:per:schools_attended	NYT_ENG_20070614.0182.LDC2009T13	-1	0	Justice Department	0	21:39	-1	0:372
+15	SF_ENG_040:per:schools_attended	NYT_ENG_20070614.0182.LDC2009T13	-1	0	University of South Carolina	0	1454:1481	-1	1301:1566
+13	SF_ENG_040:per:schools_attended	NYT_ENG_20070614.0182.LDC2009T13	-1	0	University of South Carolina	0	1493:1521	-1	1331:1606
+3	SF_ENG_040:per:schools_attended	NYT_ENG_20100902.0029	-1	0	United Nations	0	285:299	-1	0:419
+2	SF_ENG_040:per:schools_attended	XIN_ENG_20070614.0272.LDC2009T13	-1	0	United Nations	0	42:56	-1	0:260

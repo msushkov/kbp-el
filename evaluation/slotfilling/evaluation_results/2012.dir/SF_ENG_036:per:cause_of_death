@@ -1,0 +1,5 @@
+4	SF_ENG_036:per:cause_of_death	LTW_ENG_20071127.0103.LDC2009T13	1	1	complications of pneumonia	0	367:392	1	222:393
+5	SF_ENG_036:per:cause_of_death	NYT_ENG_20071203.0166.LDC2009T13	1	1	complications of pneumonia	0	546:571	1	283:571
+3	SF_ENG_036:per:cause_of_death	eng-NG-31-126958-9171868	1	1	complications from pneumonia	0	678:705	1	473:765
+2	SF_ENG_036:per:cause_of_death	eng-NG-31-126958-9171868	3	0	pneumonia	0	697:706	3	485:767
+1	SF_ENG_036:per:cause_of_death	eng-NG-31-142091-9997468	-1	0	shot	0	17:21	-1	0:295

@@ -1,0 +1,86 @@
+28	SF_ENG_075:org:alternate_names	APW_ENG_20070131.1773.LDC2009T13	-1	0	CEO	0	45:48	-1	0:128
+17	SF_ENG_075:org:alternate_names	APW_ENG_20070216.1174.LDC2009T13	-1	0	UTCA	0	26:30	-1	0:397
+44	SF_ENG_075:org:alternate_names	APW_ENG_20070413.1528.LDC2009T13	-1	0	DoubleClick	0	129:140	-1	0:188
+55	SF_ENG_075:org:alternate_names	APW_ENG_20070426.1886.LDC2009T13	-1	0	UTCCitigroup	0	26:38	-1	0:162
+18	SF_ENG_075:org:alternate_names	APW_ENG_20070705.1377.LDC2009T13	-1	0	PizzaHut	0	201:209	-1	0:449
+56	SF_ENG_075:org:alternate_names	APW_ENG_20070904.1448.LDC2009T13	-1	0	UTCMattel	0	29:38	-1	0:180
+85	SF_ENG_075:org:alternate_names	APW_ENG_20071012.0223.LDC2009T13	1	3	ConAgra	0	158:164	1	158:239
+66	SF_ENG_075:org:alternate_names	APW_ENG_20071012.0223.LDC2009T13	-1	0	http://www.conagrafoods.com	0	2604:2631	-1	2603:2652
+10	SF_ENG_075:org:alternate_names	APW_ENG_20080201.1497.LDC2009T13	-1	0	AMFM	0	39:43	-1	0:80
+35	SF_ENG_075:org:alternate_names	APW_ENG_20080201.1497.LDC2009T13	-1	0	Microsoft Corp	0	0:14	-1	0:107
+40	SF_ENG_075:org:alternate_names	APW_ENG_20080211.0681.LDC2009T13	-1	0	Microsoft Corp	0	78:92	-1	0:155
+63	SF_ENG_075:org:alternate_names	APW_ENG_20080221.1167.LDC2009T13	2	2	ConAgra Foods Inc.	0	0:0	-1	0:0
+37	SF_ENG_075:org:alternate_names	APW_ENG_20080227.0856.LDC2009T13	-1	0	Acer	0	134:138	-1	0:450
+6	SF_ENG_075:org:alternate_names	APW_ENG_20080409.1455.LDC2009T13	-1	0	UTCYahoo	0	34:42	-1	0:198
+29	SF_ENG_075:org:alternate_names	APW_ENG_20090610.1064	-1	0	McLean	0	33:39	-1	0:252
+67	SF_ENG_075:org:alternate_names	APW_ENG_20090625.0487	-1	0	ConAgra Foods 4Q	0	59:75	-1	28:333
+74	SF_ENG_075:org:alternate_names	APW_ENG_20100325.0480	2	2	ConAgra Foods Inc.	0	379:396	1	379:502
+11	SF_ENG_075:org:alternate_names	APW_ENG_20100601.0050	-1	0	BI	0	73:75	-1	0:98
+2	SF_ENG_075:org:alternate_names	APW_ENG_20100827.0895	-1	0	AOL	0	123:126	-1	0:481
+16	SF_ENG_075:org:alternate_names	APW_ENG_20100827.0895	-1	0	Google	0	15:21	-1	0:481
+3	SF_ENG_075:org:alternate_names	APW_ENG_20100827.0895	-1	0	OfficeMax	0	152:161	-1	0:481
+64	SF_ENG_075:org:alternate_names	APW_ENG_20100921.0444	-1	0	Lamb Weston	0	1283:1294	-1	1269:1425
+79	SF_ENG_075:org:alternate_names	APW_ENG_20100921.0881	2	2	ConAgra Foods Inc.	0	3334:3351	-1	3276:3388
+65	SF_ENG_075:org:alternate_names	APW_ENG_20101221.0331	1	3	ConAgra	0	59:66	3	28:212
+68	SF_ENG_075:org:alternate_names	APW_ENG_20101221.0331	-1	0	ConAgra Foods 2Q	0	59:75	-1	28:212
+78	SF_ENG_075:org:alternate_names	NYT_ENG_20070612.0258.LDC2009T13	1	3	ConAgra	0	878:884	1	766:957
+86	SF_ENG_075:org:alternate_names	NYT_ENG_20071017.0104.LDC2009T13	2	2	ConAgra Foods Inc.	0	2228:2245	1	2126:2332
+21	SF_ENG_075:org:alternate_names	NYT_ENG_20071017.0191.LDC2009T13	-1	0	Department of Defense	0	292:313	-1	0:476
+22	SF_ENG_075:org:alternate_names	NYT_ENG_20071017.0191.LDC2009T13	-1	0	Pentagon	0	233:241	-1	0:476
+54	SF_ENG_075:org:alternate_names	NYT_ENG_20071017.0202.LDC2009T13	-1	0	Department of Defense	0	292:313	-1	0:476
+52	SF_ENG_075:org:alternate_names	NYT_ENG_20071017.0202.LDC2009T13	-1	0	Pentagon	0	233:241	-1	0:476
+46	SF_ENG_075:org:alternate_names	NYT_ENG_20071203.0165.LDC2009T13	-1	0	UAP	0	81:84	-1	0:231
+77	SF_ENG_075:org:alternate_names	NYT_ENG_20100529.0051	-1	0	ConAgra Healthy Choice	0	6166:6187	-1	6124:6225
+76	SF_ENG_075:org:alternate_names	NYT_ENG_20100627.0119	-1	0	ConAgra Field	0	3020:3032	-1	2985:3034
+81	SF_ENG_075:org:alternate_names	NYT_ENG_20100805.0121	-1	0	ConAgra Foods Slim Jim	0	2205:2226	-1	2132:2267
+51	SF_ENG_075:org:alternate_names	NYT_ENG_20101017.0080	-1	0	AST	0	199:202	-1	0:469
+25	SF_ENG_075:org:alternate_names	NYT_ENG_20101017.0080	-1	0	MorganStanley	0	95:108	-1	0:469
+47	SF_ENG_075:org:alternate_names	NYT_ENG_20101017.0080	-1	0	UnitedContinental	0	370:387	-1	0:469
+80	SF_ENG_075:org:alternate_names	NYT_ENG_20101124.0090	-1	0	ConAgra Foods Lamb Weston	0	1792:1816	-1	1708:1817
+14	SF_ENG_075:org:alternate_names	WPB_ENG_20100317.0074	-1	0	Campbell Soup Co	0	192:208	-1	0:370
+53	SF_ENG_075:org:alternate_names	WPB_ENG_20100812.0020	-1	0	McHenry	0	258:265	-1	0:363
+70	SF_ENG_075:org:alternate_names	XIN_ENG_20070222.0202.LDC2009T13	2	2	ConAgra Foods Inc	0	384:400	1	268:556
+42	SF_ENG_075:org:alternate_names	XIN_ENG_20070403.0408.LDC2009T13	-1	0	CytecIndustries	0	346:361	-1	0:393
+9	SF_ENG_075:org:alternate_names	XIN_ENG_20080925.0169.LDC2009T13	-1	0	WashingtonMutual	0	26:42	-1	0:165
+43	SF_ENG_075:org:alternate_names	eng-NG-31-100316-10781633	-1	0	SURF	0	287:291	-1	0:452
+5	SF_ENG_075:org:alternate_names	eng-NG-31-100936-11222425	-1	0	LIOX	0	93:97	-1	0:255
+4	SF_ENG_075:org:alternate_names	eng-NG-31-100936-11222425	-1	0	MVTransportation	0	139:155	-1	0:178
+15	SF_ENG_075:org:alternate_names	eng-NG-31-102460-8865473	-1	0	Pilgrim	0	76:83	-1	0:96
+75	SF_ENG_075:org:alternate_names	eng-NG-31-106345-8891324	3	0	AVOID ALL CONAGRA PRODUCTS.	0	1663:1689	1	1638:1990
+19	SF_ENG_075:org:alternate_names	eng-NG-31-126309-9132020	-1	0	SoftWriters	0	0:11	-1	0:75
+26	SF_ENG_075:org:alternate_names	eng-NG-31-126763-8218997	-1	0	AirTran Holdings	0	71:87	-1	0:183
+57	SF_ENG_075:org:alternate_names	eng-NG-31-126763-8219016	-1	0	AirTran Holdings	0	71:87	-1	0:202
+36	SF_ENG_075:org:alternate_names	eng-NG-31-126763-8219016	-1	0	Presents New Offer For Midwest Air Group	0	95:135	-1	0:202
+41	SF_ENG_075:org:alternate_names	eng-NG-31-126841-9161158	-1	0	Pilgrim	0	76:83	-1	0:96
+84	SF_ENG_075:org:alternate_names	eng-NG-31-132582-9446456	2	1	CAG	0	3633:3635	3	3607:3782
+72	SF_ENG_075:org:alternate_names	eng-NG-31-132582-9446456	3	0	ConAgra	0	252:258	-1	160:344
+73	SF_ENG_075:org:alternate_names	eng-NG-31-132582-9446456	2	2	ConAgra Foods Inc.	0	1225:1242	3	1191:1522
+83	SF_ENG_075:org:alternate_names	eng-NG-31-132582-9446456	2	2	ConAgra Foods Inc.	0	3608:3625	3	3607:3782
+82	SF_ENG_075:org:alternate_names	eng-NG-31-132582-9446456	-1	0	Hill Country Fare	0	166:183	-1	105:183
+24	SF_ENG_075:org:alternate_names	eng-NG-31-132582-9446456	-1	0	UPC	0	119:122	-1	0:150
+69	SF_ENG_075:org:alternate_names	eng-NG-31-132582-9446456	-1	0	http://www.aol.com	0	4115:4133	-1	4057:4157
+59	SF_ENG_075:org:alternate_names	eng-NG-31-133413-8528151	-1	0	NagaZealTech	0	260:272	-1	0:310
+62	SF_ENG_075:org:alternate_names	eng-NG-31-133415-9539271	-1	0	NJPh	0	65:69	-1	0:157
+60	SF_ENG_075:org:alternate_names	eng-NG-31-133415-9539271	-1	0	RecruiterCAT	0	17:29	-1	0:157
+31	SF_ENG_075:org:alternate_names	eng-NG-31-133425-12143392	-1	0	Ace Foods	0	221:230	-1	0:349
+32	SF_ENG_075:org:alternate_names	eng-NG-31-133425-12143392	-1	0	Datahold Philippines	0	191:211	-1	0:285
+33	SF_ENG_075:org:alternate_names	eng-NG-31-133425-12143392	-1	0	Fort Bonifacio Development Corporation Cebu Pacific Global Learning Media Corporation Nesic Philippines	0	18:121	-1	0:285
+7	SF_ENG_075:org:alternate_names	eng-NG-31-133425-12143392	-1	0	GenOSI	0	5:11	-1	0:285
+27	SF_ENG_075:org:alternate_names	eng-NG-31-133425-12143392	-1	0	HCCA	0	128:132	-1	0:285
+48	SF_ENG_075:org:alternate_names	eng-NG-31-133425-12143392	-1	0	Manila Grand Opera Hotel De La Salle Santiago Zobel School Diwa Asia Publishing Group Shin	0	237:327	-1	0:349
+8	SF_ENG_075:org:alternate_names	eng-NG-31-133425-12143392	-1	0	MeDevices	0	175:184	-1	0:285
+34	SF_ENG_075:org:alternate_names	eng-NG-31-133425-12143392	-1	0	Prestige Cars BMW Globaltronics	0	183:214	-1	0:349
+49	SF_ENG_075:org:alternate_names	eng-NG-31-133425-12143392	-1	0	PrimeWater Infrastructure Corporation LBC Bank East Asia Paper Mfg	0	218:284	-1	0:285
+58	SF_ENG_075:org:alternate_names	eng-NG-31-134286-9598847	-1	0	MAGNUS	0	395:401	-1	0:458
+61	SF_ENG_075:org:alternate_names	eng-NG-31-134286-9598847	-1	0	SRINI	0	374:379	-1	0:458
+1	SF_ENG_075:org:alternate_names	eng-NG-31-134326-9609567	-1	0	MAGNUS	0	395:401	-1	0:458
+12	SF_ENG_075:org:alternate_names	eng-NG-31-134326-9609567	-1	0	SRINI	0	374:379	-1	0:458
+38	SF_ENG_075:org:alternate_names	eng-NG-31-136103-9785090	-1	0	Capitol City Properties	0	88:111	-1	0:479
+30	SF_ENG_075:org:alternate_names	eng-NG-31-141827-9969436	2	1	CAG	0	131:134	-1	0:386
+71	SF_ENG_075:org:alternate_names	eng-NG-31-141827-9969436	-1	0	Kraft Foods	0	2636:2646	-1	2602:2690
+20	SF_ENG_075:org:alternate_names	eng-NG-31-142147-10017119	-1	0	LASON	0	197:202	-1	0:243
+39	SF_ENG_075:org:alternate_names	eng-NG-31-142147-10017119	-1	0	NA	0	32:34	-1	0:64
+50	SF_ENG_075:org:alternate_names	eng-NG-31-142147-10017119	-1	0	NA Textiles	0	22:33	-1	0:63
+13	SF_ENG_075:org:alternate_names	eng-NG-31-142147-10017119	-1	0	PAC	0	0:3	-1	0:127
+23	SF_ENG_075:org:alternate_names	eng-NG-31-142147-10017119	-1	0	ProfessionalServicesBusiness	0	20:48	-1	0:143
+45	SF_ENG_075:org:alternate_names	eng-NG-31-142147-10017119	-1	0	SuperGen	0	0:8	-1	0:176

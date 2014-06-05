@@ -1,0 +1,9 @@
+5	SF_ENG_049:org:political_religious_affiliation	AFP_ENG_20080503.5002.LDC2009T13	-1	0	presidential	0	217:228	-1	214:395
+1	SF_ENG_049:org:political_religious_affiliation	APW_ENG_20070102.0898.LDC2009T13	-1	0	Republican	0	468:478	-1	429:568
+9	SF_ENG_049:org:political_religious_affiliation	APW_ENG_20070503.1440.LDC2009T13	-1	0	independent	0	3414:3425	-1	3403:3598
+6	SF_ENG_049:org:political_religious_affiliation	APW_ENG_20070719.1746.LDC2009T13	-1	0	federal	0	701:707	-1	641:894
+7	SF_ENG_049:org:political_religious_affiliation	APW_ENG_20070719.1746.LDC2009T13	-1	0	government	0	1184:1193	-1	943:1273
+8	SF_ENG_049:org:political_religious_affiliation	APW_ENG_20071013.0361.LDC2009T13	-1	0	rights	0	3783:3789	-1	3512:3833
+2	SF_ENG_049:org:political_religious_affiliation	CNA_ENG_20100112.0018	-1	0	Democratic	0	737:747	-1	116:916
+3	SF_ENG_049:org:political_religious_affiliation	CNA_ENG_20100509.0009	-1	0	Democrats	0	818:827	-1	765:858
+4	SF_ENG_049:org:political_religious_affiliation	CNA_ENG_20100509.0009	-1	0	Liberal	0	810:817	-1	765:858

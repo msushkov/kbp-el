@@ -1,0 +1,14 @@
+1	SF_ENG_014:per:charges	LTW_ENG_20070814.0081.LDC2009T13	-1	0	charge	0	2819:2824	-1	2788:2824
+14	SF_ENG_014:per:charges	LTW_ENG_20070814.0081.LDC2009T13	1	2	violating Virginia's segregation law	0	2896:2931	1	2788:2932
+8	SF_ENG_014:per:charges	LTW_ENG_20070814.0145.LDC2009T13	-1	0	appeal	0	0:0	-1	0:0
+9	SF_ENG_014:per:charges	LTW_ENG_20070814.0145.LDC2009T13	3	0	arrest	0	0:0	-1	0:0
+10	SF_ENG_014:per:charges	LTW_ENG_20070814.0145.LDC2009T13	-1	0	jail	0	0:0	-1	0:0
+13	SF_ENG_014:per:charges	LTW_ENG_20070814.0145.LDC2009T13	1	2	violating Virginia's Jim Crow transit laws	0	4758:4799	1	4695:4799
+11	SF_ENG_014:per:charges	NYT_ENG_20070812.0174.LDC2009T13	1	1	resisting arrest	0	1758:1773	1	1699:1793
+12	SF_ENG_014:per:charges	NYT_ENG_20070812.0174.LDC2009T13	1	2	violating a Virginia law requiring segregated seating in public transportation	0	1834:1911	1	1796:1911
+2	SF_ENG_014:per:charges	eng-NG-31-126855-8230898	-1	0	be	0	0:0	-1	0:0
+3	SF_ENG_014:per:charges	eng-NG-31-126855-8230898	-1	0	criminals	0	0:0	-1	0:0
+4	SF_ENG_014:per:charges	eng-NG-31-126855-8230898	-1	0	criminals , turn	0	0:0	-1	0:0
+5	SF_ENG_014:per:charges	eng-NG-31-126855-8230898	-1	0	mail fraud	0	0:0	-1	0:0
+6	SF_ENG_014:per:charges	eng-NG-31-126855-8230898	-1	0	media mogul conrad	0	0:0	-1	0:0
+7	SF_ENG_014:per:charges	eng-NG-31-126855-8230898	-1	0	war criminals , file	0	0:0	-1	0:0

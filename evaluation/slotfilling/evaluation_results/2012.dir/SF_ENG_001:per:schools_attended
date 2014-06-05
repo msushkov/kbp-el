@@ -1,0 +1,40 @@
+12	SF_ENG_001:per:schools_attended	APW_ENG_20070119.1299.LDC2009T13	-1	0	Committee on House Administration	0	2663:2696	-1	2310:2701
+8	SF_ENG_001:per:schools_attended	APW_ENG_20070220.1271.LDC2009T13	-1	0	IthacaCollege	0	1221:1234	-1	902:1255
+3	SF_ENG_001:per:schools_attended	APW_ENG_20070422.0984.LDC2009T13	-1	0	Congress	0	1136:1144	-1	759:1171
+10	SF_ENG_001:per:schools_attended	APW_ENG_20070422.0984.LDC2009T13	-1	0	Millender	0	313:322	-1	243:548
+24	SF_ENG_001:per:schools_attended	APW_ENG_20100930.0640	-1	0	Corp	0	241:245	-1	199:626
+2	SF_ENG_001:per:schools_attended	LTW_ENG_20070419.0146.LDC2009T13	-1	0	Millender	0	1809:1818	-1	1611:1864
+31	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0051.LDC2009T13	2	1	California State University	0	2945:2971	1	2761:3084
+15	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0051.LDC2009T13	-1	0	Carson	0	4312:4318	-1	4218:4475
+33	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0051.LDC2009T13	2	2	University of Redlands	0	2868:2889	1	2761:3084
+28	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0051.LDC2009T13	2	2	University of Redlands	0	2868:2889	1	2761:3085
+32	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0051.LDC2009T13	2	3	University of Southern California	0	3052:3084	1	2761:3084
+26	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0051.LDC2009T13	2	3	University of Southern California	0	3052:3085	1	2809:3086
+34	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0051.LDC2009T13	-1	0	administration from california state university	0	0:0	-1	0:0
+35	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0051.LDC2009T13	2	1	california state university	0	0:0	1	0:0
+36	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0051.LDC2009T13	-1	0	degree ,	0	0:0	-1	0:0
+39	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0061.LDC2009T13	2	1	California State University of Los Angeles	0	4786:4827	3	4461:4827
+40	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0061.LDC2009T13	2	3	University of Southern California	0	4870:4902	3	4461:4902
+29	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0061.LDC2009T13	2	3	University of Southern California	0	4870:4902	1	4715:4903
+37	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0061.LDC2009T13	-1	0	administration	0	0:0	-1	0:0
+38	SF_ENG_001:per:schools_attended	LTW_ENG_20070423.0061.LDC2009T13	-1	0	master	0	0:0	-1	0:0
+30	SF_ENG_001:per:schools_attended	LTW_ENG_20070531.0078.LDC2009T13	-1	0	Morgan State University	0	4636:4658	-1	4595:4758
+16	SF_ENG_001:per:schools_attended	LTW_ENG_20071023.0011.LDC2009T13	-1	0	Big Mac	0	820:827	-1	667:828
+17	SF_ENG_001:per:schools_attended	LTW_ENG_20071023.0011.LDC2009T13	-1	0	Fast Food America	0	543:560	-1	414:630
+27	SF_ENG_001:per:schools_attended	NYT_ENG_20070727.0186.LDC2009T13	-1	0	University of Havana	0	3422:3441	-1	3383:3442
+25	SF_ENG_001:per:schools_attended	NYT_ENG_20080108.0007.LDC2009T13	-1	0	Starbucks	0	2141:2150	-1	2029:2283
+6	SF_ENG_001:per:schools_attended	NYT_ENG_20080117.0256.LDC2009T13	-1	0	Golden Arches	0	2153:2166	-1	2081:2261
+18	SF_ENG_001:per:schools_attended	NYT_ENG_20080117.0256.LDC2009T13	-1	0	Happy Meals	0	293:304	-1	251:659
+19	SF_ENG_001:per:schools_attended	NYT_ENG_20080117.0256.LDC2009T13	-1	0	Pizza Hut	0	2357:2366	-1	2264:2404
+13	SF_ENG_001:per:schools_attended	WPB_ENG_20100608.0030	-1	0	CPSC	0	1254:1258	-1	988:1259
+14	SF_ENG_001:per:schools_attended	eng-NG-31-100652-11200735	-1	0	Glacier National Park	0	363:384	-1	240:407
+7	SF_ENG_001:per:schools_attended	eng-NG-31-107923-8918534	-1	0	Ford Fusion	0	345:356	-1	252:732
+20	SF_ENG_001:per:schools_attended	eng-NG-31-140116-9858491	-1	0	New England Patriots	0	392:412	-1	231:624
+21	SF_ENG_001:per:schools_attended	eng-WL-11-174574-12934792	-1	0	Pharrell	0	457:465	-1	387:473
+11	SF_ENG_001:per:schools_attended	eng-WL-11-174611-12978548	-1	0	Corp	0	780:784	-1	728:829
+22	SF_ENG_001:per:schools_attended	eng-WL-11-174611-12980895	-1	0	Proposition	0	318:329	-1	235:415
+4	SF_ENG_001:per:schools_attended	eng-WL-11-174611-12980958	-1	0	AFA	0	1097:1100	-1	843:1243
+1	SF_ENG_001:per:schools_attended	eng-WL-11-174611-12980958	-1	0	NGLCC	0	1316:1321	-1	1248:1336
+23	SF_ENG_001:per:schools_attended	eng-WL-11-174611-12981320	-1	0	Board of Directors	0	1262:1280	-1	1015:1294
+9	SF_ENG_001:per:schools_attended	eng-WL-11-174611-12981320	-1	0	NGLCC	0	1166:1171	-1	1015:1294
+5	SF_ENG_001:per:schools_attended	eng-WL-11-174611-12981659	-1	0	USA	0	915:918	-1	545:970

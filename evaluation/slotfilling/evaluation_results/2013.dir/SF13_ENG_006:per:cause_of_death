@@ -1,0 +1,5 @@
+4	SF13_ENG_006:per:cause_of_death	AFP_ENG_20090619.0538	prolonged kidney ailment	408-432	330-334	330-455	C	C	C	C	3
+1	SF13_ENG_006:per:cause_of_death	LTW_ENG_20090620.0093	kidney failure	141-154	80-93	58-211	C	C	C	C	2
+2	SF13_ENG_006:per:cause_of_death	LTW_ENG_20090620.0093	kidney failure	458-470	100-113	100-1600	I	I	I	I	0
+5	SF13_ENG_006:per:cause_of_death	NYT_ENG_20090620.0004	kidney failure	477-490	167-168,150-163	150-441,463-544	C	X	C	C	2
+3	SF13_ENG_006:per:cause_of_death	eng-NG-31-142898-10119901	stabbed to death	2670-2686	2485-2490,2532-2536	2437-2708	W	W	W	W	0

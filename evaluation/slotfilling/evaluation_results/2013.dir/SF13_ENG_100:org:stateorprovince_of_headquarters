@@ -1,0 +1,9 @@
+8	SF13_ENG_100:org:stateorprovince_of_headquarters	AFP_ENG_20091018.0472	New York	648-655	663-680	595-812	C	C	C	C	2
+9	SF13_ENG_100:org:stateorprovince_of_headquarters	APW_ENG_20091021.1231	New York	714-721	729-741	705-769	C	C	C	C	2
+3	SF13_ENG_100:org:stateorprovince_of_headquarters	APW_ENG_20091021.1231	New York	714-721	729-741,367-383	714-769	C	X	C	C	2
+6	SF13_ENG_100:org:stateorprovince_of_headquarters	NYT_ENG_20091016.0069	New York	4780-4788	4844-4857	4753-4958	W	W	W	W	0
+1	SF13_ENG_100:org:stateorprovince_of_headquarters	NYT_ENG_20091021.0045	New York	3414-3421	3401-3409	3380-3483	W	W	W	W	0
+5	SF13_ENG_100:org:stateorprovince_of_headquarters	NYT_ENG_20100128.0037	New York	218-226	269-282	58-351	W	W	W	W	0
+7	SF13_ENG_100:org:stateorprovince_of_headquarters	NYT_ENG_20100128.0037	new york	218-226	269-282	218-282	W	W	W	W	0
+4	SF13_ENG_100:org:stateorprovince_of_headquarters	NYT_ENG_20101122.0202	Cambridge	1618-1627	1355-1368	1297-1628	W	W	W	W	0
+2	SF13_ENG_100:org:stateorprovince_of_headquarters	NYT_ENG_20101129.0186	New York	603-610	623-635	526-635	C	C	C	C	2

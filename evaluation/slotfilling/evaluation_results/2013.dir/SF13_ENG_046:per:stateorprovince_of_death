@@ -1,0 +1,10 @@
+2	SF13_ENG_046:per:stateorprovince_of_death	AFP_ENG_20101206.0060	New Mexico	126-135	126-135	113-154	W	W	W	C	2
+8	SF13_ENG_046:per:stateorprovince_of_death	AFP_ENG_20101206.0060	New Mexico	508-517	481-488	339-517	C	C	C	C	2
+10	SF13_ENG_046:per:stateorprovince_of_death	AFP_ENG_20101206.0060	New Mexico	508-517	481-488	469-517	C	C	C	C	2
+9	SF13_ENG_046:per:stateorprovince_of_death	AFP_ENG_20101206.0060	New_Mexico	508-518	339-340	339-518	C	X	C	X	0
+1	SF13_ENG_046:per:stateorprovince_of_death	AFP_ENG_20101206.0060	Santa Fe	498-505	340-351	339-518	W	W	W	W	0
+3	SF13_ENG_046:per:stateorprovince_of_death	AFP_ENG_20101206.0060	Santa Fe	498-505	340-351	340-517	W	W	W	W	0
+7	SF13_ENG_046:per:stateorprovince_of_death	AFP_ENG_20101206.0060	santa fe	498-506	340-352	340-506	W	W	W	W	0
+4	SF13_ENG_046:per:stateorprovince_of_death	NYT_ENG_20101206.0204	N.M.	390-393	135-146	135-404	C	C	C	C	2
+6	SF13_ENG_046:per:stateorprovince_of_death	NYT_ENG_20101206.0204	Santa Fe	380-388	135-147	135-394	W	W	W	W	0
+5	SF13_ENG_046:per:stateorprovince_of_death	NYT_ENG_20101206.0204	Santa Fe	380-388	135-147	58-394	W	W	W	W	0

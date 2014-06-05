@@ -1,0 +1,15 @@
+14	SF_ENG_023:per:employee_of	APW_ENG_20070112.0100.LDC2009T13	1	1	Domestic Relations Court	0	919:942	1	903:977
+12	SF_ENG_023:per:employee_of	APW_ENG_20070112.0100.LDC2009T13	1	1	Family Court	0	959:970	3	899:1022
+2	SF_ENG_023:per:employee_of	APW_ENG_20070112.0100.LDC2009T13	3	0	FamilyCourt	0	283:294	3	0:346
+11	SF_ENG_023:per:employee_of	APW_ENG_20070112.0100.LDC2009T13	-1	0	UTC	0	249:251	3	220:402
+1	SF_ENG_023:per:employee_of	APW_ENG_20070112.0100.LDC2009T13	-1	0	Yale LawSchool	0	144:158	3	0:245
+5	SF_ENG_023:per:employee_of	LTW_ENG_20080109.0007.LDC2009T13	-1	0	George Washington University	0	2116:2143	-1	1940:2144
+15	SF_ENG_023:per:employee_of	NYT_ENG_20070109.0332.LDC2009T13	3	0	New York City corporation counsel	0	740:772	3	578:772
+13	SF_ENG_023:per:employee_of	NYT_ENG_20070112.0254.LDC2009T13	-1	0	New York Times News Service	0	2317:2343	3	2276:2530
+9	SF_ENG_023:per:employee_of	NYT_ENG_20070112.0254.LDC2009T13	-1	0	agency shop	0	0:0	-1	0:0
+10	SF_ENG_023:per:employee_of	NYT_ENG_20070112.0254.LDC2009T13	-1	0	supreme court argument	0	0:0	-1	0:0
+4	SF_ENG_023:per:employee_of	NYT_ENG_20080103.0209.LDC2009T13	-1	0	IPCC	0	307:311	3	0:386
+3	SF_ENG_023:per:employee_of	NYT_ENG_20080103.0209.LDC2009T13	-1	0	Stockholm University	0	101:121	3	0:148
+6	SF_ENG_023:per:employee_of	eng-NG-31-128334-12090097	-1	0	budget	0	0:0	-1	0:0
+7	SF_ENG_023:per:employee_of	eng-NG-31-128334-12090097	-1	0	budget approval	0	0:0	-1	0:0
+8	SF_ENG_023:per:employee_of	eng-NG-31-128334-12090097	-1	0	increase	0	0:0	-1	0:0

@@ -1,0 +1,10 @@
+2	SF_ENG_006:per:schools_attended	APW_ENG_20020917.0134.LDC2007T07	-1	0	NBC	0	1043:1046	-1	931:1315
+8	SF_ENG_006:per:schools_attended	LTW_ENG_20070409.0039.LDC2009T13	-1	0	,	0	0:0	-1	0:0
+1	SF_ENG_006:per:schools_attended	LTW_ENG_20070409.0039.LDC2009T13	-1	0	State Department	0	2131:2147	-1	1895:2168
+7	SF_ENG_006:per:schools_attended	LTW_ENG_20070409.0039.LDC2009T13	1	1	University of Alabama	0	3014:3034	1	2928:3034
+4	SF_ENG_006:per:schools_attended	LTW_ENG_20070409.0039.LDC2009T13	1	1	University of Alabama	0	3014:3035	3	2978:3036
+6	SF_ENG_006:per:schools_attended	NYT_ENG_20070216.0246.LDC2009T13	-1	0	Columbia University	0	2567:2585	-1	2506:2789
+3	SF_ENG_006:per:schools_attended	NYT_ENG_20070404.0091.LDC2009T13	-1	0	LosAngeles	0	279:289	-1	217:410
+9	SF_ENG_006:per:schools_attended	NYT_ENG_20070404.0091.LDC2009T13	3	0	university , alabama	0	0:0	-1	0:0
+10	SF_ENG_006:per:schools_attended	NYT_ENG_20080101.0037.LDC2009T13	-1	0	singer	0	0:0	-1	0:0
+5	SF_ENG_006:per:schools_attended	NYT_ENG_20080908.0202.LDC2009T13	-1	0	University of South Florida	0	1270:1296	-1	1101:1297

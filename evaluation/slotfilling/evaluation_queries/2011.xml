@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kbpslotfill>
+  <query id="SF500">
+    <name>AQR Capital Management</name>
+    <docid>NYT_ENG_20081028.0066.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL035</nodeid>
+  </query>
+  <query id="SF501">
+    <name>Army Medical Command</name>
+    <docid>LTW_ENG_20080508.0012.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0388093</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:stateorprovince_of_headquarters</ignore>
+  </query>
+  <query id="SF502">
+    <name>BNC Mortgage</name>
+    <docid>NYT_ENG_20070830.0258.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL037</nodeid>
+  </query>
+  <query id="SF503">
+    <name>Badr Organization</name>
+    <docid>NYT_ENG_20070621.0157.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL036</nodeid>
+  </query>
+  <query id="SF504">
+    <name>Defensor Sporting</name>
+    <docid>APW_ENG_20070302.0108.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0412136</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:founded org:stateorprovince_of_headquarters</ignore>
+  </query>
+  <query id="SF505">
+    <name>Denso</name>
+    <docid>AFP_ENG_20071026.0663.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL016</nodeid>
+  </query>
+  <query id="SF506">
+    <name>DirecTV</name>
+    <docid>eng-NG-31-105673-11973560</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0688999</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:founded org:number_of_employees/members org:stateorprovince_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF507">
+    <name>EnergySolutions</name>
+    <docid>APW_ENG_20081006.1189.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL038</nodeid>
+  </query>
+  <query id="SF508">
+    <name>FMCSA</name>
+    <docid>NYT_ENG_20080821.0212.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL039</nodeid>
+  </query>
+  <query id="SF509">
+    <name>FMR Corp.</name>
+    <docid>NYT_ENG_20070716.0270.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL040</nodeid>
+  </query>
+  <query id="SF510">
+    <name>Federal Aviation Administration</name>
+    <docid>eng-NG-31-137900-12195025</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0353565</nodeid>
+  </query>
+  <query id="SF511">
+    <name>Federal Election Commission</name>
+    <docid>eng-NG-31-142684-10070301</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0303030</nodeid>
+  </query>
+  <query id="SF512">
+    <name>FirstGroup</name>
+    <docid>APW_ENG_20071002.1207.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0373388</nodeid>
+  </query>
+  <query id="SF513">
+    <name>Fyffes PLC</name>
+    <docid>APW_ENG_20071130.1066.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL041</nodeid>
+  </query>
+  <query id="SF514">
+    <name>GMAC's Residential Capital LLC</name>
+    <docid>APW_ENG_20070314.1232.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL042</nodeid>
+  </query>
+  <query id="SF515">
+    <name>German ARD</name>
+    <docid>XIN_ENG_20080726.0002.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0623403</nodeid>
+    <ignore>org:country_of_headquarters org:founded org:website</ignore>
+  </query>
+  <query id="SF516">
+    <name>Ghent University</name>
+    <docid>NYT_ENG_20081102.0141.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0423644</nodeid>
+  </query>
+  <query id="SF517">
+    <name>Golden Baseball League</name>
+    <docid>NYT_ENG_20081110.0215.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0773599</nodeid>
+  </query>
+  <query id="SF518">
+    <name>Highland Capital Partners</name>
+    <docid>NYT_ENG_20080404.0126.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0036363</nodeid>
+  </query>
+  <query id="SF519">
+    <name>Hindalco Industries</name>
+    <docid>XIN_ENG_20071116.0168.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0214489</nodeid>
+  </query>
+  <query id="SF520">
+    <name>Hong Kong Disneyland</name>
+    <docid>NYT_ENG_20071109.0004.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL043</nodeid>
+  </query>
+  <query id="SF521">
+    <name>IPSCO</name>
+    <docid>AFP_ENG_20070503.0284.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL044</nodeid>
+  </query>
+  <query id="SF522">
+    <name>IRGC-QF</name>
+    <docid>APW_ENG_20070114.0257.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL030</nodeid>
+  </query>
+  <query id="SF523">
+    <name>Itochu</name>
+    <docid>AFP_ENG_20080526.0502.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0438627</nodeid>
+  </query>
+  <query id="SF524">
+    <name>Jacksonville Jaguars</name>
+    <docid>eng-NG-31-140016-9856426</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL045</nodeid>
+  </query>
+  <query id="SF525">
+    <name>KENNEDY SPACE CENTER</name>
+    <docid>NYT_ENG_20071107.0053.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL046</nodeid>
+  </query>
+  <query id="SF526">
+    <name>Konica Minolta</name>
+    <docid>AFP_ENG_20070727.0406.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL047</nodeid>
+  </query>
+  <query id="SF527">
+    <name>Le Journal du Dimanche</name>
+    <docid>NYT_ENG_20080107.0149.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL048</nodeid>
+  </query>
+  <query id="SF528">
+    <name>Le Point</name>
+    <docid>APW_ENG_20070723.0056.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL049</nodeid>
+  </query>
+  <query id="SF529">
+    <name>MBIA</name>
+    <docid>NYT_ENG_20080215.0205.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL051</nodeid>
+  </query>
+  <query id="SF530">
+    <name>MF Global</name>
+    <docid>NYT_ENG_20071130.0215.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL053</nodeid>
+  </query>
+  <query id="SF531">
+    <name>Markit</name>
+    <docid>AFP_ENG_20081121.0020.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL050</nodeid>
+  </query>
+  <query id="SF532">
+    <name>Marywood University</name>
+    <docid>NYT_ENG_20081122.0049.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0363786</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:founded org:stateorprovince_of_headquarters</ignore>
+  </query>
+  <query id="SF533">
+    <name>Medina hospital</name>
+    <docid>XIN_ENG_20071024.0216.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL052</nodeid>
+  </query>
+  <query id="SF534">
+    <name>Millonarios</name>
+    <docid>APW_ENG_20080331.0818.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL054</nodeid>
+  </query>
+  <query id="SF535">
+    <name>NEC Corp.</name>
+    <docid>AFP_ENG_20070518.0091.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0047105</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:founded org:number_of_employees/members org:website</ignore>
+  </query>
+  <query id="SF536">
+    <name>NFC South</name>
+    <docid>NYT_ENG_20070701.0054.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL057</nodeid>
+  </query>
+  <query id="SF537">
+    <name>National Action Network</name>
+    <docid>APW_ENG_20071213.0392.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL055</nodeid>
+  </query>
+  <query id="SF538">
+    <name>New South Wales Waratahs</name>
+    <docid>APW_ENG_20080715.0118.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL056</nodeid>
+  </query>
+  <query id="SF539">
+    <name>Philadelphia Inquirer</name>
+    <docid>eng-NG-31-151724-10661761</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0312533</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:founded org:number_of_employees/members org:stateorprovince_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF540">
+    <name>Red Sox</name>
+    <docid>NYT_ENG_20071022.0049.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL058</nodeid>
+  </query>
+  <query id="SF541">
+    <name>Royal Caribbean</name>
+    <docid>eng-NG-31-138554-12200340</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0726528</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:founded org:stateorprovince_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF542">
+    <name>SLDN</name>
+    <docid>AFP_ENG_20070313.0700.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL059</nodeid>
+  </query>
+  <query id="SF543">
+    <name>Sadia</name>
+    <docid>APW_ENG_20081127.0722.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0039916</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:founded org:number_of_employees/members org:website</ignore>
+  </query>
+  <query id="SF544">
+    <name>Spelman College</name>
+    <docid>eng-NG-31-148121-10557875</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0497973</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:founded org:number_of_employees/members org:stateorprovince_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF545">
+    <name>TACC</name>
+    <docid>AFP_ENG_20081126.0246.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL060</nodeid>
+  </query>
+  <query id="SF546">
+    <name>Taiwan Research Institute</name>
+    <docid>CNA_ENG_20080528.0041.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL061</nodeid>
+  </query>
+  <query id="SF547">
+    <name>The Tax Policy Center</name>
+    <docid>APW_ENG_20080904.0201.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL063</nodeid>
+  </query>
+  <query id="SF548">
+    <name>Tyco Healthcare</name>
+    <docid>AFP_ENG_20081211.0725.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL064</nodeid>
+  </query>
+  <query id="SF549">
+    <name>Zagat</name>
+    <docid>APW_ENG_20070223.0549.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL062</nodeid>
+  </query>
+  <query id="SF550">
+    <name>Abdul Jalil Jan</name>
+    <docid>APW_ENG_20080229.0949.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL001</nodeid>
+  </query>
+  <query id="SF551">
+    <name>Abdul Karim al-Khawinay</name>
+    <docid>APW_ENG_20081025.0115.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL003</nodeid>
+  </query>
+  <query id="SF552">
+    <name>Abdul Rahim Noor</name>
+    <docid>APW_ENG_20080721.0250.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL005</nodeid>
+  </query>
+  <query id="SF553">
+    <name>Abdullahi Hassan Garweyne</name>
+    <docid>APW_ENG_20080823.0611.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL004</nodeid>
+  </query>
+  <query id="SF554">
+    <name>Abu Zubaydah</name>
+    <docid>eng-NG-31-102460-11836769</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0107805</nodeid>
+    <ignore>per:age per:date_of_birth</ignore>
+  </query>
+  <query id="SF555">
+    <name>Ahmad Qattan</name>
+    <docid>AFP_ENG_20080327.0692.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL006</nodeid>
+  </query>
+  <query id="SF556">
+    <name>Al Hubbard</name>
+    <docid>AFP_ENG_20070130.0688.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL007</nodeid>
+  </query>
+  <query id="SF557">
+    <name>Alberto Gonzales</name>
+    <docid>eng-NG-31-141913-9976103</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0054631</nodeid>
+    <ignore>per:age per:city_of_birth per:country_of_birth per:date_of_birth per:stateorprovince_of_birth</ignore>
+  </query>
+  <query id="SF558">
+    <name>Barbara Boxer</name>
+    <docid>eng-NG-31-148121-10557557</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0750057</nodeid>
+    <ignore>per:religion</ignore>
+  </query>
+  <query id="SF559">
+    <name>Barry Goldwater</name>
+    <docid>eng-NG-31-142091-9996078</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0790856</nodeid>
+    <ignore>per:religion</ignore>
+  </query>
+  <query id="SF560">
+    <name>Berthold Huber</name>
+    <docid>APW_ENG_20070429.0417.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL008</nodeid>
+  </query>
+  <query id="SF561">
+    <name>Bill McAllister</name>
+    <docid>APW_ENG_20081122.0185.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL009</nodeid>
+  </query>
+  <query id="SF562">
+    <name>Bob Dillinger</name>
+    <docid>NYT_ENG_20080701.0018.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL010</nodeid>
+  </query>
+  <query id="SF563">
+    <name>Bryan Baldwin</name>
+    <docid>APW_ENG_20080213.1018.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL011</nodeid>
+  </query>
+  <query id="SF564">
+    <name>Chen Zhu</name>
+    <docid>XIN_ENG_20070629.0222.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL012</nodeid>
+  </query>
+  <query id="SF565">
+    <name>Christopher Bentley</name>
+    <docid>LTW_ENG_20080127.0002.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL013</nodeid>
+  </query>
+  <query id="SF566">
+    <name>Dan Abrams</name>
+    <docid>eng-NG-31-141959-9981882</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL014</nodeid>
+  </query>
+  <query id="SF567">
+    <name>Danny Glover</name>
+    <docid>eng-NG-31-142686-10071896</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0531045</nodeid>
+    <ignore>per:age per:city_of_birth per:country_of_birth per:date_of_birth per:stateorprovince_of_birth</ignore>
+  </query>
+  <query id="SF568">
+    <name>David Gregory</name>
+    <docid>NYT_ENG_20081202.0073.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0648848</nodeid>
+    <ignore>per:age per:date_of_birth</ignore>
+  </query>
+  <query id="SF569">
+    <name>Fraser Robinson</name>
+    <docid>NYT_ENG_20081114.0046.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL015</nodeid>
+  </query>
+  <query id="SF570">
+    <name>George Roy Hill</name>
+    <docid>NYT_ENG_20080927.0093.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0301414</nodeid>
+    <ignore>per:age per:city_of_death per:country_of_death per:date_of_birth per:date_of_death per:stateorprovince_of_death</ignore>
+  </query>
+  <query id="SF571">
+    <name>George Sheldon</name>
+    <docid>NYT_ENG_20081004.0165.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL017</nodeid>
+  </query>
+  <query id="SF572">
+    <name>Herb Gibson</name>
+    <docid>NYT_ENG_20071003.0265.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL018</nodeid>
+  </query>
+  <query id="SF573">
+    <name>Hu Sheng</name>
+    <docid>CNA_ENG_20071204.0028.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL019</nodeid>
+  </query>
+  <query id="SF574">
+    <name>Hussein Kamel</name>
+    <docid>APW_ENG_20070830.1130.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL020</nodeid>
+  </query>
+  <query id="SF575">
+    <name>James B. Stewart</name>
+    <docid>NYT_ENG_20081123.0033.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL021</nodeid>
+  </query>
+  <query id="SF576">
+    <name>Jerome Robbins</name>
+    <docid>LTW_ENG_20080430.0074.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0376943</nodeid>
+    <ignore>per:age per:city_of_birth per:city_of_death per:country_of_birth per:country_of_death per:date_of_birth per:date_of_death per:stateorprovince_of_birth per:stateorprovince_of_death</ignore>
+  </query>
+  <query id="SF577">
+    <name>John Kerry</name>
+    <docid>eng-NG-31-100793-11218570</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL022</nodeid>
+  </query>
+  <query id="SF578">
+    <name>John Negroponte</name>
+    <docid>eng-NG-31-142653-10066924</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0750113</nodeid>
+    <ignore>per:age per:city_of_birth per:country_of_birth per:date_of_birth</ignore>
+  </query>
+  <query id="SF579">
+    <name>Johnny Knoxville</name>
+    <docid>eng-NG-31-141960-9983771</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0540569</nodeid>
+    <ignore>per:age per:city_of_birth per:date_of_birth per:stateorprovince_of_birth</ignore>
+  </query>
+  <query id="SF580">
+    <name>Juliette Binoche</name>
+    <docid>eng-NG-31-141957-9980367</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0786945</nodeid>
+    <ignore>per:age per:city_of_birth per:country_of_birth per:date_of_birth</ignore>
+  </query>
+  <query id="SF581">
+    <name>Justin Theroux</name>
+    <docid>LTW_ENG_20080813.0033.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0820127</nodeid>
+  </query>
+  <query id="SF582">
+    <name>Lindsay M. Hayes</name>
+    <docid>NYT_ENG_20070221.0097.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL023</nodeid>
+  </query>
+  <query id="SF583">
+    <name>Lindsey Hord</name>
+    <docid>APW_ENG_20080723.0032.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL024</nodeid>
+  </query>
+  <query id="SF584">
+    <name>Lou Ferrara</name>
+    <docid>APW_ENG_20080515.0685.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL025</nodeid>
+  </query>
+  <query id="SF585">
+    <name>M. Enkhbold</name>
+    <docid>XIN_ENG_20071026.0356.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL029</nodeid>
+  </query>
+  <query id="SF586">
+    <name>Mamoor Khan</name>
+    <docid>APW_ENG_20070602.0624.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL026</nodeid>
+  </query>
+  <query id="SF587">
+    <name>Manuel Barcena</name>
+    <docid>AFP_ENG_20070911.0651.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL027</nodeid>
+  </query>
+  <query id="SF588">
+    <name>Marco Contiero</name>
+    <docid>APW_ENG_20070612.1152.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL028</nodeid>
+  </query>
+  <query id="SF589">
+    <name>Mia Farrow</name>
+    <docid>eng-NG-31-141971-9990568</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0091791</nodeid>
+    <ignore>per:age per:city_of_birth per:country_of_birth per:date_of_birth per:stateorprovince_of_birth</ignore>
+  </query>
+  <query id="SF590">
+    <name>Mohamed ElBaradei</name>
+    <docid>eng-NG-31-142680-10068385</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0374624</nodeid>
+    <ignore>per:age per:city_of_birth per:country_of_birth per:date_of_birth per:origin per:religion</ignore>
+  </query>
+  <query id="SF591">
+    <name>Murat Kurnaz</name>
+    <docid>NYT_ENG_20080217.0161.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0393566</nodeid>
+  </query>
+  <query id="SF592">
+    <name>Ospel</name>
+    <docid>APW_ENG_20080318.1142.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL002</nodeid>
+  </query>
+  <query id="SF593">
+    <name>Paavo Nurmi</name>
+    <docid>APW_ENG_20080814.0519.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL031</nodeid>
+  </query>
+  <query id="SF594">
+    <name>Paul Watson</name>
+    <docid>eng-WL-11-99230-9831755</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL032</nodeid>
+  </query>
+  <query id="SF595">
+    <name>Remy Ma</name>
+    <docid>eng-NG-31-142147-10015419</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0382831</nodeid>
+    <ignore>per:city_of_birth per:country_of_birth per:origin</ignore>
+  </query>
+  <query id="SF596">
+    <name>Richard Perle</name>
+    <docid>eng-NG-31-151724-10661677</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0552296</nodeid>
+    <ignore>per:age per:city_of_birth per:date_of_birth</ignore>
+  </query>
+  <query id="SF597">
+    <name>Roy Scheider</name>
+    <docid>eng-NG-31-141958-9980548</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0163639</nodeid>
+    <ignore>per:age per:city_of_death per:country_of_death per:date_of_birth per:stateorprovince_of_death</ignore>
+  </query>
+  <query id="SF598">
+    <name>Sean Parker</name>
+    <docid>APW_ENG_20080724.0252.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL033</nodeid>
+  </query>
+  <query id="SF599">
+    <name>Sean Ross</name>
+    <docid>LTW_ENG_20071215.0022.LDC2009T13</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL034</nodeid>
+  </query>
+</kbpslotfill>

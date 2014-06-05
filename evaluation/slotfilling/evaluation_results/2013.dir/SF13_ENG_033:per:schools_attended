@@ -1,0 +1,14 @@
+11	SF13_ENG_033:per:schools_attended	AFP_ENG_20091109.0277	Rossiiskaya Gazeta	3555-3572	3486-3493	3428-3572	W	W	W	W	0
+10	SF13_ENG_033:per:schools_attended	AFP_ENG_20091109.0443	Russian Academy of Sciences	293-319	200-214	173-331	W	W	W	W	0
+9	SF13_ENG_033:per:schools_attended	APW_ENG_20100906.0399	Scuola Normale Superior of Pisa	2317-2347	2277-2284	2277-2521	W	W	W	W	0
+4	SF13_ENG_033:per:schools_attended	XIN_ENG_20091109.0294	Moscow State University	582-604	229-243,558-565	171-287,558-646	C	X	L	R	2
+14	SF13_ENG_033:per:schools_attended	XIN_ENG_20091109.0294	Moscow State University	582-604	558-565	536-647	C	C	C	R	2
+12	SF13_ENG_033:per:schools_attended	XIN_ENG_20091109.0294	Moscow State University	582-604	558-565,229-243	536-647	C	C	C	R	2
+6	SF13_ENG_033:per:schools_attended	XIN_ENG_20091109.0294	Moscow State University	582-604	558-565,229-243	558-604	C	C	C	R	2
+3	SF13_ENG_033:per:schools_attended	XIN_ENG_20091109.0294	Moscow State University	582-604	582-604	536-647	C	W	C	R	2
+7	SF13_ENG_033:per:schools_attended	XIN_ENG_20091109.0294	Moscow State University	582-605	558-566	536-648	C	C	C	R	2
+13	SF13_ENG_033:per:schools_attended	XIN_ENG_20091109.0294	Moscow State University	582-605	558-566,229-244	536-648	C	C	C	R	2
+8	SF13_ENG_033:per:schools_attended	XIN_ENG_20091109.0294	Moscow State University	582-605	558-566,229-244	558-605	C	C	C	R	2
+5	SF13_ENG_033:per:schools_attended	XIN_ENG_20091109.0294	State University	589-604	558-565	536-647	X	C	C	X	0
+1	SF13_ENG_033:per:schools_attended	bolt-eng-DF-200-192451-5801538	army	8253-8256	8253-8256	8192-8461	W	W	W	W	0
+2	SF13_ENG_033:per:schools_attended	bolt-eng-DF-212-191668-3063445	Army	31424-31427	31424-31427	31236-31488	W	W	W	W	0

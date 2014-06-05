@@ -1,0 +1,7 @@
+2	SF_ENG_032:per:cause_of_death	AFP_ENG_20090706.0625	-1	0	shot	0	47:51	-1	0:254
+5	SF_ENG_032:per:cause_of_death	APW_ENG_20070205.1232.LDC2009T13	-1	0	throat cancer	0	501:514	-1	462:539
+1	SF_ENG_032:per:cause_of_death	APW_ENG_20090708.1390	-1	0	shot	0	53:57	-1	0:235
+7	SF_ENG_032:per:cause_of_death	NYT_ENG_20071124.0016.LDC2009T13	1	1	brain cancer	0	578:589	3	278:589
+6	SF_ENG_032:per:cause_of_death	NYT_ENG_20101112.0150	-1	0	murdered	0	1014:1022	-1	1003:1091
+4	SF_ENG_032:per:cause_of_death	eng-NG-31-126958-9171818	1	1	brain cancer	0	3781:3792	3	3585:3792
+3	SF_ENG_032:per:cause_of_death	eng-NG-31-126958-9171818	1	1	brain cancer	0	3781:3793	3	3585:3794

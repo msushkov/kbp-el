@@ -1,0 +1,13 @@
+12	SF_ENG_065:org:country_of_headquarters	AFP_ENG_20070830.0276.LDC2009T13	1	1	Taiwan	0	486:491	1	486:518
+10	SF_ENG_065:org:country_of_headquarters	AFP_ENG_20080523.0455.LDC2009T13	1	1	Taiwan	0	500:505	3	377:549
+7	SF_ENG_065:org:country_of_headquarters	AFP_ENG_20080523.0455.LDC2009T13	1	1	Taiwan	0	500:505	3	381:549
+11	SF_ENG_065:org:country_of_headquarters	AFP_ENG_20080523.0455.LDC2009T13	1	1	Taiwan	0	500:505	1	500:532
+3	SF_ENG_065:org:country_of_headquarters	CNA_ENG_20070118.0038.LDC2009T13	-1	0	China	0	394:399	-1	251:525
+1	SF_ENG_065:org:country_of_headquarters	CNA_ENG_20070119.0029.LDC2009T13	1	1	Taiwan	0	223:229	-1	0:294
+8	SF_ENG_065:org:country_of_headquarters	CNA_ENG_20070318.0013.LDC2009T13	-1	0	United States	0	1186:1198	-1	1009:1199
+2	SF_ENG_065:org:country_of_headquarters	CNA_ENG_20070320.0033.LDC2009T13	-1	0	Canada	0	848:854	-1	814:901
+6	SF_ENG_065:org:country_of_headquarters	CNA_ENG_20071217.0046.LDC2009T13	-1	0	Hong Kong	0	459:467	-1	314:531
+4	SF_ENG_065:org:country_of_headquarters	CNA_ENG_20080528.0043.LDC2009T13	-1	0	China	0	219:224	-1	37:594
+9	SF_ENG_065:org:country_of_headquarters	XIN_ENG_20081102.0206.LDC2009T13	1	1	Taiwan	0	494:499	3	461:642
+13	SF_ENG_065:org:country_of_headquarters	XIN_ENG_20081102.0206.LDC2009T13	1	1	Taiwan	0	494:499	1	494:526
+5	SF_ENG_065:org:country_of_headquarters	eng-WL-11-174596-12952103	-1	0	China	0	490:494	-1	473:690

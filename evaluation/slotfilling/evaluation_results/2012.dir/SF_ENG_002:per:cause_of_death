@@ -1,0 +1,8 @@
+3	SF_ENG_002:per:cause_of_death	APW_ENG_20070908.0084.LDC2009T13	1	1	blunt head and neck trauma	0	0:0	-1	0:0
+6	SF_ENG_002:per:cause_of_death	APW_ENG_20070908.0084.LDC2009T13	1	1	blunt head and neck trauma	0	412:437	3	305:514
+8	SF_ENG_002:per:cause_of_death	APW_ENG_20070908.0084.LDC2009T13	1	1	blunt head and neck trauma	0	412:437	1	320:437
+5	SF_ENG_002:per:cause_of_death	APW_ENG_20071107.0088.LDC2009T13	1	2	fall	0	2660:2663	1	2612:2663
+1	SF_ENG_002:per:cause_of_death	APW_ENG_20071209.0081.LDC2009T13	1	2	a fall	0	0:1	-1	0:0
+4	SF_ENG_002:per:cause_of_death	APW_ENG_20071209.0081.LDC2009T13	1	2	fall	0	809:813	3	791:827
+2	SF_ENG_002:per:cause_of_death	LTW_ENG_20070520.0015.LDC2009T13	-1	0	shot	0	2560:2564	-1	2486:2591
+7	SF_ENG_002:per:cause_of_death	eng-NG-31-141913-8674115	1	2	fall	0	120:124	-1	67:124

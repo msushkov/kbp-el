@@ -1,0 +1,613 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kbpslotfill>
+  <query id="SF200">
+    <name>George Boyd</name>
+    <docid>eng-WL-111-174637-12999421</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00001</nodeid>
+  </query>
+  <query id="SF201">
+    <name>Erika Rose</name>
+    <docid>eng-WL-110-174612-12992139</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00002</nodeid>
+  </query>
+  <query id="SF202">
+    <name>Donald Wildmon</name>
+    <docid>eng-WL-11-174611-12981826</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00003</nodeid>
+  </query>
+  <query id="SF203">
+    <name>Frankie Delgado</name>
+    <docid>eng-WL-11-174587-12961187</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00004</nodeid>
+  </query>
+  <query id="SF204">
+    <name>Chris Ivery</name>
+    <docid>eng-WL-11-174592-12942982</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00005</nodeid>
+  </query>
+  <query id="SF205">
+    <name>Molly Malaney</name>
+    <docid>eng-WL-11-174584-12964346</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00006</nodeid>
+  </query>
+  <query id="SF206">
+    <name>Mark Buse</name>
+    <docid>eng-WL-11-174611-12980222</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00007</nodeid>
+  </query>
+  <query id="SF207">
+    <name>Charles Wuorinen</name>
+    <docid>eng-WL-109-174581-12951116</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00008</nodeid>
+  </query>
+  <query id="SF208">
+    <name>Kendra Wilkinson</name>
+    <docid>eng-WL-11-174643-12999882</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00009</nodeid>
+  </query>
+  <query id="SF209">
+    <name>Chelsea Library</name>
+    <docid>eng-WL-11-174576-12934685</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00010</nodeid>
+  </query>
+  <query id="SF210">
+    <name>Crown Prosecution Service</name>
+    <docid>eng-WL-11-174596-12956547</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00011</nodeid>
+  </query>
+  <query id="SF211">
+    <name>Paul Kim</name>
+    <docid>eng-WL-110-174626-12995817</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00012</nodeid>
+  </query>
+  <query id="SF212">
+    <name>Chad White</name>
+    <docid>eng-WL-11-174595-12967831</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00013</nodeid>
+  </query>
+  <query id="SF213">
+    <name>Ontario Human Rights Commission</name>
+    <docid>eng-WL-11-174596-12958306</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00014</nodeid>
+  </query>
+  <query id="SF214">
+    <name>Haifa University</name>
+    <docid>eng-WL-11-174596-12959584</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0425659</nodeid>
+    <ignore>org:founded org:country_of_headquarters org:city_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF215">
+    <name>Babyshambles</name>
+    <docid>eng-WL-11-174595-12968292</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0805901</nodeid>
+    <ignore>org:founded</ignore>
+  </query>
+  <query id="SF216">
+    <name>Samsung</name>
+    <docid>eng-WL-110-174627-12996437</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0151666</nodeid>
+    <ignore>org:number_of_employees/members org:founded org:country_of_headquarters org:stateorprovince_of_headquarters org:city_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF217">
+    <name>Manila Economic and Cultural Office</name>
+    <docid>CNA_ENG_20070514.0044.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00015</nodeid>
+  </query>
+  <query id="SF218">
+    <name>Madoff Securities</name>
+    <docid>NYT_ENG_20081215.0145.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00016</nodeid>
+  </query>
+  <query id="SF219">
+    <name>Opera National de Paris</name>
+    <docid>XIN_ENG_20080125.0126.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00017</nodeid>
+  </query>
+  <query id="SF220">
+    <name>Nuclear Supplier Group</name>
+    <docid>XIN_ENG_20080914.0050.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00018</nodeid>
+  </query>
+  <query id="SF221">
+    <name>Paralyzed Veterans of America</name>
+    <docid>NYT_ENG_20080318.0146.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00019</nodeid>
+  </query>
+  <query id="SF222">
+    <name>Ownit Mortgage Solutions</name>
+    <docid>XIN_ENG_20070410.0278.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00020</nodeid>
+  </query>
+  <query id="SF223">
+    <name>National Union for the Total Independence of Angola</name>
+    <docid>XIN_ENG_20080917.0134.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00021</nodeid>
+  </query>
+  <query id="SF224">
+    <name>Pennsylvania Supreme Court</name>
+    <docid>APW_ENG_20080708.0117.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0649049</nodeid>
+  </query>
+  <query id="SF225">
+    <name>Old Lane Partners</name>
+    <docid>NYT_ENG_20071106.0203.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00022</nodeid>
+  </query>
+  <query id="SF226">
+    <name>Option One Mortgage</name>
+    <docid>AFP_ENG_20070830.0232.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00023</nodeid>
+  </query>
+  <query id="SF227">
+    <name>National Republican Campaign Committee</name>
+    <docid>APW_ENG_20070105.1163.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00024</nodeid>
+  </query>
+  <query id="SF228">
+    <name>Professional Rodeo Cowboys Association</name>
+    <docid>APW_ENG_20080129.1389.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00025</nodeid>
+  </query>
+  <query id="SF229">
+    <name>New Hampshire Institute of Politics</name>
+    <docid>NYT_ENG_20070413.0194.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00026</nodeid>
+  </query>
+  <query id="SF230">
+    <name>Massachusetts House of Representatives</name>
+    <docid>NYT_ENG_20071029.0111.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00027</nodeid>
+  </query>
+  <query id="SF231">
+    <name>Lewis Hamilton</name>
+    <docid>eng-WL-109-174581-12950366</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00028</nodeid>
+  </query>
+  <query id="SF232">
+    <name>Institute for Diversity and Ethics in Sport</name>
+    <docid>APW_ENG_20080924.1420.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00029</nodeid>
+  </query>
+  <query id="SF233">
+    <name>Inter-American Press Association</name>
+    <docid>AFP_ENG_20080502.0186.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00030</nodeid>
+  </query>
+  <query id="SF234">
+    <name>Jackson Hewitt</name>
+    <docid>NYT_ENG_20070314.0237.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00031</nodeid>
+  </query>
+  <query id="SF235">
+    <name>National Beef Packing Co.</name>
+    <docid>APW_ENG_20080430.0391.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00032</nodeid>
+  </query>
+  <query id="SF236">
+    <name>National Military Family Association</name>
+    <docid>NYT_ENG_20070707.0133.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00033</nodeid>
+  </query>
+  <query id="SF237">
+    <name>Multidisciplinary Association for Psychedelic Studies</name>
+    <docid>LTW_ENG_20070213.0120.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00034</nodeid>
+  </query>
+  <query id="SF238">
+    <name>Metro Atlanta Chamber of Commerce</name>
+    <docid>NYT_ENG_20070614.0139.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00035</nodeid>
+  </query>
+  <query id="SF239">
+    <name>Myanmar Timber Enterprise</name>
+    <docid>XIN_ENG_20080209.0207.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00036</nodeid>
+  </query>
+  <query id="SF240">
+    <name>National Museum of Women in the Arts</name>
+    <docid>LTW_ENG_20080708.0002.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00037</nodeid>
+  </query>
+  <query id="SF241">
+    <name>Alice Dellal</name>
+    <docid>eng-WL-11-174598-12966776</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00038</nodeid>
+  </query>
+  <query id="SF242">
+    <name>Pentax Corp.</name>
+    <docid>AFP_ENG_20070511.0054.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00039</nodeid>
+  </query>
+  <query id="SF243">
+    <name>New South Wales Rugby Union</name>
+    <docid>AFP_ENG_20070623.0432.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00040</nodeid>
+  </query>
+  <query id="SF244">
+    <name>Chante Moore</name>
+    <docid>eng-WL-110-174612-12991986</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0760552</nodeid>
+  </query>
+  <query id="SF245">
+    <name>Susan Boyle</name>
+    <docid>eng-WL-11-174611-12970182</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00041</nodeid>
+  </query>
+  <query id="SF246">
+    <name>Alexandra Burke</name>
+    <docid>eng-WL-110-174612-12990710</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00042</nodeid>
+  </query>
+  <query id="SF247">
+    <name>Bernama</name>
+    <docid>eng-WL-11-174596-12952188</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00043</nodeid>
+  </query>
+  <query id="SF248">
+    <name>Ellen Degeneres</name>
+    <docid>eng-WL-11-174592-12943416</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0337523</nodeid>
+  </query>
+  <query id="SF249">
+    <name>Northwood University</name>
+    <docid>NYT_ENG_20080514.0117.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00044</nodeid>
+  </query>
+  <query id="SF250">
+    <name>National Center for Disaster Preparedness</name>
+    <docid>LTW_ENG_20070601.0092.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00045</nodeid>
+  </query>
+  <query id="SF251">
+    <name>Northland Church</name>
+    <docid>LTW_ENG_20070811.0010.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00046</nodeid>
+  </query>
+  <query id="SF252">
+    <name>Project Islamic Hope</name>
+    <docid>AFP_ENG_20080819.0190.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00047</nodeid>
+  </query>
+  <query id="SF253">
+    <name>Pamela Martin &amp;amp; Associates</name>
+    <docid>AFP_ENG_20070505.0058.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00048</nodeid>
+  </query>
+  <query id="SF254">
+    <name>Nottingham-Spirk Design Associates</name>
+    <docid>APW_ENG_20071105.0022.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00049</nodeid>
+  </query>
+  <query id="SF255">
+    <name>National Wenchuan Earthquake Expert Committee</name>
+    <docid>XIN_ENG_20080903.0310.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00050</nodeid>
+  </query>
+  <query id="SF256">
+    <name>Illinois Tool Works</name>
+    <docid>AFP_ENG_20080425.0022.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00051</nodeid>
+  </query>
+  <query id="SF257">
+    <name>Independent Steelworkers Union</name>
+    <docid>APW_ENG_20070206.0014.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00052</nodeid>
+  </query>
+  <query id="SF258">
+    <name>Jakarta Globe</name>
+    <docid>XIN_ENG_20081117.0081.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00053</nodeid>
+  </query>
+  <query id="SF259">
+    <name>Jewish National Fund</name>
+    <docid>APW_ENG_20070924.1025.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00054</nodeid>
+  </query>
+  <query id="SF260">
+    <name>North Phoenix Baptist Church</name>
+    <docid>APW_ENG_20070930.0077.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00055</nodeid>
+  </query>
+  <query id="SF261">
+    <name>New Jerusalem Foundation</name>
+    <docid>LTW_ENG_20080509.0103.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00056</nodeid>
+  </query>
+  <query id="SF262">
+    <name>Noordhoff Craniofacial Foundation</name>
+    <docid>CNA_ENG_20080217.0014.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00057</nodeid>
+  </query>
+  <query id="SF263">
+    <name>National Christmas Tree Association</name>
+    <docid>LTW_ENG_20071208.0075.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00058</nodeid>
+  </query>
+  <query id="SF264">
+    <name>Norris Comprehensive Cancer Center</name>
+    <docid>LTW_ENG_20070511.0169.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00059</nodeid>
+  </query>
+  <query id="SF265">
+    <name>Nitschmann Middle School</name>
+    <docid>APW_ENG_20070301.0012.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>NIL00060</nodeid>
+  </query>
+  <query id="SF266">
+    <name>National Red Cross</name>
+    <docid>NYT_ENG_20070809.0169.LDC2009T13</docid>
+    <enttype>ORG</enttype>
+    <nodeid>E0256382</nodeid>
+    <ignore>org:founded org:stateorprovince_of_headquarters org:city_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF267">
+    <name>Julian Bond</name>
+    <docid>eng-WL-11-174611-12982057</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00061</nodeid>
+  </query>
+  <query id="SF268">
+    <name>Raul Castro</name>
+    <docid>eng-WL-11-174588-12938665</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00062</nodeid>
+  </query>
+  <query id="SF269">
+    <name>Ali Fedotowsky</name>
+    <docid>eng-WL-11-174584-12960449</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00063</nodeid>
+  </query>
+  <query id="SF270">
+    <name>Bryan Fuller</name>
+    <docid>eng-WL-11-174592-12942364</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00064</nodeid>
+  </query>
+  <query id="SF271">
+    <name>Chris Dodd</name>
+    <docid>eng-WL-11-174611-12983328</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0188202</nodeid>
+    <ignore>per:date_of_birth per:age per:stateorprovince_of_birth per:city_of_birth per:origin per:religion</ignore>
+  </query>
+  <query id="SF272">
+    <name>Adam Senn</name>
+    <docid>eng-WL-11-174587-12962966</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00065</nodeid>
+  </query>
+  <query id="SF273">
+    <name>Hector Elizondo</name>
+    <docid>eng-WL-11-174592-12942461</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00066</nodeid>
+  </query>
+  <query id="SF274">
+    <name>Simon Cowell</name>
+    <docid>eng-WL-11-174592-12942761</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00067</nodeid>
+  </query>
+  <query id="SF275">
+    <name>Olivia Palermo</name>
+    <docid>eng-WL-11-174587-12962046</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00068</nodeid>
+  </query>
+  <query id="SF276">
+    <name>Richard Lindzen</name>
+    <docid>eng-WL-11-174596-12956838</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00069</nodeid>
+  </query>
+  <query id="SF277">
+    <name>Kelly Cutrone</name>
+    <docid>eng-WL-11-174572-12949508</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00070</nodeid>
+  </query>
+  <query id="SF278">
+    <name>Brian McFadden</name>
+    <docid>eng-WL-11-174598-12964840</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0346607</nodeid>
+    <ignore>per:date_of_birth per:age per:origin</ignore>
+  </query>
+  <query id="SF279">
+    <name>Trista Sutter</name>
+    <docid>eng-WL-11-174584-12964282</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0590126</nodeid>
+    <ignore>per:date_of_birth per:age per:country_of_birth per:stateorprovince_of_birth per:city_of_birth</ignore>
+  </query>
+  <query id="SF280">
+    <name>Paul Sculfor</name>
+    <docid>eng-WL-11-174595-12968330</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00071</nodeid>
+  </query>
+  <query id="SF281">
+    <name>Brandon McInerney</name>
+    <docid>eng-WL-11-174611-12981484</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00072</nodeid>
+  </query>
+  <query id="SF282">
+    <name>Steve McPherson</name>
+    <docid>eng-WL-11-174592-12940830</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00073</nodeid>
+  </query>
+  <query id="SF283">
+    <name>Michael Sandy</name>
+    <docid>eng-WL-11-174611-12982793</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00074</nodeid>
+  </query>
+  <query id="SF284">
+    <name>Sean Preston</name>
+    <docid>eng-WL-11-174595-12967767</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00075</nodeid>
+  </query>
+  <query id="SF285">
+    <name>Spencer Pratt</name>
+    <docid>eng-WL-11-174595-12968338</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00076</nodeid>
+  </query>
+  <query id="SF286">
+    <name>Ezra Levant</name>
+    <docid>eng-WL-11-174596-12953392</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00077</nodeid>
+  </query>
+  <query id="SF287">
+    <name>Beyonce Knowles</name>
+    <docid>eng-WL-110-174612-12991878</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0208231</nodeid>
+    <ignore>per:date_of_birth per:age per:country_of_birth per:stateorprovince_of_birth per:city_of_birth per:origin</ignore>
+  </query>
+  <query id="SF288">
+    <name>Jamie Spears</name>
+    <docid>eng-WL-11-174595-12968428</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0662694</nodeid>
+    <ignore>per:date_of_birth per:age</ignore>
+  </query>
+  <query id="SF289">
+    <name>Jake Pavelka</name>
+    <docid>eng-WL-11-174584-12960454</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00078</nodeid>
+  </query>
+  <query id="SF290">
+    <name>Hugo Chavez</name>
+    <docid>eng-WL-11-174596-12958456</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00079</nodeid>
+  </query>
+  <query id="SF291">
+    <name>Melanie Fiona</name>
+    <docid>eng-WL-110-174612-12990726</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00080</nodeid>
+  </query>
+  <query id="SF292">
+    <name>Holly Montag</name>
+    <docid>eng-WL-11-174587-12962694</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00081</nodeid>
+  </query>
+  <query id="SF293">
+    <name>David Banda</name>
+    <docid>eng-WL-11-174595-12968011</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00082</nodeid>
+  </query>
+  <query id="SF294">
+    <name>Kate Gosselin</name>
+    <docid>eng-WL-11-174603-12971653</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00083</nodeid>
+  </query>
+  <query id="SF295">
+    <name>Ali Larijani</name>
+    <docid>eng-WL-11-174596-12956729</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00084</nodeid>
+  </query>
+  <query id="SF296">
+    <name>Robert Morgenthau</name>
+    <docid>eng-WL-11-174611-12976653</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0673141</nodeid>
+  </query>
+  <query id="SF297">
+    <name>Michael Johns</name>
+    <docid>eng-WL-11-174592-12940981</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0026450</nodeid>
+    <ignore>per:date_of_birth per:age per:country_of_birth per:stateorprovince_of_birth per:city_of_birth per:origin</ignore>
+  </query>
+  <query id="SF298">
+    <name>Carolyn Maloney</name>
+    <docid>eng-WL-11-174611-12969164</docid>
+    <enttype>PER</enttype>
+    <nodeid>E0068909</nodeid>
+  </query>
+  <query id="SF299">
+    <name>Jeremy Hooper</name>
+    <docid>eng-WL-11-174611-12972127</docid>
+    <enttype>PER</enttype>
+    <nodeid>NIL00085</nodeid>
+  </query>
+</kbpslotfill>

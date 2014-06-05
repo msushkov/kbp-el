@@ -1,0 +1,5 @@
+3	SF_ENG_034:per:cause_of_death	APW_ENG_20070524.1408.LDC2009T13	1	1	aspiration pneumonia	0	568:589	1	554:639
+2	SF_ENG_034:per:cause_of_death	APW_ENG_20070524.1408.LDC2009T13	1	1	aspiration pneumonia	0	569:588	1	554:638
+4	SF_ENG_034:per:cause_of_death	APW_ENG_20080827.0250.LDC2009T13	-1	0	infection	0	962:971	-1	896:1077
+5	SF_ENG_034:per:cause_of_death	NYT_ENG_20070524.0198.LDC2009T13	1	2	pneumonia	0	504:512	1	252:535
+1	SF_ENG_034:per:cause_of_death	NYT_ENG_20070525.0019.LDC2009T13	-1	0	tuberculosis	0	2431:2443	-1	2366:2546

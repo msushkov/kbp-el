@@ -1,0 +1,11 @@
+10	SF_ENG_034:per:parents	NYT_ENG_20070524.0198.LDC2009T13	1	1	Moishe Bear	0	1527:1537	1	1433:1560
+11	SF_ENG_034:per:parents	NYT_ENG_20070524.0198.LDC2009T13	1	2	Tema Sloven Kaiser	0	1543:1560	1	1433:1560
+2	SF_ENG_034:per:parents	NYT_ENG_20070525.0019.LDC2009T13	1	1	Moishe Bear	0	1527:1537	1	1433:1587
+1	SF_ENG_034:per:parents	NYT_ENG_20070525.0019.LDC2009T13	1	2	Tema Sloven Kaiser	0	1543:1560	1	1433:1587
+9	SF_ENG_034:per:parents	NYT_ENG_20070819.0178.LDC2009T13	-1	0	man	0	0:0	-1	0:0
+3	SF_ENG_034:per:parents	eng-NG-31-127462-9233531	-1	0	successor of tuanku abdul rahman	0	0:0	-1	0:0
+4	SF_ENG_034:per:parents	eng-NG-31-127462-9233531	-1	0	successor of tuanku ismail nasiruddin shah	0	0:0	-1	0:0
+5	SF_ENG_034:per:parents	eng-NG-31-127462-9233531	-1	0	time of death	0	0:0	-1	0:0
+6	SF_ENG_034:per:parents	eng-NG-31-127462-9233531	-1	0	wife of kaiser wilhelm	0	0:0	-1	0:0
+7	SF_ENG_034:per:parents	eng-NG-31-127462-9233531	-1	0	year	0	0:0	-1	0:0
+8	SF_ENG_034:per:parents	eng-NG-31-151543-10659363	-1	0	night	0	0:0	-1	0:0

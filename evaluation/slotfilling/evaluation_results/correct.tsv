@@ -1,0 +1,2348 @@
+SF200	nottingham forest	per:member_of
+SF200	peterborough united	per:member_of
+SF200	winger	per:title
+SF201	infiniti le mode	per:employee_of
+SF201	boston college	per:schools_attended
+SF201	university of miami	per:schools_attended
+SF201	singer/songwriter	per:title
+SF201	singer\/songwriter	per:title
+SF202	69	per:age
+SF202	72	per:age
+SF202	donald e. wildmon	per:alternate_names
+SF202	don wildmon	per:alternate_names
+SF202	tim	per:children
+SF202	tupelo	per:cities_of_residence
+SF202	tupelo	per:cities_of_residence
+SF202	tupelo	per:cities_of_residence
+SF202	tupelo	per:cities_of_residence
+SF202	tupelo	per:cities_of_residence
+SF202	american family association	per:employee_of
+SF202	american family association	per:employee_of
+SF202	american family association	per:employee_of
+SF202	american_family_association	per:employee_of
+SF202	american family association	per:employee_of
+SF202	american family association	per:employee_of
+SF202	american family association	per:employee_of
+SF202	afa	per:employee_of
+SF202	american family association	per:employee_of
+SF202	afa	per:employee_of
+SF202	american family association	per:employee_of
+SF202	american family association	per:member_of
+SF202	american family association	per:member_of
+SF202	american_family_association	per:member_of
+SF202	american family association	per:member_of
+SF202	afa	per:member_of
+SF202	afa	per:member_of
+SF202	american family association	per:member_of
+SF202	methodist	per:religion
+SF202	christian	per:religion
+SF202	christian	per:religion
+SF202	methodist	per:religion
+SF202	mississippi	per:stateorprovinces_of_residence
+SF202	mississippi	per:stateorprovinces_of_residence
+SF202	mississippi	per:stateorprovinces_of_residence
+SF202	reverend	per:title
+SF202	chairman	per:title
+SF202	executive director	per:title
+SF202	executive director	per:title
+SF202	chairman	per:title
+SF202	president	per:title
+SF202	rev.	per:title
+SF202	chairman	per:title
+SF202	founder	per:title
+SF202	rev.	per:title
+SF202	chairman	per:title
+SF202	chairman	per:title
+SF203	hollywood	per:cities_of_residence
+SF203	hollywood	per:cities_of_residence
+SF203	mtv	per:employee_of
+SF203	hills	per:member_of
+SF203	hills	per:member_of
+SF203	american	per:origin
+SF203	nightlife impresario	per:title
+SF203	television personality	per:title
+SF203	celebrity	per:title
+SF203	musician	per:title
+SF203	star	per:title
+SF203	producer	per:title
+SF204	38	per:age
+SF204	postal theft	per:charges
+SF204	boston	per:cities_of_residence
+SF204	boston	per:city_of_birth
+SF204	ellen pompeo	per:spouse
+SF204	ellen pompeo	per:spouse
+SF204	ellen pompeo	per:spouse
+SF204	ellen pompeo	per:spouse
+SF204	ellen pompeo	per:spouse
+SF204	ellen pompeo	per:spouse
+SF204	record producer	per:title
+SF204	record producer	per:title
+SF204	record producer	per:title
+SF204	record producer	per:title
+SF204	music executive producer	per:title
+SF205	24	per:age
+SF205	jason_mesnick	per:spouse
+SF205	jason mesnick	per:spouse
+SF205	jason mesnick	per:spouse
+SF206	the ferret	per:alternate_names
+SF206	freddie mac	per:employee_of
+SF206	freddie mac	per:employee_of
+SF206	freddie mac	per:employee_of
+SF206	ml strategies	per:employee_of
+SF206	goldman sachs	per:employee_of
+SF206	at&t	per:employee_of
+SF206	at&amp;t	per:employee_of
+SF206	ups	per:employee_of
+SF206	cablevision	per:employee_of
+SF206	exxonmobil	per:employee_of
+SF206	american	per:origin
+SF206	staff director	per:title
+SF206	aide	per:title
+SF206	lobbyist	per:title
+SF206	staff director	per:title
+SF206	lobbyist	per:title
+SF206	chief of staff	per:title
+SF206	staff director	per:title
+SF206	director	per:title
+SF206	lobbyist	per:title
+SF206	chief of staff	per:title
+SF207	70	per:age
+SF207	70	per:age
+SF207	june 9 , 1938	per:date_of_birth
+SF207	new york city opera	per:employee_of
+SF207	new york city opera	per:employee_of
+SF207	american	per:origin
+SF207	american	per:origin
+SF207	composer	per:title
+SF207	composer	per:title
+SF207	composer	per:title
+SF207	composer	per:title
+SF208	23	per:age
+SF208	21	per:age
+SF208	kendra baskett	per:alternate_names
+SF208	hank	per:children
+SF208	hank baskett iv	per:children
+SF208	hank baskett iv	per:children
+SF208	e!	per:employee_of
+SF208	hank baskett	per:spouse
+SF208	hank baskett	per:spouse
+SF208	hank baskett	per:spouse
+SF208	tv personality	per:title
+SF208	tv personality	per:title
+SF208	model	per:title
+SF208	former playboy bunny	per:title
+SF209	chelsea district library	org:alternate_names
+SF209	chelsea district library	org:alternate_names
+SF209	mckune memorial library	org:alternate_names
+SF209	chelsea district library	org:alternate_names
+SF209	chelsea district library	org:alternate_names
+SF209	chelsea district library	org:alternate_names
+SF209	mckune memorial library	org:alternate_names
+SF209	chelsea	org:city_of_headquarters
+SF209	united states of america	org:country_of_headquarters
+SF209	america	org:country_of_headquarters
+SF209	mi	org:stateorprovince_of_headquarters
+SF209	michigan	org:stateorprovince_of_headquarters
+SF209	michigan	org:stateorprovince_of_headquarters
+SF209	friends of the library group	org:subsidiaries
+SF209	friends of the chelsea district library	org:subsidiaries
+SF209	bill harmer	org:top_members/employees
+SF209	bill harmer	org:top_members/employees
+SF209	joan elmouchi	org:top_members/employees
+SF210	cps	org:alternate_names
+SF210	cps	org:alternate_names
+SF210	cps	org:alternate_names
+SF210	cps	org:alternate_names
+SF210	cps	org:alternate_names
+SF210	cps	org:alternate_names
+SF210	crown	org:alternate_names
+SF210	cps	org:alternate_names
+SF210	london	org:city_of_headquarters
+SF210	london	org:city_of_headquarters
+SF210	london	org:city_of_headquarters
+SF210	london	org:city_of_headquarters
+SF210	london	org:city_of_headquarters
+SF210	united kingdom	org:country_of_headquarters
+SF210	britain	org:country_of_headquarters
+SF210	england	org:country_of_headquarters
+SF210	britain	org:country_of_headquarters
+SF210	britain	org:country_of_headquarters
+SF210	uk	org:country_of_headquarters
+SF210	britain	org:country_of_headquarters
+SF210	britain	org:country_of_headquarters
+SF210	england	org:parents
+SF210	west and north yorkshire complex case unit	org:subsidiaries
+SF210	counter terrorism division	org:subsidiaries
+SF210	special crime division	org:subsidiaries
+SF210	ken macdonald	org:top_members/employees
+SF210	ken macdonald	org:top_members/employees
+SF210	sir ken macdonald	org:top_members/employees
+SF210	ken macdonald	org:top_members/employees
+SF210	mohammad obeidat	org:top_members/employees
+SF210	ken macdonald	org:top_members/employees
+SF211	24	per:age
+SF211	25	per:age
+SF211	25	per:age
+SF211	paul	per:alternate_names
+SF211	paul	per:alternate_names
+SF211	paul	per:alternate_names
+SF211	paul	per:alternate_names
+SF211	paul	per:alternate_names
+SF211	poolboy	per:alternate_names
+SF211	anthony kim	per:children
+SF211	anthony kim	per:children
+SF211	saratoga	per:cities_of_residence
+SF211	saratoga	per:cities_of_residence
+SF211	korean- american	per:origin
+SF211	asian	per:origin
+SF211	california	per:stateorprovinces_of_residence
+SF211	ca	per:stateorprovinces_of_residence
+SF211	senior manager	per:title
+SF211	pool maintenance technician	per:title
+SF212	22	per:age
+SF212	22	per:age
+SF212	portland	per:cities_of_residence
+SF212	portland	per:cities_of_residence
+SF212	portland	per:cities_of_residence
+SF212	oregon	per:stateorprovince_of_birth
+SF212	oregon	per:stateorprovince_of_birth
+SF212	model	per:title
+SF212	model	per:title
+SF212	fashion supermodel	per:title
+SF212	model	per:title
+SF212	supermodel	per:title
+SF212	male supermodel	per:title
+SF212	model	per:title
+SF213	ohrc	org:alternate_names
+SF213	ohrc	org:alternate_names
+SF213	toronto	org:city_of_headquarters
+SF213	canada	org:country_of_headquarters
+SF213	canada	org:country_of_headquarters
+SF213	canada	org:country_of_headquarters
+SF213	1961	org:founded
+SF213	ontario	org:stateorprovince_of_headquarters
+SF213	ontario	org:stateorprovince_of_headquarters
+SF213	barbara hall	org:top_members/employees
+SF213	barbara hall	org:top_members/employees
+SF213	barbara hall	org:top_members/employees
+SF213	http://www.ohrc.on.ca/en/resources/ne	org:website
+SF213	http://www.ohrc.on.ca/en/resources/news/en/resources/news/statement	org:website
+SF213	http://www.ohrc.on.ca	org:website
+SF214	haifa	org:alternate_names
+SF214	centre for tourism, pilgrimage and recreation research	org:subsidiaries
+SF214	centre for kibbutz studies	org:subsidiaries
+SF214	institute for maritime studies	org:subsidiaries
+SF214	national security studies center	org:subsidiaries
+SF214	theater department	org:subsidiaries
+SF214	government and political theory department	org:subsidiaries
+SF214	school of political science	org:subsidiaries
+SF214	department of computer science	org:subsidiaries
+SF214	center for brain and behavior research	org:subsidiaries
+SF214	jewish-arab center	org:subsidiaries
+SF215	england	org:country_of_headquarters
+SF215	uk	org:country_of_headquarters
+SF215	pete doherty	org:founded_by
+SF215	pete doherty	org:top_members/employees
+SF215	pete doherty	org:top_members/employees
+SF215	andy boyd	org:top_members/employees
+SF215	adrian hunter	org:top_members/employees
+SF215	pete doherty	org:top_members/employees
+SF215	pete doherty	org:top_members/employees
+SF216	samsung electronics	org:alternate_names
+SF216	samsung corp.	org:alternate_names
+SF216	samsung electronics co.	org:alternate_names
+SF216	samsung everland	org:alternate_names
+SF216	samsung group	org:alternate_names
+SF216	samsung electronics co.	org:alternate_names
+SF216	samsung group	org:alternate_names
+SF216	samsung everland	org:alternate_names
+SF216	samsung group	org:alternate_names
+SF216	samsung electronics co.	org:alternate_names
+SF216	samsung electronics co.	org:alternate_names
+SF216	lee byung-chull	org:founded_by
+SF216	lee byung-chull	org:founded_by
+SF216	lee byung- chull	org:founded_by
+SF216	lee byung- chull	org:founded_by
+SF216	lee byung-chul	org:founded_by
+SF216	samsung japan	org:subsidiaries
+SF216	samsung semiconductor inc.	org:subsidiaries
+SF216	thai samsung electronics co. ltd.	org:subsidiaries
+SF216	samsung motors	org:subsidiaries
+SF216	everland	org:subsidiaries
+SF216	samsung malaysia electronics	org:subsidiaries
+SF216	samsung heavy industries co.	org:subsidiaries
+SF216	jay y. lee	org:top_members/employees
+SF216	sang wan lee	org:top_members/employees
+SF216	shung-hyun cho	org:top_members/employees
+SF216	hwang chang-gyu	org:top_members/employees
+SF216	lee hak-soo	org:top_members/employees
+SF216	lee jae-yong	org:top_members/employees
+SF216	kim in-joo	org:top_members/employees
+SF216	lee hak-soo	org:top_members/employees
+SF216	lee byung-chull	org:top_members/employees
+SF216	lee hak-soo	org:top_members/employees
+SF216	lee yoon-woo	org:top_members/employees
+SF216	yoon-woo lee	org:top_members/employees
+SF216	yun jong-yong	org:top_members/employees
+SF216	lee hak-soo	org:top_members/employees
+SF216	roh moo-hyun	org:top_members/employees
+SF216	roh moo-hyun	org:top_members/employees
+SF216	roh moo-hyun	org:top_members/employees
+SF216	lee hak-soo	org:top_members/employees
+SF216	yoon-woo lee	org:top_members/employees
+SF216	lee hak-soo	org:top_members/employees
+SF216	kwon gye-hyun	org:top_members/employees
+SF216	kwon gye-hyun	org:top_members/employees
+SF217	meco	org:alternate_names
+SF217	meco	org:alternate_names
+SF217	meco	org:alternate_names
+SF217	meco	org:alternate_names
+SF217	meco	org:alternate_names
+SF217	taipei	org:city_of_headquarters
+SF217	taipei	org:city_of_headquarters
+SF217	taipei	org:city_of_headquarters
+SF217	taiwan	org:country_of_headquarters
+SF217	taiwan	org:country_of_headquarters
+SF217	taiwan	org:country_of_headquarters
+SF217	philippines	org:parents
+SF217	philippine department of trade and industry	org:parents
+SF217	antonio basilio	org:top_members/employees
+SF217	antonio basilio	org:top_members/employees
+SF217	antonio basilio	org:top_members/employees
+SF217	tomas alcantara	org:top_members/employees
+SF217	antonio basilio	org:top_members/employees
+SF217	rodolfo sabulao	org:top_members/employees
+SF217	rodolfo sabulao	org:top_members/employees
+SF218	bernard l madoff investment securities	org:alternate_names
+SF218	bernard l madoff investment securities llc	org:alternate_names
+SF218	bernard madoff securities	org:alternate_names
+SF218	bernard l. madoff investment securities llc	org:alternate_names
+SF218	madoff securities international ltd	org:alternate_names
+SF218	new york	org:city_of_headquarters
+SF218	new york	org:city_of_headquarters
+SF218	us	org:country_of_headquarters
+SF218	1960	org:founded
+SF218	in 1960	org:founded
+SF218	bernard l. madoff	org:founded_by
+SF218	new york	org:stateorprovince_of_headquarters
+SF218	new york	org:stateorprovince_of_headquarters
+SF218	bernard l madoff	org:top_members/employees
+SF218	peter madoff	org:top_members/employees
+SF218	peter madoff	org:top_members/employees
+SF218	shana madoff	org:top_members/employees
+SF218	shana d. madoff	org:top_members/employees
+SF219	opera de paris	org:alternate_names
+SF219	paris	org:city_of_headquarters
+SF219	paris	org:city_of_headquarters
+SF219	france	org:country_of_headquarters
+SF219	gerard mortier	org:top_members/employees
+SF219	gerard mortier	org:top_members/employees
+SF220	nsg	org:alternate_names
+SF220	nsg	org:alternate_names
+SF220	nsg	org:alternate_names
+SF220	nsg	org:alternate_names
+SF220	nsg	org:alternate_names
+SF220	vienna	org:city_of_headquarters
+SF220	vienna	org:city_of_headquarters
+SF220	1974	org:founded
+SF220	1974	org:founded
+SF220	australia	org:members
+SF220	germany	org:members
+SF220	china	org:members
+SF220	japan	org:members
+SF220	bulgaria	org:members
+SF220	france	org:members
+SF220	switzerland	org:members
+SF220	new zealand	org:members
+SF220	russia	org:members
+SF220	norway	org:members
+SF220	united states	org:members
+SF220	ireland	org:members
+SF220	austria	org:members
+SF220	netherlands	org:members
+SF220	45	org:number_of_employees/members
+SF220	45	org:number_of_employees/members
+SF221	pva	org:alternate_names
+SF221	the pva	org:alternate_names
+SF221	pav	org:alternate_names
+SF221	america	org:country_of_headquarters
+SF221	united states	org:country_of_headquarters
+SF221	united states	org:country_of_headquarters
+SF221	america	org:country_of_headquarters
+SF221	paralyzed veterans of america's new mexico chapter	org:subsidiaries
+SF221	new england chapter of the paralyzed veterans of america	org:subsidiaries
+SF221	paralyzed veterans of america michigan chapter	org:subsidiaries
+SF221	southeastern chapter of the paralyzed veterans of america	org:subsidiaries
+SF221	florida gulf coast chapter of the paralyzed veterans of america	org:subsidiaries
+SF221	homer s. townsend jr.	org:top_members/employees
+SF221	john ring	org:top_members/employees
+SF221	jim dudley	org:top_members/employees
+SF221	carl Â blake	org:top_members/employees
+SF221	carl blake	org:top_members/employees
+SF221	carl  blake	org:top_members/employees
+SF221	http://www.pva.org/site/pageserver	org:website
+SF222	ownit's	org:alternate_names
+SF222	agoura hills	org:city_of_headquarters
+SF222	agoura hills	org:city_of_headquarters
+SF222	agoura hills	org:city_of_headquarters
+SF222	agoura hills	org:city_of_headquarters
+SF222	2003	org:founded
+SF222	william d. dallas	org:founded_by
+SF222	william d. dallas	org:founded_by
+SF222	william dallas	org:founded_by
+SF222	800	org:number_of_employees/members
+SF222	800	org:number_of_employees/members
+SF222	800	org:number_of_employees/members
+SF222	merrill lynch	org:shareholders
+SF222	jpmorgan chase	org:shareholders
+SF222	civc partners	org:shareholders
+SF222	calif.	org:stateorprovince_of_headquarters
+SF222	calif.	org:stateorprovince_of_headquarters
+SF222	california	org:stateorprovince_of_headquarters
+SF222	california	org:stateorprovince_of_headquarters
+SF222	william dallas	org:top_members/employees
+SF222	dan rawitch	org:top_members/employees
+SF222	william d. dallas	org:top_members/employees
+SF222	william d. dallas	org:top_members/employees
+SF223	unita	org:alternate_names
+SF223	unita	org:alternate_names
+SF223	unita	org:alternate_names
+SF223	unita	org:alternate_names
+SF223	union for the total independence of angola	org:alternate_names
+SF223	unita	org:alternate_names
+SF223	unita	org:alternate_names
+SF223	unita	org:alternate_names
+SF223	union for the total independence of angola	org:alternate_names
+SF223	unita	org:alternate_names
+SF223	uunita	org:alternate_names
+SF223	uniya	org:alternate_names
+SF223	luanda	org:city_of_headquarters
+SF223	luanda	org:city_of_headquarters
+SF223	angola	org:country_of_headquarters
+SF223	angola	org:country_of_headquarters
+SF223	angola	org:country_of_headquarters
+SF223	angola	org:country_of_headquarters
+SF223	angola	org:country_of_headquarters
+SF223	angola	org:country_of_headquarters
+SF223	angola	org:country_of_headquarters
+SF223	jonas savimbi	org:founded_by
+SF223	isaias samakvu	org:top_members/employees
+SF223	paulo lukamba	org:top_members/employees
+SF223	julao paulo	org:top_members/employees
+SF223	camalata numa	org:top_members/employees
+SF223	jonas savimbi	org:top_members/employees
+SF223	daniel domingos	org:top_members/employees
+SF223	jonas savimbi	org:top_members/employees
+SF223	joseph savimbi	org:top_members/employees
+SF223	isaias samakuva	org:top_members/employees
+SF223	isaias samakuva	org:top_members/employees
+SF223	abilio kamalata numa	org:top_members/employees
+SF223	isaias samakuva	org:top_members/employees
+SF223	alda sachiambo	org:top_members/employees
+SF223	isaias samakuva	org:top_members/employees
+SF223	jonas savimbi	org:top_members/employees
+SF223	jonas savimbi	org:top_members/employees
+SF223	jonas savimbi	org:top_members/employees
+SF223	isaias samakuva	org:top_members/employees
+SF223	isaias samakuva	org:top_members/employees
+SF223	isaias samakuva	org:top_members/employees
+SF223	isaias samakuva	org:top_members/employees
+SF224	pa. supreme court	org:alternate_names
+SF224	justice max baer	org:members
+SF224	pennsylvania	org:stateorprovince_of_headquarters
+SF224	pennsylvania	org:stateorprovince_of_headquarters
+SF224	pennsylvania	org:stateorprovince_of_headquarters
+SF224	pennsylvania	org:stateorprovince_of_headquarters
+SF224	pennsylvania	org:stateorprovince_of_headquarters
+SF224	disciplinary board	org:subsidiaries
+SF224	justice thomas saylor	org:top_members/employees
+SF224	max baer	org:top_members/employees
+SF224	j. michael eakin	org:top_members/employees
+SF224	justice max baer	org:top_members/employees
+SF224	max baer	org:top_members/employees
+SF224	http://www.courts.state.pa.us/	org:website
+SF225	old lane lp	org:alternate_names
+SF225	2005	org:founded
+SF225	2005	org:founded
+SF225	vikram pandit	org:founded_by
+SF225	pandit	org:founded_by
+SF225	vikram s. pandit	org:founded_by
+SF225	john havens	org:founded_by
+SF225	vikram s. pandit	org:founded_by
+SF225	citigroup inc.	org:parents
+SF225	citigroup inc	org:parents
+SF225	citigroup	org:parents
+SF225	citigroup	org:parents
+SF225	citigroup	org:parents
+SF225	vikram pandit	org:top_members/employees
+SF225	vikram pandit	org:top_members/employees
+SF225	guru ramakrishnan	org:top_members/employees
+SF225	vikram pandit	org:top_members/employees
+SF225	vikram pandit	org:top_members/employees
+SF226	option one	org:alternate_names
+SF226	option one	org:alternate_names
+SF226	irvine	org:city_of_headquarters
+SF226	irvine	org:city_of_headquarters
+SF226	irvine	org:city_of_headquarters
+SF226	irvine	org:city_of_headquarters
+SF226	1,400	org:number_of_employees/members
+SF226	1400	org:number_of_employees/members
+SF226	h&r block	org:parents
+SF226	h&r block inc.	org:parents
+SF226	h&r block	org:parents
+SF226	cerberus capital management lp	org:parents
+SF226	h&amp;r block inc	org:parents
+SF226	h&amp;amp;r block inc.	org:parents
+SF226	h&r block	org:parents
+SF226	richard breeden	org:shareholders
+SF226	california	org:stateorprovince_of_headquarters
+SF226	calif.	org:stateorprovince_of_headquarters
+SF226	california	org:stateorprovince_of_headquarters
+SF226	california	org:stateorprovince_of_headquarters
+SF226	faith schwartz	org:top_members/employees
+SF227	nrcc	org:alternate_names
+SF227	republican	org:political/religious_affiliation
+SF227	republican	org:political/religious_affiliation
+SF227	tom cole	org:top_members/employees
+SF228	prca	org:alternate_names
+SF228	prca	org:alternate_names
+SF228	prca	org:alternate_names
+SF228	pro rodeo cowboys association	org:alternate_names
+SF228	prca	org:alternate_names
+SF228	colorado springs	org:city_of_headquarters
+SF228	colorado springs	org:city_of_headquarters
+SF228	united states	org:country_of_headquarters
+SF228	united states	org:country_of_headquarters
+SF228	more than 7,000	org:number_of_employees/members
+SF228	colorado	org:stateorprovince_of_headquarters
+SF228	colorado	org:stateorprovince_of_headquarters
+SF228	troy ellerman	org:top_members/employees
+SF228	keith martin	org:top_members/employees
+SF228	http://www.prorodeo.com	org:website
+SF228	www.prorodeo.com	org:website
+SF228	http://www.prorodeo.com	org:website
+SF229	manchester	org:city_of_headquarters
+SF229	manchester	org:city_of_headquarters
+SF229	manchester	org:city_of_headquarters
+SF229	st. anselm college	org:parents
+SF229	saint anselm college	org:parents
+SF229	st. anselm college	org:parents
+SF229	st. anselm college	org:parents
+SF229	new hampshire	org:stateorprovince_of_headquarters
+SF229	new hampshire	org:stateorprovince_of_headquarters
+SF229	new hampshire	org:stateorprovince_of_headquarters
+SF229	new hampshire	org:stateorprovince_of_headquarters
+SF229	dean spiliotes	org:top_members/employees
+SF229	jennifer donahue	org:top_members/employees
+SF229	jennifer donahue	org:top_members/employees
+SF229	dean spiliotes	org:top_members/employees
+SF229	dean spiliotes	org:top_members/employees
+SF229	dean spiliotes	org:top_members/employees
+SF229	dean spiliotes	org:top_members/employees
+SF229	paul manuel	org:top_members/employees
+SF229	paul manuel	org:top_members/employees
+SF229	paul manuel	org:top_members/employees
+SF229	paul christopher manuel	org:top_members/employees
+SF229	paul christopher manuel	org:top_members/employees
+SF229	paul manuel	org:top_members/employees
+SF229	paul_manuel	org:top_members/employees
+SF229	paul manuel	org:top_members/employees
+SF229	paul manuel	org:top_members/employees
+SF230	boston	org:city_of_headquarters
+SF230	boston	org:city_of_headquarters
+SF230	boston	org:city_of_headquarters
+SF230	boston	org:city_of_headquarters
+SF230	160	org:number_of_employees/members
+SF230	massachusetts	org:stateorprovince_of_headquarters
+SF230	massachusetts	org:stateorprovince_of_headquarters
+SF230	house rules committee	org:subsidiaries
+SF230	house committee on economic development	org:subsidiaries
+SF230	joint committee on the environment, natural resources, and agriculture,	org:subsidiaries
+SF230	edward j. markey	org:top_members/employees
+SF230	michael costello	org:top_members/employees
+SF230	william straus	org:top_members/employees
+SF230	a. pedone	org:top_members/employees
+SF230	eugene l. o'flaherty	org:top_members/employees
+SF230	alice k. wolf	org:top_members/employees
+SF230	daniel e. bosley	org:top_members/employees
+SF230	james r. miceli	org:top_members/employees
+SF230	frank smizik	org:top_members/employees
+SF230	salvatore f. dimasi	org:top_members/employees
+SF230	john tierney	org:top_members/employees
+SF230	thomas p. conroy	org:top_members/employees
+SF230	barbara a. l'italien	org:top_members/employees
+SF230	bradley h. jones jr.	org:top_members/employees
+SF230	salvatore dimasi	org:top_members/employees
+SF230	tom finneran	org:top_members/employees
+SF230	charles flaherty	org:top_members/employees
+SF230	robert a. deleo	org:top_members/employees
+SF230	richard a. voke	org:top_members/employees
+SF230	steve walsh	org:top_members/employees
+SF230	robert fennell	org:top_members/employees
+SF230	ellen story	org:top_members/employees
+SF230	robert a. deleo	org:top_members/employees
+SF230	salvatore f. dimasi	org:top_members/employees
+SF230	housetv.hou.state.ma.us	org:website
+SF231	22	per:age
+SF231	22	per:age
+SF231	22	per:age
+SF231	23	per:age
+SF231	23	per:age
+SF231	23	per:age
+SF231	23	per:age
+SF231	louis hamilton	per:alternate_names
+SF231	stevenage	per:cities_of_residence
+SF231	stevenage	per:cities_of_residence
+SF231	stevenage	per:cities_of_residence
+SF231	stevenage	per:city_of_birth
+SF231	stevenage	per:city_of_birth
+SF231	stevenage	per:city_of_birth
+SF231	great britain	per:countries_of_residence
+SF231	england	per:countries_of_residence
+SF231	uk	per:countries_of_residence
+SF231	switzerland	per:countries_of_residence
+SF231	switzerland	per:countries_of_residence
+SF231	england	per:countries_of_residence
+SF231	england	per:countries_of_residence
+SF231	great_britain	per:country_of_birth
+SF231	england	per:country_of_birth
+SF231	england	per:country_of_birth
+SF231	england	per:country_of_birth
+SF231	britain	per:country_of_birth
+SF231	1985-01-07	per:date_of_birth
+SF231	mclaren	per:employee_of
+SF231	mclaren	per:employee_of
+SF231	mclaren-mercedes	per:employee_of
+SF231	mclaren mercedes-benz	per:employee_of
+SF231	mclaren mercedes-benz	per:employee_of
+SF231	mclaren-mercedes	per:employee_of
+SF231	mclaren	per:employee_of
+SF231	mclaren mercedes	per:employee_of
+SF231	mclaren	per:employee_of
+SF231	mclaren mercedes	per:employee_of
+SF231	formula one	per:member_of
+SF231	international motoring federation	per:member_of
+SF231	fia	per:member_of
+SF231	formula one	per:member_of
+SF231	formula one	per:member_of
+SF231	monaco_grand_prix	per:member_of
+SF231	british	per:origin
+SF231	englishman	per:origin
+SF231	afro-caribbean	per:origin
+SF231	black	per:origin
+SF231	british	per:origin
+SF231	afro- carribean	per:origin
+SF231	englishman	per:origin
+SF231	british	per:origin
+SF231	british	per:origin
+SF231	british	per:origin
+SF231	british	per:origin
+SF231	british	per:origin
+SF231	british	per:origin
+SF231	anthony hamilton	per:parents
+SF231	anthony	per:parents
+SF231	anthony	per:parents
+SF231	anthony	per:parents
+SF231	anthony	per:parents
+SF231	anthony hamilton	per:parents
+SF231	anthony	per:parents
+SF231	anthony hamilton	per:parents
+SF231	nicholas	per:siblings
+SF231	nicolas	per:siblings
+SF231	nicolas	per:siblings
+SF231	nicholas	per:siblings
+SF231	hertfordshire	per:stateorprovince_of_birth
+SF231	hertfordshire	per:stateorprovinces_of_residence
+SF231	driver	per:title
+SF231	driver	per:title
+SF231	driver	per:title
+SF231	pilot	per:title
+SF231	driver	per:title
+SF231	pilot	per:title
+SF231	driver	per:title
+SF231	driver	per:title
+SF231	driver	per:title
+SF232	orlando	org:city_of_headquarters
+SF232	university of central florida	org:parents
+SF232	university of central florida	org:parents
+SF232	florida	org:stateorprovince_of_headquarters
+SF232	florida	org:stateorprovince_of_headquarters
+SF232	florida	org:stateorprovince_of_headquarters
+SF232	florida	org:stateorprovince_of_headquarters
+SF232	florida	org:stateorprovince_of_headquarters
+SF232	florida	org:stateorprovince_of_headquarters
+SF232	richard lapchick	org:top_members/employees
+SF232	richard lapchick	org:top_members/employees
+SF232	richard lapchick	org:top_members/employees
+SF232	richard e. lapchick	org:top_members/employees
+SF232	richard e. lapchick	org:top_members/employees
+SF232	richard e. lapchick	org:top_members/employees
+SF232	richard lapchick	org:top_members/employees
+SF232	richard lapchick	org:top_members/employees
+SF232	richard lapchick	org:top_members/employees
+SF233	iapa	org:alternate_names
+SF233	iapa	org:alternate_names
+SF233	iapa	org:alternate_names
+SF233	iapa	org:alternate_names
+SF233	iapa	org:alternate_names
+SF233	iapa	org:alternate_names
+SF233	miami	org:city_of_headquarters
+SF233	miami	org:city_of_headquarters
+SF233	miami	org:city_of_headquarters
+SF233	miami	org:city_of_headquarters
+SF233	miami	org:city_of_headquarters
+SF233	miami	org:city_of_headquarters
+SF233	miami	org:city_of_headquarters
+SF233	the 1940s	org:founded
+SF233	the 1940s	org:founded
+SF233	1940s	org:founded
+SF233	gonzalo marroquin	org:members
+SF233	2,000	org:number_of_employees/members
+SF233	press freedom committee	org:subsidiaries
+SF233	rafael molina	org:top_members/employees
+SF233	rafael molina	org:top_members/employees
+SF233	rafael molina	org:top_members/employees
+SF233	earl maucker	org:top_members/employees
+SF233	earl maucker	org:top_members/employees
+SF233	julio munoz	org:top_members/employees
+SF233	julio munoz	org:top_members/employees
+SF233	julio munoz	org:top_members/employees
+SF233	earl maucker	org:top_members/employees
+SF233	earl maucker	org:top_members/employees
+SF233	earl maucker	org:top_members/employees
+SF233	http://www.sipiapa.com/default.cfm	org:website
+SF233	www.sipiapa.com	org:website
+SF233	http://www.sipiapa.com	org:website
+SF234	jackson hewitt tax services	org:alternate_names
+SF234	smart tax/jackson hewitt	org:alternate_names
+SF234	jackson hewitt tax services inc.	org:alternate_names
+SF234	jackson hewitt tax services	org:alternate_names
+SF234	jackson hewitt tax services inc.	org:alternate_names
+SF234	jackson hewitt tax service inc.	org:alternate_names
+SF234	jackson hewitt corp.	org:alternate_names
+SF234	parsippany	org:city_of_headquarters
+SF234	parsippany	org:city_of_headquarters
+SF234	parsippany	org:city_of_headquarters
+SF234	parsippany	org:city_of_headquarters
+SF234	1982	org:founded
+SF234	john hewitt	org:founded_by
+SF234	cendant	org:parents
+SF234	new jersey	org:stateorprovince_of_headquarters
+SF234	n.j.	org:stateorprovince_of_headquarters
+SF234	n.j.	org:stateorprovince_of_headquarters
+SF234	n.j.	org:stateorprovince_of_headquarters
+SF234	so far inc.	org:subsidiaries
+SF234	ask tax	org:subsidiaries
+SF234	smart tax of georgia inc.	org:subsidiaries
+SF234	michael lister	org:top_members/employees
+SF234	www.jacksonhewitt.com	org:website
+SF235	national beef	org:alternate_names
+SF235	kansas city	org:city_of_headquarters
+SF235	kansas city	org:city_of_headquarters
+SF235	kansas city	org:city_of_headquarters
+SF235	kansas city	org:city_of_headquarters
+SF235	u.s.	org:country_of_headquarters
+SF235	u.s.	org:country_of_headquarters
+SF235	premium beef	org:shareholders
+SF235	missouri	org:stateorprovince_of_headquarters
+SF235	missouri	org:stateorprovince_of_headquarters
+SF235	mo.	org:stateorprovince_of_headquarters
+SF235	missouri	org:stateorprovince_of_headquarters
+SF235	tim klein	org:top_members/employees
+SF235	tim klein	org:top_members/employees
+SF235	tim klein	org:top_members/employees
+SF235	john r. miller	org:top_members/employees
+SF235	john r. miller	org:top_members/employees
+SF236	nmfa	org:alternate_names
+SF236	alexandria	org:city_of_headquarters
+SF236	alexandria	org:city_of_headquarters
+SF236	alexandria	org:city_of_headquarters
+SF236	smart television alliance	org:member_of
+SF236	virginia	org:stateorprovince_of_headquarters
+SF236	va.	org:stateorprovince_of_headquarters
+SF236	operation purple	org:subsidiaries
+SF236	joyce wessel raezer	org:top_members/employees
+SF236	joyce wessel raezer	org:top_members/employees
+SF236	www.nmfa.org	org:website
+SF237	maps	org:alternate_names
+SF237	maps	org:alternate_names
+SF237	maps	org:alternate_names
+SF237	boston	org:city_of_headquarters
+SF237	boston	org:city_of_headquarters
+SF237	rick doblin	org:founded_by
+SF237	rick doblin	org:founded_by
+SF237	rick doblin	org:founded_by
+SF237	california	org:stateorprovince_of_headquarters
+SF237	california	org:stateorprovince_of_headquarters
+SF237	massachusetts	org:stateorprovince_of_headquarters
+SF237	rick doblin	org:top_members/employees
+SF237	rick doblin	org:top_members/employees
+SF237	igor grant	org:top_members/employees
+SF237	richard doblin	org:top_members/employees
+SF237	rick doblin	org:top_members/employees
+SF237	rick_doblin	org:top_members/employees
+SF237	rick doblin	org:top_members/employees
+SF237	rick doblin	org:top_members/employees
+SF237	richard doblin	org:top_members/employees
+SF238	sam williams	org:top_members/employees
+SF238	sam williams	org:top_members/employees
+SF238	sam williams	org:top_members/employees
+SF239	mte	org:alternate_names
+SF239	mte	org:alternate_names
+SF239	mte	org:alternate_names
+SF239	mte	org:alternate_names
+SF239	myanmar	org:country_of_headquarters
+SF239	myanmar	org:country_of_headquarters
+SF239	myanmar	org:country_of_headquarters
+SF239	myanmar	org:country_of_headquarters
+SF240	nmwa	org:alternate_names
+SF240	women's museum	org:alternate_names
+SF240	washington	org:city_of_headquarters
+SF240	1981	org:founded
+SF240	wilhelmina cole holladay	org:founded_by
+SF240	wilhelmina cole holladay	org:founded_by
+SF240	washington	org:stateorprovince_of_headquarters
+SF240	database of women artists	org:subsidiaries
+SF240	library and research center	org:subsidiaries
+SF240	judy l. larson	org:top_members/employees
+SF240	judy larson	org:top_members/employees
+SF240	susan sterling	org:top_members/employees
+SF240	susan fisher sterling	org:top_members/employees
+SF240	www.nmwa.org	org:website
+SF240	www.nmwa.org	org:website
+SF241	20	per:age
+SF241	alice delal	per:alternate_names
+SF241	london	per:cities_of_residence
+SF241	mango	per:employee_of
+SF241	dame vivienne westwood	per:employee_of
+SF241	suzy	per:other_family
+SF241	jack dellal	per:other_family
+SF241	guy dellal	per:parents
+SF241	model	per:title
+SF241	model	per:title
+SF242	pentax	org:alternate_names
+SF242	pentax	org:alternate_names
+SF242	japan	org:country_of_headquarters
+SF242	japan	org:country_of_headquarters
+SF242	japan	org:country_of_headquarters
+SF242	hoya corp.	org:parents
+SF242	hoya corp.	org:parents
+SF242	fumio urano	org:top_members/employees
+SF242	fumio urano	org:top_members/employees
+SF242	fumio urano	org:top_members/employees
+SF242	fumio urano	org:top_members/employees
+SF242	shinichiro mitsuhashi	org:top_members/employees
+SF243	nswru	org:alternate_names
+SF243	nsw rugby union	org:alternate_names
+SF243	nswru	org:alternate_names
+SF243	nswru	org:alternate_names
+SF243	fraser neill	org:top_members/employees
+SF243	jim l'estrange	org:top_members/employees
+SF243	fraser neill	org:top_members/employees
+SF243	fraser neill	org:top_members/employees
+SF243	jim l'estrange	org:top_members/employees
+SF244	40	per:age
+SF244	41	per:age
+SF244	1967-02-17	per:date_of_birth
+SF244	feb. 17	per:date_of_birth
+SF244	peak records	per:employee_of
+SF244	kenny lattimore	per:spouse
+SF244	kenny lattimore	per:spouse
+SF244	r&b vocalist	per:title
+SF244	soul songstress	per:title
+SF244	artist	per:title
+SF244	artist	per:title
+SF245	forty seven	per:age
+SF245	48	per:age
+SF245	48	per:age
+SF245	susan magdalane boyle	per:alternate_names
+SF245	blackburn	per:cities_of_residence
+SF245	blackburn	per:city_of_birth
+SF245	scotland	per:countries_of_residence
+SF245	britain	per:countries_of_residence
+SF245	scotland	per:countries_of_residence
+SF245	scotland	per:country_of_birth
+SF245	1961-04-01	per:date_of_birth
+SF245	1 april 1961	per:date_of_birth
+SF245	western college of lothian	per:employee_of
+SF245	scottish	per:origin
+SF245	uk	per:origin
+SF245	scottish	per:origin
+SF245	scottish	per:origin
+SF245	irish	per:origin
+SF245	catholic	per:religion
+SF245	catholic	per:religion
+SF245	scotland	per:stateorprovince_of_birth
+SF245	scotland	per:stateorprovince_of_birth
+SF245	west lothian	per:stateorprovince_of_birth
+SF245	scotland	per:stateorprovinces_of_residence
+SF245	scotland	per:stateorprovinces_of_residence
+SF245	cook-trainee	per:title
+SF246	20	per:age
+SF246	london	per:cities_of_residence
+SF246	england	per:country_of_birth
+SF246	british	per:origin
+SF246	british	per:origin
+SF246	british	per:origin
+SF246	british	per:origin
+SF246	british	per:origin
+SF246	british	per:origin
+SF246	melissa bell	per:parents
+SF246	mellisa burke	per:parents
+SF246	singer	per:title
+SF246	singer	per:title
+SF246	songstress	per:title
+SF246	artist	per:title
+SF246	artist	per:title
+SF246	vocalist	per:title
+SF246	vocalist	per:title
+SF247	bernama news agency	org:alternate_names
+SF247	malaysian national news agency	org:alternate_names
+SF247	malaysia	org:country_of_headquarters
+SF247	malaysia	org:country_of_headquarters
+SF247	malaysia	org:country_of_headquarters
+SF247	malaysia	org:country_of_headquarters
+SF247	malaysia	org:country_of_headquarters
+SF247	malaysia	org:country_of_headquarters
+SF247	1968-05-26	org:founded
+SF247	1968	org:founded
+SF247	malaysian government	org:parents
+SF247	radio24	org:subsidiaries
+SF247	bernama tv	org:subsidiaries
+SF247	azman ujang	org:top_members/employees
+SF247	yong soo heong	org:top_members/employees
+SF247	syed jamil syed jaafar	org:top_members/employees
+SF247	azman ujang	org:top_members/employees
+SF247	mohd annuar zaini	org:top_members/employees
+SF247	mohd annuar zaini	org:top_members/employees
+SF247	http://www.bernama.com	org:website
+SF247	http://www.bernama.com	org:website
+SF247	http://www.bernama.com/	org:website
+SF248	49	per:age
+SF248	50	per:age
+SF248	49	per:age
+SF248	50	per:age
+SF248	50	per:age
+SF248	ellen degenerous	per:alternate_names
+SF248	new orleans	per:cities_of_residence
+SF248	new orleans	per:cities_of_residence
+SF248	beverly hills	per:cities_of_residence
+SF248	new orleans	per:city_of_birth
+SF248	new orleans	per:city_of_birth
+SF248	us	per:countries_of_residence
+SF248	1958	per:date_of_birth
+SF248	nbc	per:employee_of
+SF248	american express	per:employee_of
+SF248	covergirl	per:employee_of
+SF248	writers guild	per:member_of
+SF248	writers guild of america	per:member_of
+SF248	wga	per:member_of
+SF248	margaret rogers	per:other_family
+SF248	betty	per:parents
+SF248	betty	per:parents
+SF248	betty degeneres	per:parents
+SF248	betty	per:parents
+SF248	portia de rossi	per:spouse
+SF248	portia de rossi	per:spouse
+SF248	portia de rossi	per:spouse
+SF248	louisiana	per:stateorprovince_of_birth
+SF248	comedian	per:title
+SF248	star	per:title
+SF248	host	per:title
+SF248	presenter	per:title
+SF248	comedian	per:title
+SF248	show host	per:title
+SF248	star	per:title
+SF248	host	per:title
+SF248	model	per:title
+SF248	comedian	per:title
+SF248	judge	per:title
+SF248	talk-show goddess	per:title
+SF248	presenter	per:title
+SF248	judge	per:title
+SF249	west palm beach	org:city_of_headquarters
+SF249	west palm beach	org:city_of_headquarters
+SF249	midland	org:city_of_headquarters
+SF249	midland	org:city_of_headquarters
+SF249	dr. arthur e. turner	org:founded_by
+SF249	florida	org:stateorprovince_of_headquarters
+SF249	florida	org:stateorprovince_of_headquarters
+SF249	the seahawks	org:subsidiaries
+SF249	1959	org:founded
+SF250	columbia university 's national center for disaster preparedness	org:alternate_names
+SF250	columbia university	org:parents
+SF250	columbia university 's mailman school of public health	org:parents
+SF250	columbia university	org:parents
+SF250	columbia university's mailman school of public health	org:parents
+SF250	columbia's mailman school of public health	org:parents
+SF250	dr. irwin redlener	org:top_members/employees
+SF250	irwin redlener	org:top_members/employees
+SF250	irwin redlener	org:top_members/employees
+SF250	dr. irwin redlener	org:top_members/employees
+SF250	irwin redlener	org:top_members/employees
+SF250	irwin redlener	org:top_members/employees
+SF250	irwin redlener	org:top_members/employees
+SF250	dr. irwin redlener	org:top_members/employees
+SF250	irwin redlener	org:top_members/employees
+SF250	http://www.ncdp.mailman.columbia.edu </p>	org:website
+SF250	http://www.ncdp.mailman.columbia.edu	org:website
+SF251	northland, a church distributed	org:alternate_names
+SF251	northland a church distributed	org:alternate_names
+SF251	orlando	org:city_of_headquarters
+SF251	longwood	org:city_of_headquarters
+SF251	longwood	org:city_of_headquarters
+SF251	longwood	org:city_of_headquarters
+SF251	longwood	org:city_of_headquarters
+SF251	12,000	org:number_of_employees/members
+SF251	christian	org:political/religious_affiliation
+SF251	evangelical	org:political/religious_affiliation
+SF251	florida	org:stateorprovince_of_headquarters
+SF251	fla	org:stateorprovince_of_headquarters
+SF251	fla.	org:stateorprovince_of_headquarters
+SF251	florida	org:stateorprovince_of_headquarters
+SF251	fla.	org:stateorprovince_of_headquarters
+SF251	joel_hunter	org:top_members/employees
+SF251	joel c. hunter	org:top_members/employees
+SF251	joel c. hunter	org:top_members/employees
+SF252	project islamic hope (helping oppressed people everywhere)	org:alternate_names
+SF252	los angeles	org:city_of_headquarters
+SF252	najee ali	org:founded_by
+SF252	islamic	org:political/religious_affiliation
+SF252	islamic	org:political/religious_affiliation
+SF252	islam	org:political/religious_affiliation
+SF252	california	org:stateorprovince_of_headquarters
+SF252	california	org:stateorprovince_of_headquarters
+SF252	najee ali	org:top_members/employees
+SF252	najee ali	org:top_members/employees
+SF252	najee ali	org:top_members/employees
+SF252	najee ali	org:top_members/employees
+SF252	najee ali	org:top_members/employees
+SF252	najee ali	org:top_members/employees
+SF252	najee ali	org:top_members/employees
+SF252	www.islamichope.org	org:website
+SF253	washington	org:city_of_headquarters
+SF253	washington d.c.	org:city_of_headquarters
+SF253	washington, d.c.	org:city_of_headquarters
+SF253	us	org:country_of_headquarters
+SF253	united states	org:country_of_headquarters
+SF253	august 2006	org:dissolved
+SF253	2006	org:dissolved
+SF253	1993	org:founded
+SF253	1993	org:founded
+SF253	132	org:number_of_employees/members
+SF253	132	org:number_of_employees/members
+SF253	washington	org:stateorprovince_of_headquarters
+SF253	deborah jeane palfrey	org:top_members/employees
+SF253	deborah jeane palfrey	org:top_members/employees
+SF253	deborah jeane palfrey	org:top_members/employees
+SF253	deborah jeane palfrey	org:top_members/employees
+SF253	deborah jeane palfrey	org:top_members/employees
+SF253	http://www.deborahjeanepalfrey.com	org:website
+SF254	nottingham-spirk	org:alternate_names
+SF254	america	org:country_of_headquarters
+SF254	1972	org:founded
+SF254	john nottingham	org:top_members/employees
+SF254	john spirk	org:top_members/employees
+SF254	http://www.ns-design.com/	org:website
+SF255	ma zongjin	org:top_members/employees
+SF255	ma zongjin	org:top_members/employees
+SF255	ma zongjin	org:top_members/employees
+SF255	ma zongjin	org:top_members/employees
+SF256	itw	org:alternate_names
+SF256	itw	org:alternate_names
+SF256	glenview	org:city_of_headquarters
+SF256	glenview	org:city_of_headquarters
+SF256	glenview	org:city_of_headquarters
+SF256	glenville	org:city_of_headquarters
+SF256	u.s.	org:country_of_headquarters
+SF256	u.s.	org:country_of_headquarters
+SF256	u.s.	org:country_of_headquarters
+SF256	u.s.	org:country_of_headquarters
+SF256	"60,000"	org:number_of_employees/members
+SF256	60,000	org:number_of_employees/members
+SF256	55,000	org:number_of_employees/members
+SF256	ill.	org:stateorprovince_of_headquarters
+SF256	illinois	org:stateorprovince_of_headquarters
+SF256	illinois	org:stateorprovince_of_headquarters
+SF256	fni ltd.	org:subsidiaries
+SF256	hwa meir packing daily commodities co. ltd.	org:subsidiaries
+SF256	david speer	org:top_members/employees
+SF256	david speer	org:top_members/employees
+SF256	http://www.itw.com/	org:website
+SF257	isu	org:alternate_names
+SF257	isu	org:alternate_names
+SF257	isu	org:alternate_names
+SF257	isu	org:alternate_names
+SF257	isu	org:alternate_names
+SF257	weirton	org:city_of_headquarters
+SF257	weirton	org:city_of_headquarters
+SF257	weirton	org:city_of_headquarters
+SF257	weirton	org:city_of_headquarters
+SF257	u.s.	org:country_of_headquarters
+SF257	u.s.	org:country_of_headquarters
+SF257	u.s.	org:country_of_headquarters
+SF257	2007-04-13	org:dissolved
+SF257	1951	org:founded
+SF257	1,250	org:number_of_employees/members
+SF257	1,250	org:number_of_employees/members
+SF257	1,250	org:number_of_employees/members
+SF257	west virginia	org:stateorprovince_of_headquarters
+SF257	west virginia	org:stateorprovince_of_headquarters
+SF257	west virginia	org:stateorprovince_of_headquarters
+SF257	west virginia	org:stateorprovince_of_headquarters
+SF257	mark glyptis	org:top_members/employees
+SF257	mark glyptis	org:top_members/employees
+SF257	mark glyptis	org:top_members/employees
+SF257	mark glyptis	org:top_members/employees
+SF257	mark glyptis	org:top_members/employees
+SF258	indonesia	org:country_of_headquarters
+SF258	lin neumann	org:top_members/employees
+SF259	jnf	org:alternate_names
+SF259	jnf	org:alternate_names
+SF259	jnf	org:alternate_names
+SF259	jewish national fund ( jnf ) lands dept.	org:alternate_names
+SF259	jnf	org:alternate_names
+SF259	jnf	org:alternate_names
+SF259	jnf	org:alternate_names
+SF259	jewish national fund-keren kayemeth l'israel	org:alternate_names
+SF259	keren kayemeth l'israel	org:alternate_names
+SF259	jnf	org:alternate_names
+SF259	jnf	org:alternate_names
+SF259	jnf	org:alternate_names
+SF259	jewish national fund ( jnf )	org:alternate_names
+SF259	jnf	org:alternate_names
+SF259	state of israel	org:country_of_headquarters
+SF259	israel	org:country_of_headquarters
+SF259	israel	org:country_of_headquarters
+SF259	israel	org:country_of_headquarters
+SF259	israel	org:country_of_headquarters
+SF259	israel	org:country_of_headquarters
+SF259	israel	org:country_of_headquarters
+SF259	1953	org:dissolved
+SF259	1901	org:founded
+SF259	1901	org:founded
+SF259	1901	org:founded
+SF259	jewish	org:political/religious_affiliation
+SF259	jewish	org:political/religious_affiliation
+SF259	jewish	org:political/religious_affiliation
+SF259	jewish	org:political/religious_affiliation
+SF259	israel	org:stateorprovince_of_headquarters
+SF259	american arm of the jewish national fund	org:subsidiaries
+SF259	jewish national fund-u.s.	org:subsidiaries
+SF259	mike nitzan	org:top_members/employees
+SF259	ronald s. lauder	org:top_members/employees
+SF259	eitan bronstein	org:top_members/employees
+SF259	effi stenzler	org:top_members/employees
+SF260	phoenix	org:city_of_headquarters
+SF260	phoenix	org:city_of_headquarters
+SF260	7,000	org:number_of_employees/members
+SF260	baptist	org:political/religious_affiliation
+SF260	christian	org:political/religious_affiliation
+SF260	baptist	org:political/religious_affiliation
+SF260	christian	org:political/religious_affiliation
+SF260	arizona	org:stateorprovince_of_headquarters
+SF260	arizona	org:stateorprovince_of_headquarters
+SF260	arizona	org:stateorprovince_of_headquarters
+SF260	dan yeary	org:top_members/employees
+SF260	dan yeary	org:top_members/employees
+SF260	dan yeary	org:top_members/employees
+SF261	olmert	org:founded_by
+SF261	ehud olmert	org:founded_by
+SF261	olmert	org:founded_by
+SF262	ncf	org:alternate_names
+SF262	taiwan	org:country_of_headquarters
+SF262	taiwan	org:country_of_headquarters
+SF262	taiwan	org:country_of_headquarters
+SF262	1989	org:founded
+SF262	samuel noordhoff	org:founded_by
+SF262	samuel noordhoff	org:founded_by
+SF262	dr. samuel noordhoff	org:founded_by
+SF262	samuel noordhoff	org:founded_by
+SF262	toaid	org:member_of
+SF262	jessica chen	org:top_members/employees
+SF262	rebecca wang	org:top_members/employees
+SF263	chesterfield	org:city_of_headquarters
+SF263	river ridge tree farms	org:members
+SF263	missouri	org:stateorprovince_of_headquarters
+SF263	missouri	org:stateorprovince_of_headquarters
+SF263	missouri	org:stateorprovince_of_headquarters
+SF263	www.christmastree.org	org:website
+SF263	http://www.christmastree.org	org:website
+SF263	http://www.christmastree.org/	org:website
+SF263	www.christmastree.org	org:website
+SF264	usc/norris cancer hospital	org:alternate_names
+SF264	norris cancer center	org:alternate_names
+SF264	university of southern california	org:parents
+SF264	usc	org:parents
+SF264	university of southern california	org:parents
+SF264	pigmented lesion clinic	org:subsidiaries
+SF264	dr. david peng	org:top_members/employees
+SF264	david peng	org:top_members/employees
+SF265	bethlehem	org:city_of_headquarters
+SF265	bethlehem	org:city_of_headquarters
+SF265	bethlehem	org:city_of_headquarters
+SF265	bethlehem	org:city_of_headquarters
+SF265	united states of america	org:country_of_headquarters
+SF265	950	org:number_of_employees/members
+SF265	bethlehem area school district	org:parents
+SF265	pennsylvania	org:stateorprovince_of_headquarters
+SF265	pennsylvania	org:stateorprovince_of_headquarters
+SF265	pennsylvania	org:stateorprovince_of_headquarters
+SF265	john acerra	org:top_members/employees
+SF265	john acerra	org:top_members/employees
+SF265	john acerra	org:top_members/employees
+SF265	john_acerra	org:top_members/employees
+SF266	american national red cross	org:alternate_names
+SF266	american red cross	org:alternate_names
+SF266	red cross	org:alternate_names
+SF266	arc	org:alternate_names
+SF266	arc	org:alternate_names
+SF266	united states of america	org:country_of_headquarters
+SF266	clara barton	org:founded_by
+SF266	clara barton	org:founded_by
+SF266	33,000	org:number_of_employees/members
+SF266	30,000	org:number_of_employees/members
+SF266	american red cross of greater new york	org:subsidiaries
+SF266	american red cross of greater indianapolis	org:subsidiaries
+SF266	american red cross of frederick county	org:subsidiaries
+SF266	american red cross of greater miami & the keys	org:subsidiaries
+SF266	american red cross of ventura county	org:subsidiaries
+SF266	metropolitan atlanta chapter	org:subsidiaries
+SF266	american red cross of greater los angeles	org:subsidiaries
+SF266	mile high chapter	org:subsidiaries
+SF266	galveston chapter	org:subsidiaries
+SF266	jacob kellenberger	org:top_members/employees
+SF266	mark everson	org:top_members/employees
+SF266	mark everson	org:top_members/employees
+SF266	mary s. elcano	org:top_members/employees
+SF266	joseph becker	org:top_members/employees
+SF266	joseph becker	org:top_members/employees
+SF266	bonnie mcelveen-hunter	org:top_members/employees
+SF266	bonnie mcelveen-hunter	org:top_members/employees
+SF266	bonnie mcelveen-hunter	org:top_members/employees
+SF266	gail mcgovern	org:top_members/employees
+SF266	marsha j. evans	org:top_members/employees
+SF266	mark w. everson	org:top_members/employees
+SF266	mark w. everson	org:top_members/employees
+SF266	bonnie mcelveen-hunter	org:top_members/employees
+SF266	mark w. everson	org:top_members/employees
+SF266	clara barton	org:top_members/employees
+SF266	elizabeth dole	org:top_members/employees
+SF266	gail j. mcgovern	org:top_members/employees
+SF266	kevin m. brown	org:top_members/employees
+SF266	bernadine healy	org:top_members/employees
+SF266	elizabeth dole	org:top_members/employees
+SF267	68	per:age
+SF267	68	per:age
+SF267	68	per:age
+SF267	68	per:age
+SF267	phyllis bond-mcmillan	per:children
+SF267	atlanta	per:cities_of_residence
+SF267	american university	per:employee_of
+SF267	university of virginia	per:employee_of
+SF267	university of virginia	per:employee_of
+SF267	georgia house of representatives	per:employee_of
+SF267	american university	per:employee_of
+SF267	university of virginia	per:employee_of
+SF267	university of virginia	per:employee_of
+SF267	american university	per:employee_of
+SF267	university of virginia	per:employee_of
+SF267	naacp	per:member_of
+SF267	national association for the advancement of colored people	per:member_of
+SF267	national association for the advancement of colored people	per:member_of
+SF267	national association for the advancement of colored people	per:member_of
+SF267	national association for the advancement of colored people	per:member_of
+SF267	naacp	per:member_of
+SF267	naacp board	per:member_of
+SF267	national association for the advancement of colored people	per:member_of
+SF267	naacp national board of directors	per:member_of
+SF267	fairness for all families campaign	per:member_of
+SF267	naacp	per:member_of
+SF267	morehouse college	per:schools_attended
+SF267	georgia	per:stateorprovinces_of_residence
+SF267	georgia	per:stateorprovinces_of_residence
+SF267	chairman	per:title
+SF267	legislator	per:title
+SF267	chairman	per:title
+SF267	activist	per:title
+SF267	chairman	per:title
+SF267	professor	per:title
+SF267	chairman	per:title
+SF267	legislator	per:title
+SF267	activist	per:title
+SF267	chairman	per:title
+SF267	chairman	per:title
+SF267	chairman	per:title
+SF267	chairman	per:title
+SF268	75	per:age
+SF268	76	per:age
+SF268	76	per:age
+SF268	76	per:age
+SF268	76	per:age
+SF268	76	per:age
+SF268	77	per:age
+SF268	77	per:age
+SF268	77	per:age
+SF268	77	per:age
+SF268	76	per:age
+SF268	raul castro ruz.	per:alternate_names
+SF268	raul castro ruz	per:alternate_names
+SF268	flea	per:alternate_names
+SF268	insurrection	per:charges
+SF268	mariela	per:children
+SF268	mariela castro	per:children
+SF268	nilsa	per:children
+SF268	mariela	per:children
+SF268	mariela castro espin	per:children
+SF268	alejandro castro espin	per:children
+SF268	mariela castro	per:children
+SF268	mariela	per:children
+SF268	mariela castro	per:children
+SF268	cuba	per:countries_of_residence
+SF268	cuba	per:countries_of_residence
+SF268	cuba	per:countries_of_residence
+SF268	cuba	per:countries_of_residence
+SF268	cuba	per:countries_of_residence
+SF268	cuba	per:countries_of_residence
+SF268	cuba	per:countries_of_residence
+SF268	cuba	per:country_of_birth
+SF268	cuba	per:country_of_birth
+SF268	cuba	per:country_of_birth
+SF268	june 3 1931	per:date_of_birth
+SF268	june 3, 1931	per:date_of_birth
+SF268	june 3, 1931	per:date_of_birth
+SF268	1931-06-03	per:date_of_birth
+SF268	june 3 , 1931	per:date_of_birth
+SF268	june 3 , 1931	per:date_of_birth
+SF268	june_3	per:date_of_birth
+SF268	june 3, 1931	per:date_of_birth
+SF268	cuba	per:employee_of
+SF268	cuban communist party	per:member_of
+SF268	council of state	per:member_of
+SF268	council of ministers	per:member_of
+SF268	revolutionary armed forces	per:member_of
+SF268	community party	per:member_of
+SF268	council of state	per:member_of
+SF268	council of state	per:member_of
+SF268	communist party of cuba	per:member_of
+SF268	council of state and ministers	per:member_of
+SF268	communist party	per:member_of
+SF268	central committee	per:member_of
+SF268	council of state	per:member_of
+SF268	cuba	per:origin
+SF268	cuban	per:origin
+SF268	cuban	per:origin
+SF268	latin american	per:origin
+SF268	caribbean	per:origin
+SF268	cuban	per:origin
+SF268	cuban	per:origin
+SF268	cuban	per:origin
+SF268	cuba	per:origin
+SF268	cuba	per:origin
+SF268	cuban	per:origin
+SF268	fidel castro diaz- balart	per:other_family
+SF268	fidel castro diaz balart	per:other_family
+SF268	alina fernandez revuelta	per:other_family
+SF268	fidel jr.	per:other_family
+SF268	alina fernandez revuelta	per:other_family
+SF268	antonio	per:other_family
+SF268	alex	per:other_family
+SF268	alexis	per:other_family
+SF268	mirta diaz balart	per:other_family
+SF268	angel	per:other_family
+SF268	alejandro	per:other_family
+SF268	lina ruz	per:parents
+SF268	lina ruz	per:parents
+SF268	university of havana	per:schools_attended
+SF268	university of havana	per:schools_attended
+SF268	fidel castro	per:siblings
+SF268	ramon castro	per:siblings
+SF268	fidel	per:siblings
+SF268	fidel castro	per:siblings
+SF268	fidel	per:siblings
+SF268	fidel	per:siblings
+SF268	ramon	per:siblings
+SF268	juanita	per:siblings
+SF268	fidel castro.	per:siblings
+SF268	fidel castro ruz	per:siblings
+SF268	vilma espin guillois	per:spouse
+SF268	vilma espin	per:spouse
+SF268	vilma espin	per:spouse
+SF268	vilma espin	per:spouse
+SF268	vilma espin	per:spouse
+SF268	vilma espin guillois	per:spouse
+SF268	vilma espin guillois	per:spouse
+SF268	vilma espin guillois	per:spouse
+SF268	vilma_espin_guillois	per:spouse
+SF268	oriente province	per:stateorprovince_of_birth
+SF268	president	per:title
+SF268	defense minister	per:title
+SF268	defense chief	per:title
+SF268	interim president	per:title
+SF268	interim president	per:title
+SF268	president	per:title
+SF268	general	per:title
+SF268	acting president	per:title
+SF268	vice president	per:title
+SF268	defense secretary	per:title
+SF268	president	per:title
+SF268	president	per:title
+SF268	second secretary	per:title
+SF268	defense minister	per:title
+SF268	first vice president	per:title
+SF268	defense minister	per:title
+SF268	president	per:title
+SF268	general	per:title
+SF268	deputy prime minister	per:title
+SF268	president	per:title
+SF268	president	per:title
+SF268	general	per:title
+SF268	president	per:title
+SF269	25	per:age
+SF269	25	per:age
+SF269	25	per:age
+SF269	san francisco	per:cities_of_residence
+SF269	williamstown	per:cities_of_residence
+SF269	williamstown	per:city_of_birth
+SF269	abc	per:employee_of
+SF269	facebook	per:employee_of
+SF269	facebook	per:employee_of
+SF269	ma	per:stateorprovinces_of_residence
+SF269	ca	per:stateorprovinces_of_residence
+SF269	bachelorette	per:title
+SF269	advertising accounts manager	per:title
+SF269	advertising account manager	per:title
+SF270	38-year-old	per:age
+SF270	38-year-old	per:age
+SF270	37	per:age
+SF270	brian fuller	per:alternate_names
+SF270	clarkston	per:cities_of_residence
+SF270	los angeles	per:cities_of_residence
+SF270	l.a .	per:cities_of_residence
+SF270	july 27 , 1969	per:date_of_birth
+SF270	abc	per:employee_of
+SF270	fox	per:employee_of
+SF270	showtime	per:employee_of
+SF270	nbc	per:employee_of
+SF270	nbc	per:employee_of
+SF270	abc	per:employee_of
+SF270	abc	per:employee_of
+SF270	abc	per:employee_of
+SF270	nbc	per:employee_of
+SF270	university of southern california	per:schools_attended
+SF270	washington	per:stateorprovinces_of_residence
+SF270	wash.	per:stateorprovinces_of_residence
+SF270	writer-producer	per:title
+SF270	writer-producer	per:title
+SF270	creator	per:title
+SF270	executive producer	per:title
+SF270	creator	per:title
+SF270	co-executive producer	per:title
+SF270	executive producer	per:title
+SF270	producer	per:title
+SF270	creator\/producer	per:title
+SF270	writer	per:title
+SF270	writer	per:title
+SF270	series creator	per:title
+SF270	series creator	per:title
+SF270	writer	per:title
+SF270	screenwriter	per:title
+SF270	writer	per:title
+SF270	executive producer	per:title
+SF270	executive producer	per:title
+SF270	writer	per:title
+SF271	christopher j. dodd	per:alternate_names
+SF271	christopher j. dodd	per:alternate_names
+SF271	christopher j. dodd	per:alternate_names
+SF271	us	per:employee_of
+SF271	u.s.	per:employee_of
+SF271	united states	per:employee_of
+SF271	senate	per:member_of
+SF271	senate banking committee	per:member_of
+SF271	senate	per:member_of
+SF271	senate foreign relations committee	per:member_of
+SF271	foreign relations committee	per:member_of
+SF271	foreign relations committee	per:member_of
+SF271	peace corps	per:member_of
+SF271	banking committee	per:member_of
+SF271	democratic national committee	per:member_of
+SF271	banking, housing and urban affairs committee	per:member_of
+SF271	democratic party	per:member_of
+SF271	senate foreign relations committee	per:member_of
+SF271	senate	per:member_of
+SF271	foreign relations committee	per:member_of
+SF271	peace corps	per:member_of
+SF271	senate_banking_committee	per:member_of
+SF271	senate banking committee	per:member_of
+SF271	senate	per:member_of
+SF271	michael clegg	per:other_family
+SF271	thomas j. dodd	per:parents
+SF271	thomas j. dodd	per:parents
+SF271	grace	per:parents
+SF271	thomas dodd	per:parents
+SF271	thomas j. dodd	per:parents
+SF271	tom dodd	per:parents
+SF271	grace	per:parents
+SF271	thomas	per:parents
+SF271	georgetown preparatory school	per:schools_attended
+SF271	thomas dodd jr.	per:siblings
+SF271	thomas dodd jr.	per:siblings
+SF271	susan dodd	per:spouse
+SF271	connecticut	per:stateorprovinces_of_residence
+SF271	connecticut	per:stateorprovinces_of_residence
+SF271	connecticut	per:stateorprovinces_of_residence
+SF271	connecticut	per:stateorprovinces_of_residence
+SF271	connecticut	per:stateorprovinces_of_residence
+SF271	connecticut	per:stateorprovinces_of_residence
+SF271	chairman	per:title
+SF271	chairman	per:title
+SF271	chairman	per:title
+SF271	presidential candidate	per:title
+SF272	23	per:age
+SF272	23-year old	per:age
+SF272	paris	per:cities_of_residence
+SF272	paris	per:city_of_birth
+SF272	america	per:countries_of_residence
+SF272	gucci	per:employee_of
+SF272	gucci	per:employee_of
+SF272	mtv	per:employee_of
+SF272	dolce & gabbana	per:employee_of
+SF272	american	per:origin
+SF272	model	per:title
+SF272	owner	per:title
+SF272	model	per:title
+SF273	dec. 22	per:date_of_birth
+SF273	1936-12-22	per:date_of_birth
+SF273	1936	per:date_of_birth
+SF273	cbs	per:employee_of
+SF273	cbs	per:employee_of
+SF273	abc	per:employee_of
+SF273	hispanic-american	per:origin
+SF273	actor	per:title
+SF273	actor	per:title
+SF274	47	per:age
+SF274	48	per:age
+SF274	47	per:age
+SF274	simon	per:alternate_names
+SF274	simon	per:alternate_names
+SF274	london	per:cities_of_residence
+SF274	london	per:cities_of_residence
+SF274	united_kingdom	per:country_of_birth
+SF274	united kingdom	per:country_of_birth
+SF274	1959-10-07	per:date_of_birth
+SF274	sony bmg	per:employee_of
+SF274	american idol	per:employee_of
+SF274	american idol	per:employee_of
+SF274	syco music	per:employee_of
+SF274	syco music	per:employee_of
+SF274	fox	per:employee_of
+SF274	fox	per:employee_of
+SF274	british	per:origin
+SF274	british	per:origin
+SF274	british	per:origin
+SF274	british	per:origin
+SF274	british	per:origin
+SF274	judge	per:title
+SF274	record producer	per:title
+SF274	talent show judge	per:title
+SF274	record producer	per:title
+SF274	judge	per:title
+SF274	judge	per:title
+SF274	judge	per:title
+SF274	judge	per:title
+SF274	judge	per:title
+SF274	judge	per:title
+SF274	record producer	per:title
+SF274	judge	per:title
+SF274	judge	per:title
+SF274	judge	per:title
+SF274	music producer	per:title
+SF274	judge	per:title
+SF275	20	per:age
+SF275	23	per:age
+SF275	new york	per:cities_of_residence
+SF275	brooklyn	per:cities_of_residence
+SF275	new york city	per:cities_of_residence
+SF275	new york	per:cities_of_residence
+SF275	us elle	per:employee_of
+SF275	mtv	per:employee_of
+SF275	mtv	per:employee_of
+SF275	elle magazine	per:employee_of
+SF275	mtv	per:employee_of
+SF275	elle magazine	per:employee_of
+SF275	elle	per:employee_of
+SF275	elle	per:employee_of
+SF275	wilhelmina modeling agency	per:employee_of
+SF275	elle	per:employee_of
+SF275	the city	per:member_of
+SF275	the city	per:member_of
+SF275	city	per:member_of
+SF275	italian	per:origin
+SF275	new school	per:schools_attended
+SF275	the new school	per:schools_attended
+SF275	new york	per:stateorprovinces_of_residence
+SF275	editor	per:title
+SF275	actress	per:title
+SF275	model	per:title
+SF276	richard s. lindzen	per:alternate_names
+SF276	richard s. lindzen	per:alternate_names
+SF276	massachusetts institute of technology	per:employee_of
+SF276	mit	per:employee_of
+SF276	massachusetts institute of technology	per:employee_of
+SF276	mit	per:employee_of
+SF276	massachusetts institute of technology	per:employee_of
+SF276	mit	per:employee_of
+SF276	national academy of sciences	per:member_of
+SF276	norwegian academy of science and letters	per:member_of
+SF276	national academy of sciences	per:member_of
+SF276	american academy of arts and sciences	per:member_of
+SF276	ams	per:member_of
+SF276	agu	per:member_of
+SF276	aaas	per:member_of
+SF276	professor	per:title
+SF276	scientist	per:title
+SF276	meteorology professor	per:title
+SF276	atmospheric physicist	per:title
+SF276	dr.	per:title
+SF276	dr.	per:title
+SF276	dr.	per:title
+SF276	dr.	per:title
+SF276	climate scientist	per:title
+SF276	alfred p. sloan professor of meteorology	per:title
+SF276	professor of meteorology	per:title
+SF276	professor	per:title
+SF276	climatologist	per:title
+SF276	scientist	per:title
+SF276	professor	per:title
+SF276	professor of atmospheric sciences	per:title
+SF276	professor	per:title
+SF277	44	per:age
+SF277	44	per:age
+SF277	44	per:age
+SF277	scary boss lady	per:alternate_names
+SF277	ava	per:children
+SF277	ava	per:children
+SF277	l.a.	per:cities_of_residence
+SF277	new york city	per:cities_of_residence
+SF277	syracuse	per:cities_of_residence
+SF277	new york city	per:cities_of_residence
+SF277	new york	per:cities_of_residence
+SF277	bravo	per:employee_of
+SF277	mtv	per:employee_of
+SF277	bravo	per:employee_of
+SF277	bravo	per:employee_of
+SF277	people's revolution	per:member_of
+SF277	people 's revolution	per:member_of
+SF277	new york	per:stateorprovinces_of_residence
+SF277	founder	per:title
+SF277	founder	per:title
+SF277	publicist	per:title
+SF277	star	per:title
+SF277	publicist	per:title
+SF277	reality star	per:title
+SF277	public relations guru	per:title
+SF277	boss	per:title
+SF277	pr guru	per:title
+SF277	pr maven	per:title
+SF277	pr queen	per:title
+SF277	boss	per:title
+SF277	boss	per:title
+SF278	lilly sue	per:children
+SF278	kerry katona	per:spouse
+SF278	pop star	per:title
+SF279	trista	per:alternate_names
+SF279	trista rehn	per:alternate_names
+SF279	trista	per:alternate_names
+SF279	trista stutter	per:alternate_names
+SF279	trista	per:alternate_names
+SF279	trista rehn	per:alternate_names
+SF279	trista	per:alternate_names
+SF279	trista	per:alternate_names
+SF279	trista	per:alternate_names
+SF279	trista	per:alternate_names
+SF279	trista	per:alternate_names
+SF279	blakesley grace	per:children
+SF279	blakesley	per:children
+SF279	blakesley	per:children
+SF279	blaskesley grace sutter	per:children
+SF279	b's purses	per:employee_of
+SF279	abc	per:employee_of
+SF279	darryl	per:siblings
+SF279	designer	per:title
+SF279	star	per:title
+SF279	star	per:title
+SF280	36	per:age
+SF280	los angeles	per:cities_of_residence
+SF280	england	per:countries_of_residence
+SF280	great britain	per:country_of_birth
+SF280	new york model management	per:employee_of
+SF280	british	per:origin
+SF280	british	per:origin
+SF280	british	per:origin
+SF280	british	per:origin
+SF280	british	per:origin
+SF280	british	per:origin
+SF280	model	per:title
+SF280	model	per:title
+SF280	model	per:title
+SF280	male model	per:title
+SF280	boxer	per:title
+SF280	construction worker	per:title
+SF280	model	per:title
+SF281	14	per:age
+SF281	14	per:age
+SF281	14	per:age
+SF281	15	per:age
+SF281	14	per:age
+SF281	14 years old	per:age
+SF281	14	per:age
+SF281	brandon david mcinerney	per:alternate_names
+SF281	first degree murder	per:charges
+SF281	first-degree murder	per:charges
+SF281	gunning down his gay classmate	per:charges
+SF281	first degree murder	per:charges
+SF281	hate crime	per:charges
+SF281	hate crime	per:charges
+SF281	use of a firearm	per:charges
+SF281	premeditated murder	per:charges
+SF281	oxnard	per:cities_of_residence
+SF281	oxnard	per:cities_of_residence
+SF281	young marines	per:member_of
+SF281	young marines	per:member_of
+SF281	bill mcinerney	per:parents
+SF281	kendra mcinerney	per:parents
+SF281	william frederick mcinerney	per:parents
+SF281	e.o. green junior high school	per:schools_attended
+SF281	e.o. green junior high	per:schools_attended
+SF281	california	per:stateorprovinces_of_residence
+SF281	student	per:title
+SF281	murder defendant	per:title
+SF281	student	per:title
+SF281	defendant	per:title
+SF282	42	per:age
+SF282	stephen mcpherson	per:alternate_names
+SF282	abc entertainment	per:employee_of
+SF282	abc	per:employee_of
+SF282	abc entertainment	per:employee_of
+SF282	abc entertainment	per:employee_of
+SF282	abc entertainment	per:employee_of
+SF282	abc entertainment	per:employee_of
+SF282	abs	per:employee_of
+SF282	abc	per:employee_of
+SF282	abc entertainment	per:employee_of
+SF282	abc	per:employee_of
+SF282	abc entertainment	per:employee_of
+SF282	cornell	per:schools_attended
+SF282	president of entertainment	per:title
+SF282	president	per:title
+SF282	president of entertainment	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF282	president	per:title
+SF283	28	per:age
+SF283	29	per:age
+SF283	29	per:age
+SF283	29	per:age
+SF283	29	per:age
+SF283	michael j. sandy	per:alternate_names
+SF283	michael j. sandy	per:alternate_names
+SF283	chased into the path of a moving car	per:cause_of_death
+SF283	murder	per:cause_of_death
+SF283	struck by a car	per:cause_of_death
+SF283	new york	per:cities_of_residence
+SF283	new york city	per:city_of_death
+SF283	oct. 8, 2006	per:date_of_death
+SF283	2006-10-08	per:date_of_death
+SF283	zeke sandy	per:parents
+SF283	denise sandy	per:parents
+SF283	new york	per:stateorprovince_of_death
+SF283	designer	per:title
+SF284	two	per:age
+SF284	2	per:age
+SF284	2	per:age
+SF284	one	per:age
+SF284	2	per:age
+SF284	three	per:age
+SF284	three	per:age
+SF284	2	per:age
+SF284	sean preston federline	per:alternate_names
+SF284	sean preston federline	per:alternate_names
+SF284	sean preston spears federline	per:alternate_names
+SF284	sean preston spears federline	per:alternate_names
+SF284	sean preston federline	per:alternate_names
+SF284	christian michael	per:alternate_names
+SF284	sean preston federline spears	per:alternate_names
+SF284	malibu	per:cities_of_residence
+SF284	september 2005	per:date_of_birth
+SF284	september 2005	per:date_of_birth
+SF284	2005	per:date_of_birth
+SF284	lynne	per:other_family
+SF284	jamie spears	per:other_family
+SF284	allie	per:other_family
+SF284	jamie lynn spears	per:other_family
+SF284	alli sims	per:other_family
+SF284	chanda mcgovern	per:other_family
+SF284	ali sims	per:other_family
+SF284	britney spears	per:parents
+SF284	kevin federline	per:parents
+SF284	britney spears	per:parents
+SF284	spears	per:parents
+SF284	kevin federline	per:parents
+SF284	britney spears	per:parents
+SF284	kevin federline	per:parents
+SF284	kevin federline	per:parents
+SF284	brit brit	per:parents
+SF284	jayden james	per:siblings
+SF284	jamie lynn spears	per:siblings
+SF284	sutton pierce	per:siblings
+SF284	sutton pierce	per:siblings
+SF284	sutton pierce federline	per:siblings
+SF284	sutton pierce federline	per:siblings
+SF284	jayden james federline spears	per:siblings
+SF284	jayden james	per:siblings
+SF284	jj	per:siblings
+SF284	ca	per:stateorprovinces_of_residence
+SF285	24	per:age
+SF285	26	per:age
+SF285	26	per:age
+SF285	26	per:age
+SF285	26	per:age
+SF285	26	per:age
+SF285	26	per:age
+SF285	speidi	per:alternate_names
+SF285	los angeles	per:cities_of_residence
+SF285	hills	per:employee_of
+SF285	mtv	per:employee_of
+SF285	mtv	per:employee_of
+SF285	mtv	per:employee_of
+SF285	ava	per:other_family
+SF285	stephanie pratt	per:other_family
+SF285	holly montag	per:other_family
+SF285	holly	per:other_family
+SF285	holly montag	per:other_family
+SF285	university of southern california	per:schools_attended
+SF285	stephanie pratt	per:siblings
+SF285	stephanie pratt	per:siblings
+SF285	stephanie	per:siblings
+SF285	stephanie pratt	per:siblings
+SF285	stephanie pratt	per:siblings
+SF285	stephanie pratt	per:siblings
+SF285	stephanie	per:siblings
+SF285	stephanie pratt	per:siblings
+SF285	stephanie pratt	per:siblings
+SF285	heidi montag	per:spouse
+SF285	heidi montag	per:spouse
+SF285	heidi montag	per:spouse
+SF285	heidi montag	per:spouse
+SF285	heidi montag	per:spouse
+SF285	heidi montag	per:spouse
+SF285	heidi montag	per:spouse
+SF285	heidi	per:spouse
+SF285	heidi montag	per:spouse
+SF285	producer	per:title
+SF285	rapper	per:title
+SF285	star	per:title
+SF285	reality tv star	per:title
+SF285	manager	per:title
+SF285	manager	per:title
+SF285	actor	per:title
+SF285	director	per:title
+SF286	libel	per:charges
+SF286	western standard	per:employee_of
+SF286	western standard	per:employee_of
+SF286	western standard magazine	per:employee_of
+SF286	canadian	per:origin
+SF286	alberta	per:stateorprovinces_of_residence
+SF286	journalist	per:title
+SF286	author	per:title
+SF286	publisher: western standard	per:title
+SF286	publisher	per:title
+SF286	commentator	per:title
+SF287	beyonce	per:alternate_names
+SF287	beyonce giselle knowles	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	beyonce	per:alternate_names
+SF287	houston	per:cities_of_residence
+SF287	houston	per:cities_of_residence
+SF287	l'oréal	per:employee_of
+SF287	agnez dereon	per:other_family
+SF287	agnèz dereon	per:other_family
+SF287	agnÃ¨z dereon	per:other_family
+SF287	matthew knowles	per:parents
+SF287	matthew knowles	per:parents
+SF287	mathew knowles	per:parents
+SF287	mathew knowles	per:parents
+SF287	tina knowles	per:parents
+SF287	tina knowles	per:parents
+SF287	mathew knowles	per:parents
+SF287	solange knowles	per:siblings
+SF287	solange	per:siblings
+SF287	solange knowles	per:siblings
+SF287	solange knowles	per:siblings
+SF287	solange knowles	per:siblings
+SF287	jay z	per:spouse
+SF287	jay-z	per:spouse
+SF287	jay-z	per:spouse
+SF287	star	per:title
+SF287	spokeswoman	per:title
+SF287	executive producer	per:title
+SF287	r&b artist	per:title
+SF287	r&b superstar	per:title
+SF287	r&b star	per:title
+SF288	mccomb	per:cities_of_residence
+SF288	liberty	per:cities_of_residence
+SF288	kentwood	per:cities_of_residence
+SF288	nickelodeon	per:employee_of
+SF288	nickelodeon	per:employee_of
+SF288	american	per:origin
+SF288	lynne spears	per:parents
+SF288	lynne spears	per:parents
+SF288	lynne spears	per:parents
+SF288	lynne	per:parents
+SF288	lynne spears	per:parents
+SF288	lynne spears	per:parents
+SF288	parklane academy	per:schools_attended
+SF288	britney spears	per:siblings
+SF288	britney spears	per:siblings
+SF288	britney spears	per:siblings
+SF288	bryan	per:siblings
+SF288	britney spears	per:siblings
+SF288	britney	per:siblings
+SF288	britney spears	per:siblings
+SF288	bryan	per:siblings
+SF288	mississippi	per:stateorprovinces_of_residence
+SF288	missouri	per:stateorprovinces_of_residence
+SF288	mississippi	per:stateorprovinces_of_residence
+SF288	la	per:stateorprovinces_of_residence
+SF288	actress	per:title
+SF288	star	per:title
+SF288	star	per:title
+SF288	actress	per:title
+SF288	singer	per:title
+SF288	actress	per:title
+SF289	32-year-old	per:age
+SF289	32	per:age
+SF289	31	per:age
+SF289	31	per:age
+SF289	that frigin idiot who picked vienna over tenley	per:alternate_names
+SF289	dallas	per:cities_of_residence
+SF289	dallas	per:cities_of_residence
+SF289	dallas	per:cities_of_residence
+SF289	denton	per:city_of_birth
+SF289	abc	per:employee_of
+SF289	abc	per:employee_of
+SF289	jessie pavelka	per:other_family
+SF289	jim pavelka	per:parents
+SF289	sallie pavelka	per:parents
+SF289	jim pavelka	per:parents
+SF289	sallie pavelka	per:parents
+SF289	texas	per:stateorprovince_of_birth
+SF289	texas	per:stateorprovince_of_birth
+SF289	texas	per:stateorprovinces_of_residence
+SF289	texas	per:stateorprovinces_of_residence
+SF289	texas	per:stateorprovinces_of_residence
+SF289	bachelor	per:title
+SF289	pilot	per:title
+SF289	commercial flight instructor	per:title
+SF289	actor	per:title
+SF289	commercial pilot	per:title
+SF289	pilot	per:title
+SF289	bachelor star	per:title
+SF289	commercial pilot	per:title
+SF290	53	per:age
+SF290	53	per:age
+SF290	54	per:age
+SF290	53	per:age
+SF290	51	per:age
+SF290	hugo rafael chavez frias	per:alternate_names
+SF290	hugo rafael chavez frias	per:alternate_names
+SF290	hugo chÃ¡vez	per:alternate_names
+SF290	ordering soldiers to shoot protesters	per:charges
+SF290	ignoring the rebels'crimes	per:charges
+SF290	offering an open-ended loan of at least us$250 million to the revolutionary armed forces of colombia	per:charges
+SF290	antisemitism	per:charges
+SF290	rosines chavez rodriguez	per:children
+SF290	maria gabriela	per:children
+SF290	maria	per:children
+SF290	rosines	per:children
+SF290	caracas	per:cities_of_residence
+SF290	sabaneta	per:cities_of_residence
+SF290	sabaneta	per:city_of_birth
+SF290	venezuela	per:countries_of_residence
+SF290	venezuelan	per:countries_of_residence
+SF290	venezuela	per:countries_of_residence
+SF290	venezuela	per:countries_of_residence
+SF290	venezuela	per:countries_of_residence
+SF290	venezuelan	per:countries_of_residence
+SF290	venezuela	per:countries_of_residence
+SF290	venezuela	per:country_of_birth
+SF290	july 28, 1954	per:date_of_birth
+SF290	july 28, 1954	per:date_of_birth
+SF290	july 28 , 1954	per:date_of_birth
+SF290	july 28 1954	per:date_of_birth
+SF290	venezuela	per:employee_of
+SF290	venezuelan	per:employee_of
+SF290	venezuala	per:employee_of
+SF290	venezuela	per:employee_of
+SF290	venezuelan	per:employee_of
+SF290	venezuelan	per:employee_of
+SF290	bolivarian republic of venezuela	per:employee_of
+SF290	venezula	per:employee_of
+SF290	socialist party	per:member_of
+SF290	psuv	per:member_of
+SF290	psuv	per:member_of
+SF290	united socialist party	per:member_of
+SF290	venezuelan	per:origin
+SF290	venezuelan	per:origin
+SF290	venezuelan	per:origin
+SF290	venezuelan	per:origin
+SF290	venezuelan	per:origin
+SF290	latin american	per:origin
+SF290	hugo de los reyes chavez	per:parents
+SF290	hugo de los reyes chavez	per:parents
+SF290	hugo de los reyes chavez	per:parents
+SF290	hugo de los reyes chavez	per:parents
+SF290	roman catholic	per:religion
+SF290	venezuela's military academy	per:schools_attended
+SF290	simon bolivar university	per:schools_attended
+SF290	adan chavez	per:siblings
+SF290	adan chavez	per:siblings
+SF290	adan	per:siblings
+SF290	anibal chavez	per:siblings
+SF290	argenis chavez	per:siblings
+SF290	narciso chavez	per:siblings
+SF290	adelis chavez	per:siblings
+SF290	adan chavez	per:siblings
+SF290	adan	per:siblings
+SF290	marisabel rodriguez	per:spouse
+SF290	nancy colmenares	per:spouse
+SF290	marisabel rodriguez	per:spouse
+SF290	marisabel rodriguez	per:spouse
+SF290	barinas	per:stateorprovince_of_birth
+SF290	barinas	per:stateorprovinces_of_residence
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	commander	per:title
+SF290	paratrooper colonel	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	lieutenant colonel	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	president	per:title
+SF290	dictator	per:title
+SF290	president	per:title
+SF291	canada	per:countries_of_residence
+SF291	canadian	per:origin
+SF291	canadian	per:origin
+SF291	canadian	per:origin
+SF291	canadian	per:origin
+SF291	canadian	per:origin
+SF291	musician	per:title
+SF291	singer	per:title
+SF291	singer	per:title
+SF291	singer/songwriter	per:title
+SF291	artist	per:title
+SF291	songstress	per:title
+SF291	singer/songwriter	per:title
+SF291	vocalist	per:title
+SF291	vocalist	per:title
+SF291	artist	per:title
+SF291	artist	per:title
+SF292	25	per:age
+SF292	mtv	per:employee_of
+SF292	mtv	per:employee_of
+SF292	nbc	per:employee_of
+SF292	mtv	per:employee_of
+SF292	stephani pratt	per:other_family
+SF292	spencer pratt	per:other_family
+SF292	spencer pratt	per:other_family
+SF292	spencer pratt	per:other_family
+SF292	spencer pratt	per:other_family
+SF292	heidi	per:siblings
+SF292	heidi montag	per:siblings
+SF292	heidi montag	per:siblings
+SF292	heidi montag	per:siblings
+SF292	heidi montag	per:siblings
+SF292	heidi	per:siblings
+SF292	colorado	per:stateorprovinces_of_residence
+SF292	reality tv show star	per:title
+SF293	daniel ciccone ritchie	per:alternate_names
+SF293	london	per:cities_of_residence
+SF293	london	per:cities_of_residence
+SF293	london	per:cities_of_residence
+SF293	london	per:cities_of_residence
+SF293	london	per:cities_of_residence
+SF293	malawi	per:countries_of_residence
+SF293	malawi	per:countries_of_residence
+SF293	malawi	per:countries_of_residence
+SF293	malawi	per:country_of_birth
+SF293	malawi	per:country_of_birth
+SF293	september 2005	per:date_of_birth
+SF293	2005	per:date_of_birth
+SF293	sept. 25 , 2005	per:date_of_birth
+SF293	malawian	per:origin
+SF293	malawian	per:origin
+SF293	african	per:origin
+SF293	malawian	per:origin
+SF293	malawian	per:origin
+SF293	malawian	per:origin
+SF293	malawian	per:origin
+SF293	malawian	per:origin
+SF293	african	per:origin
+SF293	flora	per:other_family
+SF293	asinati mwale	per:other_family
+SF293	yohane banda	per:parents
+SF293	yohane banda	per:parents
+SF293	madonna	per:parents
+SF293	yohane banda	per:parents
+SF293	guy ritchie	per:parents
+SF293	guy ritchie	per:parents
+SF293	madonna	per:parents
+SF293	yohane banda	per:parents
+SF293	marita	per:parents
+SF293	madonna	per:parents
+SF293	guy richie	per:parents
+SF293	madonna	per:parents
+SF293	guy ritchie	per:parents
+SF293	madonna	per:parents
+SF293	madonna	per:parents
+SF293	madonna	per:parents
+SF293	lourdes	per:siblings
+SF293	rocco	per:siblings
+SF293	rocco	per:siblings
+SF293	rocco	per:siblings
+SF293	rocco	per:siblings
+SF293	lourdes	per:siblings
+SF293	lourdes	per:siblings
+SF294	47	per:age
+SF294	k8	per:alternate_names
+SF294	tlc	per:employee_of
+SF294	tlc	per:employee_of
+SF294	jon gosselin	per:spouse
+SF294	pennsylvania	per:stateorprovinces_of_residence
+SF295	48	per:age
+SF295	48	per:age
+SF295	49	per:age
+SF295	47	per:age
+SF295	najaf	per:cities_of_residence
+SF295	najaf	per:city_of_birth
+SF295	najaf	per:city_of_birth
+SF295	iraq	per:country_of_birth
+SF295	iraq	per:country_of_birth
+SF295	1958	per:date_of_birth
+SF295	iran	per:employee_of
+SF295	iran	per:employee_of
+SF295	iran	per:employee_of
+SF295	iran	per:employee_of
+SF295	islamic consultative assembly	per:employee_of
+SF295	supreme council for national security	per:member_of
+SF295	society of islamic coalition	per:member_of
+SF295	supreme national security council	per:member_of
+SF295	supreme national security council	per:member_of
+SF295	supreme national security council	per:member_of
+SF295	supreme national security council	per:member_of
+SF295	supreme national security council	per:member_of
+SF295	supreme national security council	per:member_of
+SF295	iranian	per:origin
+SF295	iranian	per:origin
+SF295	iranian	per:origin
+SF295	iranian	per:origin
+SF295	iranian	per:origin
+SF295	ayatollah morteza motahari	per:other_family
+SF295	sharif university	per:schools_attended
+SF295	tehran university	per:schools_attended
+SF295	sharif university	per:schools_attended
+SF295	sadegh larijani	per:siblings
+SF295	mohammad javad	per:siblings
+SF295	sadegh larijani	per:siblings
+SF295	mohammad javad	per:siblings
+SF295	sadegh larijani	per:siblings
+SF295	mohammed j.a. larijani	per:siblings
+SF295	mohammed hashemi	per:siblings
+SF295	negotiator	per:title
+SF295	negotiator	per:title
+SF295	security chief	per:title
+SF295	lead nuclear negotiator	per:title
+SF295	top nuclear negotiator	per:title
+SF295	chief nuclear negotiator	per:title
+SF295	speaker	per:title
+SF295	speaker	per:title
+SF295	parliament speaker	per:title
+SF295	negotiator	per:title
+SF295	negotiator	per:title
+SF295	commander	per:title
+SF295	culture minister	per:title
+SF295	politician	per:title
+SF295	director	per:title
+SF295	secretary	per:title
+SF295	secretary	per:title
+SF295	chief nuclear negotiator	per:title
+SF295	speaker	per:title
+SF295	speaker	per:title
+SF296	88	per:age
+SF296	robert m. morgenthau	per:alternate_names
+SF296	robert m. morgenthau	per:alternate_names
+SF296	bob morgenthau	per:alternate_names
+SF296	robert m. morgenthau	per:alternate_names
+SF296	robert m. morgenthau	per:alternate_names
+SF296	josh	per:children
+SF296	manhattan	per:employee_of
+SF296	navy	per:member_of
+SF296	henry morgenthau	per:other_family
+SF296	paul grand	per:other_family
+SF296	lucinda franks	per:spouse
+SF296	prosecutor	per:title
+SF296	manhattan district attorney	per:title
+SF296	district attorney	per:title
+SF296	manhattan district attorney	per:title
+SF296	new york district attorney	per:title
+SF296	district attorney	per:title
+SF296	district attorney	per:title
+SF296	manhattan district attorney	per:title
+SF296	district attorney	per:title
+SF296	district attorney	per:title
+SF297	atlanta	per:cities_of_residence
+SF297	atlanta	per:cities_of_residence
+SF297	los angeles	per:cities_of_residence
+SF297	tifton	per:cities_of_residence
+SF297	atlanta	per:cities_of_residence
+SF297	atlanta	per:cities_of_residence
+SF297	los angeles	per:cities_of_residence
+SF297	perth	per:cities_of_residence
+SF297	perth	per:cities_of_residence
+SF297	los angeles	per:cities_of_residence
+SF297	buckhead	per:cities_of_residence
+SF297	perth	per:cities_of_residence
+SF297	australia	per:countries_of_residence
+SF297	u.s.	per:countries_of_residence
+SF297	united states	per:countries_of_residence
+SF297	cj	per:employee_of
+SF297	maverick records	per:employee_of
+SF297	tin roof cantina	per:employee_of
+SF297	the rising	per:member_of
+SF297	abraham baldwin agriculture college	per:schools_attended
+SF297	ga	per:stateorprovinces_of_residence
+SF298	59	per:age
+SF298	60	per:age
+SF298	carolyn b. maloney	per:alternate_names
+SF298	manhattan	per:cities_of_residence
+SF298	us	per:countries_of_residence
+SF298	united states	per:countries_of_residence
+SF298	us	per:employee_of
+SF298	united states	per:employee_of
+SF298	us congress	per:member_of
+SF298	democratic party	per:member_of
+SF298	house	per:member_of
+SF298	house financial services committee	per:member_of
+SF298	congress	per:member_of
+SF298	congress	per:member_of
+SF298	house financial services committee	per:member_of
+SF298	house financial services committee	per:member_of
+SF298	house of representatives	per:member_of
+SF298	house financial institutions subcommittee	per:member_of
+SF298	joint economic committee	per:member_of
+SF298	joint economic committee	per:member_of
+SF298	democrat party	per:member_of
+SF298	u.s. house	per:member_of
+SF298	american	per:origin
+SF298	american	per:origin
+SF298	new york	per:stateorprovinces_of_residence
+SF298	new york	per:stateorprovinces_of_residence
+SF298	n.y.	per:stateorprovinces_of_residence
+SF298	new york	per:stateorprovinces_of_residence
+SF298	new york	per:stateorprovinces_of_residence
+SF298	ny	per:stateorprovinces_of_residence
+SF298	representative	per:title
+SF298	congresswoman	per:title
+SF298	lawmaker	per:title
+SF298	lawmaker	per:title
+SF298	lawmaker	per:title
+SF298	chairwoman	per:title
+SF298	representative	per:title
+SF298	reps.	per:title
+SF298	vice chair	per:title
+SF298	reps.	per:title
+SF298	chairwoman	per:title
+SF298	vice chairman	per:title
+SF298	representative	per:title
+SF298	author	per:title
+SF298	rep	per:title
+SF298	rep.	per:title
+SF298	congresswoman	per:title
+SF298	representative	per:title
+SF298	congresswoman	per:title
+SF298	representative	per:title
+SF299	andrew	per:spouse
+SF299	new york	per:stateorprovinces_of_residence
+SF299	blogger	per:title
+SF299	activist	per:title
+SF299	blogger	per:title
+SF299	activist	per:title
+SF299	blogger	per:title
+SF299	activist	per:title
+SF299	lgbt activist	per:title
+SF299	author	per:title

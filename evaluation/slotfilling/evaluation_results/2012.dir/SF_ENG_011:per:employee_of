@@ -1,0 +1,9 @@
+5	SF_ENG_011:per:employee_of	NYT_ENG_20071030.0031.LDC2009T13	-1	0	New York Times	0	1353:1366	-1	1250:1384
+6	SF_ENG_011:per:employee_of	NYT_ENG_20071030.0031.LDC2009T13	-1	0	The New York Times	0	1349:1366	-1	1250:1384
+9	SF_ENG_011:per:employee_of	NYT_ENG_20071030.0031.LDC2009T13	1	1	U.S. Circuit Court of Appeals	0	4204:4232	1	4060:4232
+8	SF_ENG_011:per:employee_of	NYT_ENG_20080101.0037.LDC2009T13	1	2	Connecticut	0	4419:4429	1	4331:4429
+1	SF_ENG_011:per:employee_of	NYT_ENG_20100419.0015	1	2	Connecticut	0	6172:6182	-1	6172:6372
+7	SF_ENG_011:per:employee_of	NYT_ENG_20100419.0015	-1	0	Department of Environmental Protection	0	2125:2162	-1	2025:2255
+2	SF_ENG_011:per:employee_of	NYT_ENG_20101008.0134	-1	0	New York University	0	5036:5054	-1	5000:5130
+3	SF_ENG_011:per:employee_of	WPB_ENG_20100614.0052	-1	0	Capitol Hill	0	55:67	-1	47:67
+4	SF_ENG_011:per:employee_of	WPB_ENG_20100614.0052	-1	0	Heritage Foundation	0	61:80	-1	47:80

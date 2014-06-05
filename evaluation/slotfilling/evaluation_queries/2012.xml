@@ -1,0 +1,676 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<kbpslotfill>
+  <query id="SF_ENG_001">
+    <name>Juanita Millender-McDonald</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>3998</beg>
+    <end>4023</end>
+    <enttype>PER</enttype>
+    <nodeid>E0046379</nodeid>
+    <ignore>per:date_of_birth per:city_of_birth per:date_of_death per:city_of_death per:religion per:stateorprovince_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_002">
+    <name>Paul Gillmor</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4081</beg>
+    <end>4092</end>
+    <enttype>PER</enttype>
+    <nodeid>E0526932</nodeid>
+    <ignore>per:date_of_birth per:city_of_birth per:date_of_death per:city_of_death per:religion per:stateorprovince_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_003">
+    <name>Jo Ann Davis</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4150</beg>
+    <end>4161</end>
+    <enttype>PER</enttype>
+    <nodeid>E0471829</nodeid>
+    <ignore>per:date_of_birth per:date_of_death per:city_of_birth per:city_of_death per:religion per:stateorprovince_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_004">
+    <name>Pascal Yoadimnadji</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>6105</beg>
+    <end>6122</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL597</nodeid>
+  </query>
+  <query id="SF_ENG_005">
+    <name>Bradford Washburn</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>1152</beg>
+    <end>1168</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL598</nodeid>
+  </query>
+  <query id="SF_ENG_006">
+    <name>Pamela Ahearn</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>3674</beg>
+    <end>3686</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL599</nodeid>
+  </query>
+  <query id="SF_ENG_007">
+    <name>Theodor Kollek</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>5877</beg>
+    <end>5890</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL600</nodeid>
+  </query>
+  <query id="SF_ENG_008">
+    <name>Beverly Sills</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>1985</beg>
+    <end>1997</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL601</nodeid>
+  </query>
+  <query id="SF_ENG_009">
+    <name>Gilbert Gude</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>3896</beg>
+    <end>3907</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL602</nodeid>
+  </query>
+  <query id="SF_ENG_010">
+    <name>Andre Carson</name>
+    <docid>APW_ENG_20080503.0509.LDC2009T13</docid>
+    <beg>2388</beg>
+    <end>2399</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL603</nodeid>
+  </query>
+  <query id="SF_ENG_011">
+    <name>Thomas Meskill</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4403</beg>
+    <end>4416</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL604</nodeid>
+  </query>
+  <query id="SF_ENG_012">
+    <name>Joseph Farland</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4541</beg>
+    <end>4554</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL605</nodeid>
+  </query>
+  <query id="SF_ENG_013">
+    <name>Carolyn Goodman</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4883</beg>
+    <end>4897</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL606</nodeid>
+  </query>
+  <query id="SF_ENG_014">
+    <name>Irene Kirkaldy</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4926</beg>
+    <end>4939</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL607</nodeid>
+  </query>
+  <query id="SF_ENG_015">
+    <name>Randall Forsberg</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4958</beg>
+    <end>4973</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL608</nodeid>
+  </query>
+  <query id="SF_ENG_016">
+    <name>Lorraine Rothman</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>5022</beg>
+    <end>5037</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL609</nodeid>
+  </query>
+  <query id="SF_ENG_017">
+    <name>Mary Crisp</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>5043</beg>
+    <end>5052</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL610</nodeid>
+  </query>
+  <query id="SF_ENG_018">
+    <name>Vernon Bellecourt</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>5071</beg>
+    <end>5087</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL611</nodeid>
+  </query>
+  <query id="SF_ENG_019">
+    <name>Richmond Flowers</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>5104</beg>
+    <end>5119</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL612</nodeid>
+  </query>
+  <query id="SF_ENG_020">
+    <name>Harry Dent</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>5259</beg>
+    <end>5268</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL613</nodeid>
+  </query>
+  <query id="SF_ENG_021">
+    <name>William Verity</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>3637</beg>
+    <end>3650</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL614</nodeid>
+  </query>
+  <query id="SF_ENG_022">
+    <name>Cathleen P. Black</name>
+    <docid>NYT_ENG_20070108.0073.LDC2009T13</docid>
+    <beg>424</beg>
+    <end>440</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL615</nodeid>
+  </query>
+  <query id="SF_ENG_023">
+    <name>Jane Bolin</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4479</beg>
+    <end>4488</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL616</nodeid>
+  </query>
+  <query id="SF_ENG_024">
+    <name>John Henebry</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4714</beg>
+    <end>4725</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL617</nodeid>
+  </query>
+  <query id="SF_ENG_025">
+    <name>Catherine Roraback</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>5122</beg>
+    <end>5139</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL618</nodeid>
+  </query>
+  <query id="SF_ENG_026">
+    <name>Art Buchwald</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>1542</beg>
+    <end>1553</end>
+    <enttype>PER</enttype>
+    <nodeid>E0588970</nodeid>
+    <ignore>per:date_of_birth per:city_of_birth per:date_of_death per:country_of_death per:religion per:age</ignore>
+  </query>
+  <query id="SF_ENG_027">
+    <name>Oscar Peterson</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>2330</beg>
+    <end>2343</end>
+    <enttype>PER</enttype>
+    <nodeid>E0142227</nodeid>
+    <ignore>per:city_of_death per:date_of_birth per:date_of_death per:age per:stateorprovince_of_death per:country_of_death</ignore>
+  </query>
+  <query id="SF_ENG_028">
+    <name>Michael Deaver</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>3556</beg>
+    <end>3569</end>
+    <enttype>PER</enttype>
+    <nodeid>NIL619</nodeid>
+  </query>
+  <query id="SF_ENG_029">
+    <name>Parren Mitchell</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>3876</beg>
+    <end>3890</end>
+    <enttype>PER</enttype>
+    <nodeid>E0413516</nodeid>
+    <ignore>per:city_of_birth per:city_of_death per:religion per:stateorprovince_of_birth per:stateorprovince_of_death</ignore>
+  </query>
+  <query id="SF_ENG_030">
+    <name>Augustus Hawkins</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>3977</beg>
+    <end>3992</end>
+    <enttype>PER</enttype>
+    <nodeid>E0274482</nodeid>
+    <ignore>per:date_of_birth per:city_of_birth per:date_of_death per:city_of_death per:stateorprovince_of_birth per:country_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_031">
+    <name>Jennifer Dunn</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4229</beg>
+    <end>4241</end>
+    <enttype>PER</enttype>
+    <nodeid>E0510379</nodeid>
+    <ignore>per:date_of_birth per:city_of_birth per:date_of_death per:city_of_death per:stateorprovince_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_032">
+    <name>Robert McNair</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4348</beg>
+    <end>4360</end>
+    <enttype>PER</enttype>
+    <nodeid>E0423117</nodeid>
+    <ignore>per:date_of_birth per:city_of_birth per:date_of_death per:city_of_death per:stateorprovince_of_birth per:stateorprovince_of_death</ignore>
+  </query>
+  <query id="SF_ENG_033">
+    <name>Richard Nolte</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4557</beg>
+    <end>4569</end>
+    <enttype>PER</enttype>
+    <nodeid>E0524234</nodeid>
+    <ignore>per:city_of_birth per:stateorprovince_of_birth</ignore>
+  </query>
+  <query id="SF_ENG_034">
+    <name>Philip Kaiser</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4576</beg>
+    <end>4588</end>
+    <enttype>PER</enttype>
+    <nodeid>E0218148</nodeid>
+    <ignore>per:city_of_birth per:date_of_death per:country_of_death per:stateorprovince_of_birth per:country_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_035">
+    <name>Silvestre Herrera</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4728</beg>
+    <end>4744</end>
+    <enttype>PER</enttype>
+    <nodeid>E0704681</nodeid>
+    <ignore>per:date_of_birth per:date_of_death per:city_of_birth per:city_of_death per:stateorprovince_of_birth per:country_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_036">
+    <name>Jefferson DeBlanc</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4747</beg>
+    <end>4763</end>
+    <enttype>PER</enttype>
+    <nodeid>E0576612</nodeid>
+    <ignore>per:date_of_birth per:date_of_death per:city_of_birth per:city_of_death per:stateorprovince_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_037">
+    <name>Yolanda King</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4869</beg>
+    <end>4880</end>
+    <enttype>PER</enttype>
+    <nodeid>E0222151</nodeid>
+    <ignore>per:city_of_birth per:date_of_death per:stateorprovince_of_birth per:city_of_death per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_038">
+    <name>Steven Derounian</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>3948</beg>
+    <end>3963</end>
+    <enttype>PER</enttype>
+    <nodeid>E0349829</nodeid>
+    <ignore>per:date_of_birth per:city_of_birth per:date_of_death per:city_of_death per:country_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_039">
+    <name>William Anderson</name>
+    <docid>NYT_ENG_20080101.0037.LDC2009T13</docid>
+    <beg>4120</beg>
+    <end>4135</end>
+    <enttype>PER</enttype>
+    <nodeid>E0469610</nodeid>
+    <ignore>per:date_of_birth per:city_of_birth per:date_of_death per:city_of_death per:stateorprovince_of_birth per:stateorprovince_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_040">
+    <name>Kurt Waldheim</name>
+    <docid>APW_ENG_20070614.0837.LDC2009T13</docid>
+    <beg>282</beg>
+    <end>294</end>
+    <enttype>PER</enttype>
+    <nodeid>E0823544</nodeid>
+    <ignore>per:date_of_birth per:date_of_death per:city_of_death per:religion per:country_of_birth per:country_of_death per:age</ignore>
+  </query>
+  <query id="SF_ENG_041">
+    <name>Carnival Cruise Lines</name>
+    <docid>LTW_ENG_20070505.0016.LDC2009T13</docid>
+    <beg>276</beg>
+    <end>296</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0625268</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters org:website org:stateorprovince_of_headquarters org:country_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_042">
+    <name>Norwegian University of Science and Technology</name>
+    <docid>APW_ENG_20080409.1047.LDC2009T13</docid>
+    <beg>2107</beg>
+    <end>2152</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0774827</nodeid>
+    <ignore>org:date_founded org:number_of_employees_members org:city_of_headquarters org:country_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF_ENG_043">
+    <name>Aerolineas Argentinas</name>
+    <docid>APW_ENG_20081217.1101.LDC2009T13</docid>
+    <beg>280</beg>
+    <end>300</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0308315</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters org:website org:country_of_headquarters org:stateorprovince_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_044">
+    <name>American Motorcyclists Association</name>
+    <docid>APW_ENG_20071010.1559.LDC2009T13</docid>
+    <beg>1382</beg>
+    <end>1415</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0814140</nodeid>
+    <ignore>org:country_of_headquarters org:date_founded org:city_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF_ENG_045">
+    <name>New York Immigration Coalition</name>
+    <docid>NYT_ENG_20070430.0100.LDC2009T13</docid>
+    <beg>2951</beg>
+    <end>2980</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL620</nodeid>
+  </query>
+  <query id="SF_ENG_046">
+    <name>Safe Passage</name>
+    <docid>eng-NG-31-143081-10143625</docid>
+    <beg>510</beg>
+    <end>521</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL621</nodeid>
+  </query>
+  <query id="SF_ENG_047">
+    <name>MTC Technologies</name>
+    <docid>APW_ENG_20080221.0685.LDC2009T13</docid>
+    <beg>995</beg>
+    <end>1010</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL622</nodeid>
+  </query>
+  <query id="SF_ENG_048">
+    <name>International Crisis Group</name>
+    <docid>LTW_ENG_20080316.0050.LDC2009T13</docid>
+    <beg>270</beg>
+    <end>295</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL623</nodeid>
+  </query>
+  <query id="SF_ENG_049">
+    <name>Daily News</name>
+    <docid>NYT_ENG_20080501.0111.LDC2009T13</docid>
+    <beg>6719</beg>
+    <end>6728</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL624</nodeid>
+  </query>
+  <query id="SF_ENG_050">
+    <name>American Beverage Association</name>
+    <docid>NYT_ENG_20071201.0070.LDC2009T13</docid>
+    <beg>2009</beg>
+    <end>2037</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL625</nodeid>
+  </query>
+  <query id="SF_ENG_051">
+    <name>American Bankers Association</name>
+    <docid>LTW_ENG_20070905.0100.LDC2009T13</docid>
+    <beg>247</beg>
+    <end>274</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL626</nodeid>
+  </query>
+  <query id="SF_ENG_052">
+    <name>American Psychiatric Association</name>
+    <docid>AFP_ENG_20080505.0006.LDC2009T13</docid>
+    <beg>2077</beg>
+    <end>2108</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL627</nodeid>
+  </query>
+  <query id="SF_ENG_053">
+    <name>Country Music Association</name>
+    <docid>APW_ENG_20080508.0842.LDC2009T13</docid>
+    <beg>1059</beg>
+    <end>1083</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL628</nodeid>
+  </query>
+  <query id="SF_ENG_054">
+    <name>Central American Parliament</name>
+    <docid>APW_ENG_20070222.0867.LDC2009T13</docid>
+    <beg>257</beg>
+    <end>283</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL629</nodeid>
+  </query>
+  <query id="SF_ENG_055">
+    <name>Blackburn Rovers</name>
+    <docid>XIN_ENG_20071020.0209.LDC2009T13</docid>
+    <beg>548</beg>
+    <end>563</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL630</nodeid>
+  </query>
+  <query id="SF_ENG_056">
+    <name>Justice and Equality Movement</name>
+    <docid>APW_ENG_20071211.0457.LDC2009T13</docid>
+    <beg>244</beg>
+    <end>272</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL631</nodeid>
+  </query>
+  <query id="SF_ENG_057">
+    <name>American Automobile Association</name>
+    <docid>AFP_ENG_20080710.0146.LDC2009T13</docid>
+    <beg>783</beg>
+    <end>813</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL632</nodeid>
+  </query>
+  <query id="SF_ENG_058">
+    <name>American Bar Association</name>
+    <docid>APW_ENG_20080812.1070.LDC2009T13</docid>
+    <beg>740</beg>
+    <end>763</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL633</nodeid>
+  </query>
+  <query id="SF_ENG_059">
+    <name>Lashkar-e-Taiba</name>
+    <docid>AFP_ENG_20081203.0709.LDC2009T13</docid>
+    <beg>324</beg>
+    <end>338</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL634</nodeid>
+  </query>
+  <query id="SF_ENG_060">
+    <name>Focus On The Family</name>
+    <docid>eng-WL-11-174611-12971862</docid>
+    <beg>436</beg>
+    <end>454</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL635</nodeid>
+  </query>
+  <query id="SF_ENG_061">
+    <name>Jamaat-al-Muslimeen</name>
+    <docid>AFP_ENG_20060505.0494.LDC2007T07</docid>
+    <beg>258</beg>
+    <end>276</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL636</nodeid>
+  </query>
+  <query id="SF_ENG_062">
+    <name>Asian Development Bank</name>
+    <docid>AFP_ENG_20080520.0561.LDC2009T13</docid>
+    <beg>258</beg>
+    <end>279</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL637</nodeid>
+  </query>
+  <query id="SF_ENG_063">
+    <name>Patterson-UTI Drilling Co.</name>
+    <docid>LTW_ENG_20080815.0031.LDC2009T13</docid>
+    <beg>1594</beg>
+    <end>1619</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL638</nodeid>
+  </query>
+  <query id="SF_ENG_064">
+    <name>Capitalia Spa</name>
+    <docid>APW_ENG_20070520.0508.LDC2009T13</docid>
+    <beg>302</beg>
+    <end>314</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL639</nodeid>
+  </query>
+  <query id="SF_ENG_065">
+    <name>Mainland Affairs Council</name>
+    <docid>CNA_ENG_20070104.0041.LDC2009T13</docid>
+    <beg>361</beg>
+    <end>384</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL640</nodeid>
+  </query>
+  <query id="SF_ENG_066">
+    <name>United National Congress</name>
+    <docid>APW_ENG_20080330.0021.LDC2009T13</docid>
+    <beg>1613</beg>
+    <end>1636</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL641</nodeid>
+  </query>
+  <query id="SF_ENG_067">
+    <name>Alcatel-Lucent</name>
+    <docid>APW_ENG_20080729.0180.LDC2009T13</docid>
+    <beg>197</beg>
+    <end>210</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0483449</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters org:number_of_employees_members org:website org:country_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_068">
+    <name>USA Network</name>
+    <docid>LTW_ENG_20070530.0106.LDC2009T13</docid>
+    <beg>207</beg>
+    <end>217</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0560217</nodeid>
+    <ignore>org:city_of_headquarters org:date_founded org:website org:country_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_069">
+    <name>Zondervan Publishing, Inc.</name>
+    <docid>eng-WL-11-174611-12973701</docid>
+    <beg>1649</beg>
+    <end>1674</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0471866</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters org:website org:city_of_headquarters org:stateorprovince_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_070">
+    <name>American Basketball Association</name>
+    <docid>eng-NG-31-140118-9862095</docid>
+    <beg>1950</beg>
+    <end>1980</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0036356</nodeid>
+    <ignore>org:country_of_headquarters org:date_founded</ignore>
+  </query>
+  <query id="SF_ENG_071">
+    <name>American Psychological Association</name>
+    <docid>AFP_ENG_20081110.0029.LDC2009T13</docid>
+    <beg>803</beg>
+    <end>836</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0745483</nodeid>
+    <ignore>org:stateorprovince_of_headquarters org:number_of_employees_members org:date_founded org:website org:country_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_072">
+    <name>Arsenal Football Club</name>
+    <docid>eng-NG-31-102582-11887211</docid>
+    <beg>341</beg>
+    <end>361</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0151346</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_073">
+    <name>Carnival Corp.</name>
+    <docid>APW_ENG_20070416.0912.LDC2009T13</docid>
+    <beg>296</beg>
+    <end>309</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0366320</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF_ENG_074">
+    <name>Oxford University Press</name>
+    <docid>NYT_ENG_20070808.0114.LDC2009T13</docid>
+    <beg>959</beg>
+    <end>981</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0611859</nodeid>
+    <ignore>org:city_of_headquarters org:country_of_headquarters org:website org:city_of_headquarters org:country_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_075">
+    <name>ConAgra Foods</name>
+    <docid>eng-NG-31-147068-10465992</docid>
+    <beg>542</beg>
+    <end>554</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0626437</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters org:number_of_employees_members org:website org:stateorprovince_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_076">
+    <name>The Starr Foundation</name>
+    <docid>LTW_ENG_20070330.0139.LDC2009T13</docid>
+    <beg>1857</beg>
+    <end>1876</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0386834</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters org:website org:stateorprovince_of_headquarters org:country_of_headquarters</ignore>
+  </query>
+  <query id="SF_ENG_077">
+    <name>Awami National Party</name>
+    <docid>XIN_ENG_20080209.0095.LDC2009T13</docid>
+    <beg>325</beg>
+    <end>344</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0020978</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF_ENG_078">
+    <name>Awami League</name>
+    <docid>XIN_ENG_20070111.0191.LDC2009T13</docid>
+    <beg>443</beg>
+    <end>454</end>
+    <enttype>ORG</enttype>
+    <nodeid>E0083980</nodeid>
+    <ignore>org:date_founded org:city_of_headquarters org:website</ignore>
+  </query>
+  <query id="SF_ENG_079">
+    <name>Scorpions</name>
+    <docid>APW_ENG_20080730.0768.LDC2009T13</docid>
+    <beg>571</beg>
+    <end>579</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL642</nodeid>
+  </query>
+  <query id="SF_ENG_080">
+    <name>Barnes Foundation</name>
+    <docid>APW_ENG_20081211.0018.LDC2009T13</docid>
+    <beg>2717</beg>
+    <end>2733</end>
+    <enttype>ORG</enttype>
+    <nodeid>NIL643</nodeid>
+  </query>
+</kbpslotfill>

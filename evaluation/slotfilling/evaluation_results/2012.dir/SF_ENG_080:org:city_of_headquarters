@@ -1,0 +1,11 @@
+10	SF_ENG_080:org:city_of_headquarters	APW_ENG_20070605.1456.LDC2009T13	-1	0	Lower Merion	0	1543:1554	-1	1262:1554
+1	SF_ENG_080:org:city_of_headquarters	APW_ENG_20080211.1287.LDC2009T13	1	1	Philadelphia	0	5716:5728	3	5505:5729
+4	SF_ENG_080:org:city_of_headquarters	NYT_ENG_20070909.0166.LDC2009T13	-1	0	Philadelphia	0	414:426	-1	37:427
+11	SF_ENG_080:org:city_of_headquarters	NYT_ENG_20070922.0023.LDC2009T13	1	2	Merion	0	591:596	1	572:596
+7	SF_ENG_080:org:city_of_headquarters	NYT_ENG_20071005.0123.LDC2009T13	1	1	Philadelphia	0	886:897	3	796:898
+6	SF_ENG_080:org:city_of_headquarters	NYT_ENG_20080418.0123.LDC2009T13	-1	0	West	0	7400:7403	-1	7368:7404
+8	SF_ENG_080:org:city_of_headquarters	NYT_ENG_20100311.0153	-1	0	Philadelphia	0	505:516	-1	332:576
+9	SF_ENG_080:org:city_of_headquarters	WPB_ENG_20100325.0045	1	2	Merion	0	234:240	3	98:324
+2	SF_ENG_080:org:city_of_headquarters	WPB_ENG_20100325.0045	1	2	Merion	0	235:241	3	28:246
+3	SF_ENG_080:org:city_of_headquarters	WPB_ENG_20100402.0041	-1	0	Argott	0	2746:2752	-1	2638:2775
+5	SF_ENG_080:org:city_of_headquarters	WPB_ENG_20100402.0041	-1	0	Philadelphia	0	1444:1455	-1	1329:1546
