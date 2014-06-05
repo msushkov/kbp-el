@@ -1,18 +1,17 @@
 #! /usr/bin/env python2.7
 
 import fileinput
-import json
+import string
 
-for line in fileinput.input():
-	row = json.loads(line.decode("latin-1").encode("utf-8"))
-	
-	mid = row['mention.id']
-	text = row['mention.text']
+# the delimiter used to separate columns in the input
+ARR_DELIM = '~^~'
 
-	# get the alphanumeric chars
-	an = [c for c in text if c.isalnum()]
+for row in sys.stdin:
+  # row is a string where the columns are separated by tabs
+  (mid, text) = row.strip().split('\t')
 
-	print json.dumps({
-		"mention_id" : int(mid),
-		"value" : "".join(an)
-	})
+  # get the alphanumeric chars
+  an = [c for c in text if c.isalnum()]
+  feature = "".join(an)
+
+  print "\t".join([mid, feature])

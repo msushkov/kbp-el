@@ -1,17 +1,15 @@
 #! /usr/bin/env python2.7
 
 import fileinput
-import json
+import string
 
-for line in fileinput.input():
-	row = json.loads(line.decode("latin-1").encode("utf-8"))
-	
-	mid = row['mention.id']
-	text = row['mention.text']
+# the delimiter used to separate columns in the input
+ARR_DELIM = '~^~'
 
-	# get all the unigrams
-	for w in text.split():
-		print json.dumps({
-			"mention_id" : int(mid),
-			"value" : w
-		})
+for row in sys.stdin:
+  # row is a string where the columns are separated by tabs
+  (mid, text) = row.strip().split('\t')
+
+  # get all the unigrams
+  for w in text.split():
+  	print "\t".join([mid, w])
