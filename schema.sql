@@ -4,7 +4,7 @@
 --
 
 --
--- Functions
+-- FUNCTIONS
 --
 
 -- replacement for PSQL's buggy array_agg()
@@ -24,7 +24,7 @@ $$
 $$ LANGUAGE sql;
 
 --
--- Tables
+-- TABLES
 --
 
 -- entity mentions
@@ -64,4 +64,70 @@ CREATE TABLE relation_mention_features (
 	type1 text,
 	type2 text,
 	feature text
+);
+
+
+----
+-- ENTITY MENTION FEATURES
+----
+
+-- text abbreviation (first letter of each word, but only if that letter is capitalized)
+DROP TABLE IF EXISTS mention_feature_text_abbreviation CASCADE;
+CREATE TABLE mention_feature_text_abbreviation (
+  mid text,
+  feature text
+);
+
+-- lowercase text
+DROP TABLE IF EXISTS mention_feature_text_lc CASCADE;
+CREATE TABLE mention_feature_text_lc (
+  mid text,
+  feature text
+);
+
+-- the alphanumeric text
+DROP TABLE IF EXISTS mention_feature_text_alphanumeric CASCADE;
+CREATE TABLE mention_feature_text_alphanumeric (
+  mid text,
+  feature text
+);
+
+-- the lowercase alphanumeric text
+DROP TABLE IF EXISTS mention_feature_text_alphanumeric_lc CASCADE;
+CREATE TABLE mention_feature_text_alphanumeric_lc (
+  mid text,
+  feature text
+);
+
+-- unigrams of the mention text
+DROP TABLE IF EXISTS mention_feature_text_ngram1 CASCADE;
+CREATE TABLE mention_feature_text_ngram1 (
+  mid text,
+  feature text
+);
+
+-- number of words in mention text
+DROP TABLE IF EXISTS mention_feature_text_num_words CASCADE;
+CREATE TABLE mention_feature_text_num_words (
+  mid text,
+  feature text
+);
+
+----
+-- ENTITY LINKING
+----
+
+-- (entity, mention) pairs that could potentially be linked
+DROP TABLE IF EXISTS el_candidate_link CASCADE;
+CREATE TABLE el_candidate_link (
+  eid text,
+  mid text,
+  is_correct boolean
+);
+
+DROP TABLE IF EXISTS el_candidate_link_2 CASCADE;
+CREATE TABLE el_candidate_link_2 (
+  eid text,
+  mid text,
+  is_correct boolean
 );
