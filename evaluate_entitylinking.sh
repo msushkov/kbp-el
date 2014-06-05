@@ -6,17 +6,17 @@ psql -p $PGPORT -h $PGHOST $DBNAME -c "DROP TABLE IF EXISTS best_result;"
 psql -p $PGPORT -h $PGHOST $DBNAME -c """
 	CREATE TABLE result AS (
 		SELECT eval_query.query_id AS query_id,
-		       e.freebase_id AS freebase_id,
+		       e.fid AS freebase_id,
 		       link.expectation AS probability
 	    FROM el_candidate_link_is_correct_inference AS link,
-	         canonical_entity AS e,
-	         entity_mention AS m,
+	         entities AS e,
+	         mentions AS m,
 	         el_kbp_eval_query AS eval_query
-	    WHERE link.entity_id = e.id AND
-	          link.mention_id = m.id AND
+	    WHERE link.entity_id = e.fid AND
+	          link.mention_id = m.mention_id AND
 	          m.query_id = eval_query.query_id AND
-	          trim(eval_query.doc_id) = trim(replace(replace(m.doc_id, 'DOC_', ''), '.sgm', '')) AND
-	          trim(lower(eval_query.text)) = trim(lower(m.text))
+	          eval_query.doc_id = m.doc_id AND
+	          eval_query.text = m.word
 );"""
 
 psql -p $PGPORT -h $PGHOST $DBNAME -c """

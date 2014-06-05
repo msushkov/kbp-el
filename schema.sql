@@ -36,7 +36,7 @@ CREATE TABLE mentions (
 	word text,
 	type text,
 	start_pos int,
-	end_pos int -- need to quote end, otherwise syntax error
+	end_pos int
 );
 
 -- relation mentions
@@ -120,14 +120,16 @@ CREATE TABLE mention_feature_text_num_words (
 -- (entity, mention) pairs that could potentially be linked
 DROP TABLE IF EXISTS el_candidate_link CASCADE;
 CREATE TABLE el_candidate_link (
-  eid text,
-  mid text,
-  is_correct boolean
+  entity_id text,
+  mention_id text,
+  is_correct boolean,
+  id bigint
 );
 
 DROP TABLE IF EXISTS el_candidate_link_2 CASCADE;
 CREATE TABLE el_candidate_link_2 (
-  eid text,
-  mid text,
-  is_correct boolean
+  entity_id text,
+  mention_id text,
+  is_correct boolean,
+  id bigint
 );
