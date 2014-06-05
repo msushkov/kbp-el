@@ -25,13 +25,13 @@ cd $APP_HOME
 # restore the database from the dump
 echo "Restoring DB from dump..."
 date
-psql -p $PGPORT -h $PGHOST $DBNAME < $DB_DUMP_FILE_UNCOMPRESSED
+psql $DBNAME < $DB_DUMP_FILE_UNCOMPRESSED
 
 # additional tables
-psql -p $PGPORT -h $PGHOST $DBNAME < schema.sql
+psql $DBNAME < schema.sql
 
 # ground truth for error analysis
-psql -p $PGPORT -h $PGHOST $DBNAME < $APP_HOME/data/ea.sql
+psql $DBNAME < $APP_HOME/data/ea.sql
 
 
 cd $APP_HOME/data
@@ -43,8 +43,13 @@ fi
 
 # load the entity linking tables into the DB
 for file in `find $ENTITY_TABLES_DIR -name "*.sql"`; do 
-  psql -p $PGPORT -h $PGHOST $DBNAME < $file
+  psql $DBNAME < $file
 done
+
+# insert NIL entity into entities table (need this for entity linking)
+psql $DBNAME -c """
+	INSERT INTO entities VALUES ('NIL0000', 'NIL0000', 'NIL0000');
+"""
 
 cd $APP_HOME
 
