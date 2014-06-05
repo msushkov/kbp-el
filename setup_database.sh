@@ -42,7 +42,7 @@ if [ ! -d "$ENTITY_LINKING_TABLES_DIR" ]; then
 fi
 
 # load the entity linking tables into the DB
-for file in `find $ENTITY_TABLES_DIR -name "*.sql"`; do 
+for file in `find $ENTITY_LINKING_TABLES_DIR -name "*.sql"`; do 
   psql $DBNAME < $file
 done
 

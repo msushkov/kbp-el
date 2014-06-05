@@ -1,6 +1,6 @@
 #! /bin/bash
 
-export DBNAME=deepdive_kbp_mikhail
+export DBNAME=deepdive_el_test1
 export PGUSER=msushkov
-export PGHOST=localhost
-export PGPORT=5432
+export PGHOST=madmax6
+export PGPORT=6432
