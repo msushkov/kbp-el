@@ -24,3 +24,7 @@ export DB_DUMP_FILE_2=$APP_HOME/data/deepdive_kbp.sql.tar.bz2.2
 # the combined DB dump file that will be used to recreate the DB
 export DB_DUMP_FILE_COMBINED=$APP_HOME/data/deepdive_kbp.sql.tar.bz2
 export DB_DUMP_FILE_UNCOMPRESSED=$APP_HOME/data/deepdive_kbp.sql
+
+# tables used in the entity linking step
+export ENTITY_LINKING_TABLES=$APP_HOME/data/entity_linking_tables.tar.gz
+export ENTITY_LINKING_TABLES_DIR=$APP_HOME/data/entity_linking_tables
