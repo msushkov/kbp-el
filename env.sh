@@ -32,3 +32,6 @@ export ENTITY_LINKING_TABLES_DIR=$APP_HOME/data/entity_linking_tables
 # Freebase
 export FREEBASE_ZIPPED=$APP_HOME/data/freebase.sql.bz2
 export FREEBASE=$APP_HOME/data/freebase.sql
+
+# Entity linking results output file
+export EL_RESULTS_FILE=$APP_HOME/evaluation/entity-linking/results/out.tsv

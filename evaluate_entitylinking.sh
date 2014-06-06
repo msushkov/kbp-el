@@ -14,7 +14,6 @@ psql -p $PGPORT -h $PGHOST $DBNAME -c """
 	         el_kbp_eval_query AS eval_query
 	    WHERE link.entity_id = e.fid AND
 	          link.mention_id = m.mention_id AND
-	          m.query_id = eval_query.query_id AND
 	          eval_query.doc_id = m.doc_id AND
 	          eval_query.text = m.word
 );"""
@@ -26,8 +25,11 @@ psql -p $PGPORT -h $PGHOST $DBNAME -c """
 		GROUP BY query_id
 );"""
 
-psql -p $PGPORT -h $PGHOST $DBNAME -c """
-	COPY (
+
+rm $EL_RESULTS_FILE
+touch $EL_RESULTS_FILE
+
+psql -p $PGPORT -h $PGHOST $DBNAME -c """\COPY (
 		SELECT DISTINCT ON (el_kbp_eval_query.query_id) el_kbp_eval_query.query_id,
 		       CASE WHEN eid_to_fid.entity_id IS NOT NULL THEN eid_to_fid.entity_id
 		            ELSE 'NIL'

@@ -74,6 +74,7 @@ CREATE TABLE relation_mention_features (
 -- number of words in mention text
 DROP TABLE IF EXISTS mention_feature_text_num_words CASCADE;
 CREATE TABLE mention_feature_text_num_words (
+  doc_id text,
   mid text,
   feature text
 );
