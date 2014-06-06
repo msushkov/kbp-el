@@ -67,9 +67,9 @@ CREATE TABLE relation_mention_features (
 );
 
 
-----
+--
 -- ENTITY MENTION FEATURES
-----
+--
 
 -- number of words in mention text
 DROP TABLE IF EXISTS mention_feature_text_num_words CASCADE;
@@ -78,23 +78,3 @@ CREATE TABLE mention_feature_text_num_words (
   feature text
 );
 
-----
--- ENTITY LINKING
-----
-
--- (entity, mention) pairs that could potentially be linked
-DROP TABLE IF EXISTS el_candidate_link CASCADE;
-CREATE TABLE el_candidate_link (
-  entity_id text,
-  mention_id text,
-  is_correct boolean,
-  id bigint
-);
-
-DROP TABLE IF EXISTS el_candidate_link_2 CASCADE;
-CREATE TABLE el_candidate_link_2 (
-  entity_id text,
-  mention_id text,
-  is_correct boolean,
-  id bigint
-);

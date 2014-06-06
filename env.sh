@@ -28,3 +28,7 @@ export DB_DUMP_FILE_UNCOMPRESSED=$APP_HOME/data/deepdive_kbp.sql
 # tables used in the entity linking step
 export ENTITY_LINKING_TABLES=$APP_HOME/data/entity_linking_tables.tar.gz
 export ENTITY_LINKING_TABLES_DIR=$APP_HOME/data/entity_linking_tables
+
+# Freebase
+export FREEBASE_ZIPPED=$APP_HOME/data/freebase.sql.bz2
+export FREEBASE=$APP_HOME/data/freebase.sql

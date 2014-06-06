@@ -51,5 +51,9 @@ psql $DBNAME -c """
 	INSERT INTO entities VALUES ('NIL0000', 'NIL0000', 'NIL0000');
 """
 
+# load Freebase into the DB
+bunzip2 $FREEBASE_ZIPPED
+psql $DBNAME < $FREEBASE
+
 cd $APP_HOME
 
