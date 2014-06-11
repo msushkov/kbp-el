@@ -1,6 +1,0 @@
-1	SF13_ENG_032:per:cause_of_death	AFP_ENG_20101010.0278	natural causes	454-467	384-397	384-512	C	C	C	C	4
-2	SF13_ENG_032:per:cause_of_death	AFP_ENG_20101010.0278	natural causes	454-467	384-397	384-513	C	C	C	C	4
-5	SF13_ENG_032:per:cause_of_death	AFP_ENG_20101010.0280	heart attack	323-335	197-211	197-335	X	X	S	C	3
-3	SF13_ENG_032:per:cause_of_death	AFP_ENG_20101019.0312	heart failure	595-608	583-617,390-546	582-630	C	X	C	C	2
-4	SF13_ENG_032:per:cause_of_death	APW_ENG_20101020.0103	heart failure	1363-1375	1347-1351	1347-1375	C	C	C	C	2
-6	SF13_ENG_032:per:cause_of_death	NYT_ENG_20101020.0144	heart failure	552-564	510-511,384-397	510-564	C	C	C	C	2

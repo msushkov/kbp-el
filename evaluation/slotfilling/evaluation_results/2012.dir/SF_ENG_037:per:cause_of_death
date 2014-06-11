@@ -1,6 +1,0 @@
-6	SF_ENG_037:per:cause_of_death	APW_ENG_20070524.1795.LDC2009T13	1	1	congestive heart failure	0	3105:3128	1	2982:3129
-4	SF_ENG_037:per:cause_of_death	APW_ENG_20070525.0017.LDC2009T13	1	1	congestive heart failure	0	3105:3128	1	2982:3128
-3	SF_ENG_037:per:cause_of_death	APW_ENG_20080119.0138.LDC2009T13	3	0	attack	0	1090:1095	1	1042:1095
-1	SF_ENG_037:per:cause_of_death	APW_ENG_20080119.0138.LDC2009T13	1	2	heart attack	0	1084:1096	1	1042:1097
-5	SF_ENG_037:per:cause_of_death	NYT_ENG_20070115.0100.LDC2009T13	-1	0	complications of cance	0	2576:2598	-1	2548:2612
-2	SF_ENG_037:per:cause_of_death	NYT_ENG_20070516.0032.LDC2009T13	-1	0	ovarian cancer	0	2591:2605	-1	2559:2661

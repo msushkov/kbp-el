@@ -1,5 +1,0 @@
-1	SF_ENG_031:per:cause_of_death	LTW_ENG_20070906.0121.LDC2009T13	1	1	pulmonary embolism	0	0:0	-1	0:0
-5	SF_ENG_031:per:cause_of_death	LTW_ENG_20070906.0121.LDC2009T13	1	1	pulmonary embolism	0	431:448	1	195:449
-2	SF_ENG_031:per:cause_of_death	NYT_ENG_20070906.0001.LDC2009T13	1	1	pulmonary embolism	0	1101:1118	1	1025:1118
-3	SF_ENG_031:per:cause_of_death	NYT_ENG_20090622.0038	-1	0	cancer	0	1063:1070	-1	1051:1109
-4	SF_ENG_031:per:cause_of_death	eng-NG-31-143611-10260561	-1	0	accident	0	198:206	-1	159:198

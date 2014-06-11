@@ -1,7 +1,0 @@
-1	SF_ENG_020:per:stateorprovince_of_death	AFP_ENG_20090905.0372	-1	0	bit	0	2643:2646	3	2428:2679
-2	SF_ENG_020:per:stateorprovince_of_death	LTW_ENG_20070115.0002.LDC2009T13	-1	0	bit	0	1782:1785	3	1557:1806
-7	SF_ENG_020:per:stateorprovince_of_death	LTW_ENG_20071004.0063.LDC2009T13	1	1	South Carolina	0	548:551	1	277:551
-6	SF_ENG_020:per:stateorprovince_of_death	LTW_ENG_20071004.0063.LDC2009T13	-1	0	st.	0	0:0	3	0:0
-5	SF_ENG_020:per:stateorprovince_of_death	NYT_ENG_20071002.0030.LDC2009T13	1	1	S.C.	0	418:421	3	265:432
-3	SF_ENG_020:per:stateorprovince_of_death	NYT_ENG_20071003.0087.LDC2009T13	-1	0	Texas	0	1118:1123	3	960:1216
-4	SF_ENG_020:per:stateorprovince_of_death	NYT_ENG_20071006.0102.LDC2009T13	-1	0	Carolina	0	6379:6386	-1	6267:6400
