@@ -105,6 +105,6 @@ psql $DBNAME -c """
   DROP TABLE IF EXISTS el_candidate_link_2_pruned CASCADE;
   DROP TABLE IF EXISTS el_candidate_nodistinct2_round2 CASCADE;
 
-  ALTER TABLE el_candidate_link_2_new RENAME TO el_candidate_link;
+  ALTER TABLE el_candidate_link_2_new RENAME TO el_candidate_link_2;
 """
 if [ "$?" != "0" ]; then echo "[50] FAILED!"; exit 1; fi
