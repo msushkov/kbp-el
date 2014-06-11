@@ -1,14 +1,35 @@
 #! /bin/bash
 
-psql -p $PGPORT -h $PGHOST $DBNAME -c "DROP TABLE IF EXISTS result;"
-psql -p $PGPORT -h $PGHOST $DBNAME -c "DROP TABLE IF EXISTS best_result;"
+psql $DBNAME -c "DROP TABLE IF EXISTS result;"
+psql $DBNAME -c "DROP TABLE IF EXISTS best_result;"
 
-psql -p $PGPORT -h $PGHOST $DBNAME -c """
+psql $DBNAME """
+	ANALYZE el_candidate_link;
+"""
+
+psql $DBNAME """
+	ANALYZE el_candidate_link_2;
+"""
+
+psql $DBNAME """
+	ANALYZE entities;
+"""
+
+psql $DBNAME """
+	ANALYZE mentions;
+"""
+
+psql $DBNAME """
+	ANALYZE el_kbp_eval_query;
+"""
+
+
+psql $DBNAME -c """
 	CREATE TABLE result AS (
 		SELECT eval_query.query_id AS query_id,
 		       e.fid AS freebase_id,
 		       link.expectation AS probability
-	    FROM el_candidate_link_is_correct_inference AS link,
+	    FROM el_candidate_link_2_is_correct_inference AS link,
 	         entities AS e,
 	         mentions AS m,
 	         el_kbp_eval_query AS eval_query
@@ -18,7 +39,7 @@ psql -p $PGPORT -h $PGHOST $DBNAME -c """
 	          eval_query.text = m.word
 );"""
 
-psql -p $PGPORT -h $PGHOST $DBNAME -c """
+psql $DBNAME -c """
 	CREATE TABLE best_result AS (
 		SELECT query_id, MAX(probability) AS probability
 		FROM result
@@ -29,7 +50,7 @@ psql -p $PGPORT -h $PGHOST $DBNAME -c """
 rm $EL_RESULTS_FILE
 touch $EL_RESULTS_FILE
 
-psql -p $PGPORT -h $PGHOST $DBNAME -c """\COPY (
+psql $DBNAME -c """\COPY (
 		SELECT DISTINCT ON (el_kbp_eval_query.query_id) el_kbp_eval_query.query_id,
 		       CASE WHEN eid_to_fid.entity_id IS NOT NULL THEN eid_to_fid.entity_id
 		            ELSE 'NIL'
@@ -43,8 +64,8 @@ psql -p $PGPORT -h $PGHOST $DBNAME -c """\COPY (
 	) TO '$EL_RESULTS_FILE' WITH DELIMITER AS E'\t'
 ;"""
 
-psql -p $PGPORT -h $PGHOST $DBNAME -c "DROP TABLE IF EXISTS result;"
-psql -p $PGPORT -h $PGHOST $DBNAME -c "DROP TABLE IF EXISTS best_result;"
+psql $DBNAME -c "DROP TABLE IF EXISTS result;"
+psql $DBNAME -c "DROP TABLE IF EXISTS best_result;"
 
 
 perl $APP_HOME/evaluation/entity-linking/kbpenteval.pl $APP_HOME/evaluation/entity-linking/el_2010_eval_answers.tsv $APP_HOME/evaluation/entity-linking/results/out.tsv
