@@ -30,7 +30,10 @@ Input query:
                  s.sentence_id
 """
 
-import sys, json
+import sys, json, re
+
+IGNORE_TYPE = {"URL": 1, "NUMBER" : 1, "MISC" : 1, "CAUSE_OF_DEATH":1, "CRIMINAL_CHARGE":1, 
+    "DURATION":1, "MONEY":1, "ORDINAL" :1, "RELIGION":1, "SET": 1, "TIME":1}
 
 # the delimiter used to separate columns in the input
 ARR_DELIM = '~^~'    
@@ -60,6 +63,22 @@ for row in sys.stdin:
   # don't output features for sentences that are too long
   if len(mentions) > 20 or len(lemma) > 100:
     continue
+
+
+  deptree = {}
+
+  r = {}
+  try:
+    for edge in dep_graph:
+      edge = re.sub('\s+', ' ', edge)
+      (parent, label, child) = edge.split(' ') 
+      deptree[int(child)-1] = {"label":label, "parent":int(parent)-1}
+      r[int(parent)-1] = 1
+  except:
+    WHY55555555 = True
+  if len(r) == 1:
+    deptree = {}
+    xw
 
   # at this point we have a list of the mentions in this sentence
   prefix = ""
