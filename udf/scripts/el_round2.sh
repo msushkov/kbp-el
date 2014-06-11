@@ -1,11 +1,13 @@
 #! /bin/bash
 
-echo "create table el_candidate_nodistinct2..."
+# TODO: update
+
+echo "create table el_candidate_nodistinct2_round2..."
 date
 psql $DBNAME -c """
-		DROP TABLE IF EXISTS el_candidate_nodistinct2 CASCADE;
+		DROP TABLE IF EXISTS el_candidate_nodistinct2_round2 CASCADE;
 
-    CREATE TABLE el_candidate_nodistinct2 AS
+    CREATE TABLE el_candidate_nodistinct2_round2 AS
       SELECT * from el_everything_nil;
 """
 if [ "$?" != "0" ]; then echo "[1] FAILED!"; exit 1; fi

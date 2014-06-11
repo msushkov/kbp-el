@@ -29,3 +29,7 @@ export DB_DUMP_FILE_COMBINED=$DB_DUMP_FILE_UNCOMPRESSED.bz2
 
 # Entity linking results output file
 export EL_RESULTS_FILE=$APP_HOME/evaluation/entity-linking/results/out.tsv
+
+# Do not consider candidates for entity linking where a mention has over this
+# many entities that it links to
+export NUM_ENTITIES_PER_MENTION=10
