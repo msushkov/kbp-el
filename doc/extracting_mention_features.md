@@ -334,3 +334,6 @@ for row in sys.stdin:
 
         print "\t".join(feat)
 ```
+
+
+Next, we need to perform [entity linking](entity_linking.md).

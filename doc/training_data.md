@@ -101,3 +101,6 @@ ext_relation_mention_negative {
      AFP_ENG_20020206.0348.LDC2007T07 | AFP_ENG_20020206.0348.LDC2007T07_600_614 | AFP_ENG_20020206.0348.LDC2007T07_590_599 | george w. bush | president | per:age            | f
      AFP_ENG_20020206.0348.LDC2007T07 | AFP_ENG_20020206.0348.LDC2007T07_600_614 | AFP_ENG_20020206.0348.LDC2007T07_590_599 | george w. bush | president | per:cause_of_death | f
      AFP_ENG_20020206.0348.LDC2007T07 | AFP_ENG_20020206.0348.LDC2007T07_600_614 | AFP_ENG_20020206.0348.LDC2007T07_590_599 | george w. bush | president | per:children       | f
+
+
+Now that we have written our extractors, let us see how we can [debug them](debugging_extractors.md) without having to repeatedly run DeepDive.

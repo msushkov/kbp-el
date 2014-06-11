@@ -121,3 +121,5 @@ Let's show the results with the mention and entity text for clarity:
 
 All of these are SQL extractors, which means that they have no UDF but simply execute a query.
 
+
+Next, we need to [add training examples](relation_mentions.md).

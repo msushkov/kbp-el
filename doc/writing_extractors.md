@@ -190,10 +190,5 @@ for row in sys.stdin:
         print "\t".join(output)
 ```
 
+
 The next step is to [extract features from mention-level relation candidates](extracting_mention_features.md).
-
-[Next, we need to perform entity linking.](entity_linking.md)
-
-[Finally, we need to add training examples.](relation_mentions.md)
-
-Now that we have written our extractors, let us see how we can [debug them](debugging_extractors.md) without having to repeatedly run DeepDive.
