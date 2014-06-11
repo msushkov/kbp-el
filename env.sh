@@ -11,27 +11,21 @@ export PARALLELISM=8
 export SBT_OPTS="-Xmx$MEMORY"
 
 # Database Configuration (default)
-export DBNAME="deepdive_deepdive_mikhail"
+export DBNAME="deepdive_kbp"
 export PGUSER=${PGUSER:-`whoami`}
 export PGPASSWORD=${PGPASSWORD:-}
 export PGPORT=${PGPORT:-5432}
 export PGHOST=${PGHOST:-localhost}
 
 # the deepdive_kbp DB dump files (2 of them to fit Github's size limit)
-export DB_DUMP_FILE_1=$APP_HOME/data/deepdive_kbp.sql.tar.bz2.1
-export DB_DUMP_FILE_2=$APP_HOME/data/deepdive_kbp.sql.tar.bz2.2
+export DB_DUMP_FILE_1=$APP_HOME/data/db_dump/deepdive_kbp.sql.1.bz2
+export DB_DUMP_FILE_2=$APP_HOME/data/db_dump/deepdive_kbp.sql.2.bz2
+export DB_DUMP_FILE_3=$APP_HOME/data/db_dump/deepdive_kbp.sql.3.bz2
+export DB_DUMP_FILE_4=$APP_HOME/data/db_dump/deepdive_kbp.sql.4.bz2
 
 # the combined DB dump file that will be used to recreate the DB
-export DB_DUMP_FILE_COMBINED=$APP_HOME/data/deepdive_kbp.sql.tar.bz2
 export DB_DUMP_FILE_UNCOMPRESSED=$APP_HOME/data/deepdive_kbp.sql
-
-# tables used in the entity linking step
-export ENTITY_LINKING_TABLES=$APP_HOME/data/entity_linking_tables.tar.gz
-export ENTITY_LINKING_TABLES_DIR=$APP_HOME/data/entity_linking_tables
-
-# Freebase
-export FREEBASE_ZIPPED=$APP_HOME/data/freebase.sql.bz2
-export FREEBASE=$APP_HOME/data/freebase.sql
+export DB_DUMP_FILE_COMBINED=$DB_DUMP_FILE_UNCOMPRESSED.bz2
 
 # Entity linking results output file
 export EL_RESULTS_FILE=$APP_HOME/evaluation/entity-linking/results/out.tsv
