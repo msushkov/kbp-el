@@ -28,6 +28,9 @@ psql $DBNAME -c """
 
   INSERT INTO el_candidate_nodistinct2
     SELECT * from el_bing_result;
+
+  INSERT INTO el_candidate_nodistinct2
+    SELECT * from el_fbalias;
 """
 if [ "$?" != "0" ]; then echo "[10] FAILED!"; exit 1; fi
 
