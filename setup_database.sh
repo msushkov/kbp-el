@@ -27,6 +27,4 @@ echo "Restoring DB from dump..."
 date
 psql -d $DBNAME -f $DB_DUMP_FILE_UNCOMPRESSED
 
-
 cd $APP_HOME
-

@@ -57,32 +57,34 @@ for row in sys.stdin:
 
   # go through all pairs of mentions
   for m1 in mentions:
-    # make sure that the first mention is a PER or ORG
-    if m1["type"] not in ["PERSON", "ORGANIZATION"]:
-      continue
+      start1 = m1["start"]
+      end1 = m1["end"]
 
-    for m2 in mentions:
-      if m1["mention_id"] == m2["mention_id"]:
-        continue
+      if m1["type"] not in ["PERSON", "ORGANIZATION"]:
+          continue
 
-      # the spans of the mentions
-      span1 = ddlib.Span(begin_word_id=m1["start"], length=m1["end"] - m1["start"])
-      span2 = ddlib.Span(begin_word_id=m2["start"], length=m2["end"] - m2["start"])
+      for m2 in mentions:
+          if m1["mention_id"] == m2["mention_id"]:
+              continue
 
-      # the lemma sequence between the mention spans
-      lemma_between = ddlib.tokens_between_spans(lemma, span1, span2)
-      if lemma_between.is_inversed:
-        feature = "WORDSEQ_INV:" + "_".join(lemma_between.elements).lower()
-      else:
-        feature = "WORDSEQ_" + "_".join(lemma_between.elements).lower()
+          start2 = m2["start"]
+          end2 = m2["end"]
 
-      # doc_id, mid1, mid2, word1, word2, type1, type2, feature
-      output = [doc_id, m1["mention_id"], m2["mention_id"], m1["word"], m2["word"], m1["type"], m2["type"], feature]
-      
-      # make sure each of the strings we will output is encoded as utf-8
-      map(lambda x: x.decode('utf-8', 'ignore'), output)
+          # the spans of the mentions
+          span1 = ddlib.Span(begin_word_id=start1, length=end1 - start1)
+          span2 = ddlib.Span(begin_word_id=start2, length=end2 - start2)
 
-      print "\t".join(output)
+          # the lemma sequence between the mention spans
+          lemma_between = ddlib.tokens_between_spans(lemma, span1, span2)
+          if lemma_between.is_inversed:
+              feature = "WORDSEQ_INV:" + "_".join(lemma_between.elements).lower()
+          else:
+              feature = "WORDSEQ_" + "_".join(lemma_between.elements).lower()
 
+          # doc_id, mid1, mid2, word1, word2, type1, type2, feature
+          output = [doc_id, m1["mention_id"], m2["mention_id"], m1["word"], m2["word"], m1["type"], m2["type"], feature]
+          
+          # make sure each of the strings we will output is encoded as utf-8
+          map(lambda x: x.decode('utf-8', 'ignore'), output)
 
-
+          print "\t".join(output)
