@@ -56,6 +56,6 @@ This tutorial assumes a working installation of DeepDive.
 Please go through the
 [example application walkthrough](http://deepdive.stanford.edu/doc/walkthrough.html) before proceeding.
 
-After following the walkthrough, your "deepdive" directory should contain a folder called "app", which should contain a folder called "spouse".
+After following the walkthrough, your `deepdive` directory should contain a folder called `app`, which should contain a folder called `spouse`.
 
-Let's now proceed to a tutorial for [setting up the KBP application](doc/setting_up.md), which will help you get started with this example.
+Let's now proceed to a tutorial for [setting up the KBP application](doc/setting_up.md), which will help you get started.
