@@ -3,23 +3,23 @@
 psql $DBNAME -c "DROP TABLE IF EXISTS result;"
 psql $DBNAME -c "DROP TABLE IF EXISTS best_result;"
 
-psql $DBNAME """
+psql $DBNAME -c """
 	ANALYZE el_candidate_link;
 """
 
-psql $DBNAME """
+psql $DBNAME -c """
 	ANALYZE el_candidate_link_2;
 """
 
-psql $DBNAME """
+psql $DBNAME -c """
 	ANALYZE entities;
 """
 
-psql $DBNAME """
+psql $DBNAME -c """
 	ANALYZE mentions;
 """
 
-psql $DBNAME """
+psql $DBNAME -c """
 	ANALYZE el_kbp_eval_query;
 """
 

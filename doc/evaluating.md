@@ -5,42 +5,41 @@ layout: default
 Evaluating the results
 ====
 
-TODO: update
+This example contains scorers for both the TAC KBP [slot filling](http://surdeanu.info/kbp2014/KBP2014_TaskDefinition_EnglishSlotFilling_1.1.pdf) as well as the TAC KBP [entity linking](http://nlp.cs.rpi.edu/kbp/2014/KBP2014EL_V0.2.pdf) tasks.
 
-The KBP application contains a scorer for the TAC KBP slot filling task. The example system will not achieve a high score on the task because our sample of 70805 sentences is only 0.2% of the full corpus.
+The example system will not achieve a high score on either task because our sample of 70805 sentences is only 0.2% of the full corpus.
 
-To get the score, type in:
+# Entity linking
 
-    >> sh run-evaluate.sh
+To get the entity linking score, type in:
+
+    >> sh evaluate_entitylinking.sh
+
     ...
-                                  2010 scores:
-    [STDOUT]                      Recall: 5.0 / 1040.0 = 0.004807692307692308
-    [STDOUT]                      Precision: 5.0 / 8.0 = 0.625
-    [STDOUT]                      F1: 0.009541984732824428
-                              } << Scoring System [0.389 seconds]
-                              Running SFScore2010 {
-    [WARN SFScore]              official scorer exited with non-zero exit code
-                              } [0.138 seconds]
-                              Generating PR Curve {
-    [Eval]                      generating PR curve with 8 points
-    [Eval]                      P/R curve data generated in file: /tmp/stanford1.curve
-                              } 
-                              Score {
-    [Result]                    |           Precision: 62.500
-    [Result]                    |              Recall: 00.481
-    [Result]                    |                  F1: 00.954
-    [Result]                    |
-    [Result]                    |   Optimal Precision: �
-    [Result]                    |      Optimal Recall: �
-    [Result]                    |          Optimal F1: -∞
-    [Result]                    |
-    [Result]                    | Area Under PR Curve: 0.0
-                              } 
-                            } << Evaluating Test Entities [0.922 seconds]
-    [MAIN]                  work dir: /tmp
-                          } << main [2.405 seconds]
+    Micro-averages:
+    2250 queries: 0.5467
+    1020 KB: 0.0000
+    1230 NIL: 1.0000
 
-In this log, the precision is 62.5 (human agreement rate is around 70), and recall is low since our sample is 0.2% of the full corpus.
+    Macro-averages:
+    871 entities: 0.5385
+    402 KB: 0.0000
+    469 NIL: 1.0000
+
+Note that the score of ~0.54 is due to the system producing NIL for all of the entities because it cannot find mentions for the query entities in 0.2% of the text data (hence the 0.0000 numbers for both KB averages).
+
+# Slot filling
+
+To get the slot filling score, type in:
+
+    >> sh evaluate_slotfilling.sh
+    ...
+    
+    TODO: fill in!
+
+Note that the results may vary across runs.
+
+We observe a precision of XX.X (human agreement rate is around 70), and low recall since our sample is 0.2% of the full corpus.
 
 For the ease of error analysis, we also include a relational-form of the ground truth. To see the ground truth, type in:
 
