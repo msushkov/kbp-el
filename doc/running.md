@@ -63,7 +63,19 @@ To see some example results, type in:
     >> source env_db.sh
     >> psql $DBNAME -c "select word1, word2, rel from relation_mentions_is_correct_inference where rel = 'per:title' order by expectation, word1, word2 desc limit 10;"
 
-
+          word1       |      word2      |    rel    
+    ------------------+-----------------+-----------
+     jim farley       | chief           | per:title
+     stephen park     | manager         | per:title
+     vladimir morozov | general manager | per:title
+     sutter           | general manager | per:title
+     darryl           | general manager | per:title
+     barbour          | chairman        | per:title
+     britney          | scientist       | per:title
+     john mccain      | guard           | per:title
+     alonso           | manager         | per:title
+     paul simon       | senator         | per:title
+    (10 rows)
 
 These results are the highest-confidence *(entity1, relation, entity2)* tuples produced by the system where the relation is 'per:title'. We can see that the system seems to do well at identifying people's titles.
 
