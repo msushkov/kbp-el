@@ -13,7 +13,7 @@ psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
 """
 
 psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
-    ANALYZE coref_candidates;
+   ANALYZE relation_instances;
 """
 
 psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
@@ -21,7 +21,11 @@ psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
 """
 
 psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
-    ANALYZE el_features_highprec;
+    ANALYZE el_candidate_link;
+"""
+
+psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
+    ANALYZE el_candidate_link_2;
 """
 
 psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
@@ -32,16 +36,15 @@ psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
     ANALYZE mentions;
 """
 
-#psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
-#    ANALYZE freebase;
-#"""
+psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
+   ANALYZE freebase;
+"""
 
-#psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
-#    ANALYZE ea_recall;
-#"""
+psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
+   ANALYZE sentence;
+"""
 
 
-# took 27s on 1%, ~20 mins on 100%
 echo "CREATE TABLE relation_extraction_evaluation_nofreebase..."
 date
 psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
@@ -71,7 +74,7 @@ psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
             ''::text                    AS slot_value_id
         FROM 
             relation_mentions_is_correct_inference t0, 
-            el_features_highprec t1, 
+            el_candidate_link_2 t1, 
             entities t3,  
             mentions t5, 
             sentence t6, 
@@ -82,13 +85,13 @@ psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
             t0.doc_id = t6.doc_id AND
             t0.doc_id = t1.doc_id AND
             t0.mid1=t1.mention_id AND  
-            t1.fid = t3.fid AND  
+            t1.entity_id = t3.fid AND  
             t7.mention_id=t0.mid2 AND
             t5.mention_id=t0.mid1 AND 
             t5.sentence_id=t6.sentence_id AND
             t0.rel<>'per:title' AND
-            t0.expectation > 0.9
-    
+            t0.expectation > 0.9 AND
+            t3.fid <> 'NIL0000'
     ORDER BY t3.text, t5.type, t0.rel, t7.word, t7.type, t0.expectation DESC
 ;"""
 
@@ -134,57 +137,57 @@ psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
 ;"""
 
 
-echo "CREATE TABLE relation_extraction_evaluation_nofreebase3..."
-date
-psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
-    DROP VIEW IF EXISTS coref_relation_mentions_is_correct_inference;
-"""
+# echo "CREATE TABLE relation_extraction_evaluation_nofreebase3..."
+# date
+# psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
+#     DROP VIEW IF EXISTS coref_relation_mentions_is_correct_inference;
+# """
 
-echo "CREATE TABLE relation_extraction_evaluation_nofreebase3..."
-date
-psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
-   create view coref_relation_mentions_is_correct_inference
-   as select t0.id, t0.doc_id, t0.mid1, t0.mid2, t2.word as word1, t0.word2, t0.rel, t0.is_correct, t0.category, t0.expectation from relation_mentions_is_correct_inference t0, coref_candidates t1, mentions t2 where t0.doc_id=t1.doc_id and t0.doc_id=t2.doc_id and t0.mid1=t1.mid1 and t1.mid2=t2.mention_id;
-"""
+# echo "CREATE TABLE relation_extraction_evaluation_nofreebase3..."
+# date
+# psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
+#    create view coref_relation_mentions_is_correct_inference
+#    as select t0.id, t0.doc_id, t0.mid1, t0.mid2, t2.word as word1, t0.word2, t0.rel, t0.is_correct, t0.category, t0.expectation from relation_mentions_is_correct_inference t0, coref_candidates t1, mentions t2 where t0.doc_id=t1.doc_id and t0.doc_id=t2.doc_id and t0.mid1=t1.mid1 and t1.mid2=t2.mention_id;
+# """
 
-echo "CREATE TABLE relation_extraction_evaluation_nofreebase4..."
-date
-psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
-    INSERT INTO relation_extraction_evaluation_nofreebase 
-        SELECT DISTINCT ON (t0.word1, t5.type, t0.rel, t7.word, t7.type)
-            t0.word1                   AS entity_name, 
-            t5.type                   AS entity_type, 
-            t0.rel                    AS relation, 
-            t7.word                   AS slot_value_name, 
-            t7.type                   AS slot_value_type, 
-            ''::text                  AS entity_id, 
-            t5.doc_id                 AS doc_id, 
-            t6.sentence_index         AS sentence_index, 
-            0                         AS entity_token_begin, 
-            1                         AS entity_token_length, 
-            0                         AS slot_value_token_begin, 
-            1                         AS slot_value_token_length, 
-            t6.character_offset_begin AS char_begin, 
-            t6.character_offset_end   AS char_end, 
-            t0.expectation            AS score, 
-            t6.text                   AS sentence, 
-            t6.words                  AS words, 
-            ''::text                    AS slot_value_id
-        FROM 
-            coref_relation_mentions_is_correct_inference t0, 
-            mentions t5, 
-            sentence t6, 
-            mentions t7
-        WHERE 
-            t0.doc_id = t7.doc_id AND
-            t0.doc_id = t5.doc_id AND
-            t0.doc_id = t6.doc_id AND
-            t7.mention_id=t0.mid2 AND
-            t5.mention_id=t0.mid1 AND 
-            t5.sentence_id=t6.sentence_id AND
-            t0.expectation > 0.9
-    ORDER BY t0.word1, t5.type, t0.rel, t7.word, t7.type, t0.expectation DESC
-;"""
+# echo "CREATE TABLE relation_extraction_evaluation_nofreebase4..."
+# date
+# psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
+#     INSERT INTO relation_extraction_evaluation_nofreebase 
+#         SELECT DISTINCT ON (t0.word1, t5.type, t0.rel, t7.word, t7.type)
+#             t0.word1                   AS entity_name, 
+#             t5.type                   AS entity_type, 
+#             t0.rel                    AS relation, 
+#             t7.word                   AS slot_value_name, 
+#             t7.type                   AS slot_value_type, 
+#             ''::text                  AS entity_id, 
+#             t5.doc_id                 AS doc_id, 
+#             t6.sentence_index         AS sentence_index, 
+#             0                         AS entity_token_begin, 
+#             1                         AS entity_token_length, 
+#             0                         AS slot_value_token_begin, 
+#             1                         AS slot_value_token_length, 
+#             t6.character_offset_begin AS char_begin, 
+#             t6.character_offset_end   AS char_end, 
+#             t0.expectation            AS score, 
+#             t6.text                   AS sentence, 
+#             t6.words                  AS words, 
+#             ''::text                    AS slot_value_id
+#         FROM 
+#             coref_relation_mentions_is_correct_inference t0, 
+#             mentions t5, 
+#             sentence t6, 
+#             mentions t7
+#         WHERE 
+#             t0.doc_id = t7.doc_id AND
+#             t0.doc_id = t5.doc_id AND
+#             t0.doc_id = t6.doc_id AND
+#             t7.mention_id=t0.mid2 AND
+#             t5.mention_id=t0.mid1 AND 
+#             t5.sentence_id=t6.sentence_id AND
+#             t0.expectation > 0.9
+#     ORDER BY t0.word1, t5.type, t0.rel, t7.word, t7.type, t0.expectation DESC
+# ;"""
 
 
 
@@ -254,7 +257,7 @@ psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
             t0.word2                    AS slot_value_id
         FROM 
             relation_mentions_is_correct_inference t0, 
-            el_features_highprec t1,  
+            el_candidate_link_2 t1,  
             entities t3,  
             mentions t5, 
             sentence t6
@@ -263,10 +266,11 @@ psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
             t0.doc_id = t6.doc_id AND
             t0.doc_id = t1.doc_id AND
             t0.mid1=t1.mention_id AND  
-            t1.fid = t3.fid AND 
+            t1.entity_id = t3.fid AND 
             t5.mention_id=t0.mid1 AND 
             t5.sentence_id=t6.sentence_id AND
             t0.rel='per:title' AND
+            t3.fid <> 'NIL0000' AND
         t0.word2 <> 'father' AND t0.word2 <> 'brother' AND t0.word2 <> 'host president' AND t0.word2 <> 'sister' AND
             t0.expectation > 0.9
     ORDER BY t3.text, t5.type, t0.rel, t0.word2, t0.expectation DESC
