@@ -73,7 +73,7 @@ There are 4 additional tables that the system will need to create, to be used by
 - `relation_mention_features` (populated by `ext_relation_mention_feature`)
 - `mention_feature_text_num_words` (populated by `mention_text_num_words`)
 
-The first set of tables is included in the database dump, and the second 3 tables are created in `schema.sql`. The script `setup_database.sh` will load all the necessary tables into the database.
+The first set of tables is included in the database dump, and the second set is created in `schema.sql`. The script `setup_database.sh` will load all the necessary tables into the database.
 
 Load the initial database:
 
