@@ -4,11 +4,11 @@ layout: default
 
 # Extracting features from mention-level relation candidates
 
-Now that we have extracted the entity mentions, we can find the mention-level relation candidates and extract features from them. This way the system will learn whether or not these candidates are actually valid instances a relation involving the mentions.
+Now that we have extracted the entity mentions, we can find the mention-level relation candidates and extract features from them. This way the system will learn whether or not these candidates are actually valid cases of a relation involving the mentions.
 
 We will extract 2 features:
-- The word sequence between the mentions
-- The dependency path between the mentions.
+- the word sequence between the mentions, and
+- the dependency path between the mentions.
 
 Refer to http://www.stanford.edu/~jurafsky/mintz.pdf for a more detailed discussion on feature extraction.
 

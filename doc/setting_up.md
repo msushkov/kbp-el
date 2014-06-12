@@ -67,11 +67,11 @@ The initial database dump contains the following tables:
 - `entity_feature_wikiredirect`: Contains 1310072 Wikipedia page redirect titles for entities.
 - `fbalias`: Freebase aliases for entities. An alias is an alternate name for an entity; for example, William Henry Gates III is an alias for Bill Gates.
 - `freebase`: A partial dump of Freebase. Contains 10 million tuples of the form *(subject, predicate, object)*.
-- `incompatible_relations`: Contains tuples of the form (relation1, relation2) where relation2 is incompatible with relation1. This is used to generate negative examples (given (e1, relation1, e2), (e1, relation2, e2) will be a negative example).
+- `incompatible_relations`: Contains 104 tuples of the form *(relation1, relation2)* where relation2 is incompatible with relation1. This is used to generate negative examples (given *(e1, relation1, e2)*, *(e1, relation2, e2)* will be a negative example).
 - `kb`: Contains tuples of the form *(entity1, relation, entity2)*; this is the knowledge base used for distant supervision.
-- `relation_types`: The typed relations we care to extract.
-- `sentence`: contains processed sentence data by an [NLP extractor](http://deepdive.stanford.edu/doc/walkthrough-extras.html#nlp_extractor). This table contains tokenized words, lemmatized words, POS tags, NER tags, dependency paths for each sentence. There are 70805 sentences, which is 0.2% of the full corpus for 2010.
-- `usstate`: Contains a list of the U.S. states (including DC).
+- `relation_types`: 26 of the typed relations we care to extract.
+- `sentence`: contains processed sentence data with [NLP extractor](http://deepdive.stanford.edu/doc/walkthrough-extras.html#nlp_extractor). This table contains tokenized words, lemmatized words, POS tags, NER tags, dependency paths for each sentence. There are 70805 sentences, which is 0.2% of the full corpus for 2010.
+- `usstate`: Contains a list of the 51 U.S. states (including DC).
 
 There are 4 additional tables that the system will need to create, to be used by the extractors. The tables are:
 - `mentions` (populated by `ext_mention`)
@@ -121,4 +121,4 @@ Validate that this step succeeded as follows:
 
 For a more detailed verification of `setup_database.sh` (recommended), please see [verifying setup_database.sh](verify_setup_database.md).
 
-Now that we have loaded all the necessary data, we can run the application.
+Now that we have loaded all the necessary data, we can [run the application](running.md).
