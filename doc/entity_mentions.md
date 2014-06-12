@@ -155,4 +155,4 @@ for row in sys.stdin:
         print "\t".join(output)
 ```
 
-The next step is to [extract features from mention-level relation candidates](extracting_mention_features.md).
+The next step is to [extract features from mention-level relation candidates](relation_mention_features.md).

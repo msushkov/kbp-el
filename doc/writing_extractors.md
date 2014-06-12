@@ -5,7 +5,7 @@ layout: default
 Writing extractors
 ====
 
-In order to extract the necessary features from text and set up the tables for DeepDIve's learning and inference steps, we must add extractors. The extractors are created in `application.conf`. Several extractors in this example are [TSV extractors](http://deepdive.stanford.edu/doc/extractors.html#tsv_extractor), and the UDFs for them are contained in `APP_HOME/udf`. However, the majority are [SQL extractors](http://deepdive.stanford.edu/doc/extractors.html#sql_extractor) that do not have UDFs.
+In order to extract the necessary features from text and set up the tables for DeepDIve's learning and inference steps, we must add extractors. The extractors are created in `application.conf`. Several extractors in this example are [TSV extractors](http://deepdive.stanford.edu/doc/extractors.html#tsv_extractor) and some are [command-line extractors](http://deepdive.stanford.edu/doc/extractors.html#cmd_extractor), and the UDFs for them are contained in `APP_HOME/udf`. However, the majority are [SQL extractors](http://deepdive.stanford.edu/doc/extractors.html#sql_extractor) that do not have UDFs.
 
 As stated in the [overview](../README.md), the extractors perform the following high-level tasks:
 
@@ -25,7 +25,7 @@ We will now walk through each of the extractors in more detail.
 
 # Cleanup
 
-The `ext_cleanup` extractor cleans up the tables that will be populated by the extractors. This extractor is defined in `application.conf` using the following code:
+The first extractor that needs to run is `ext_cleanup`. This extractor cleans up the tables that will be populated by the extractors. This extractor is defined in `application.conf` using the following code:
 
 ```bash
 ext_cleanup {

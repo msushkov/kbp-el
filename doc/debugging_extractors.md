@@ -22,6 +22,6 @@ This process allows for interactive debugging of the extractors.
 
 Note that if you change the inut SQL query to an extractor, you will also need to change it in the debug version of that extractor.
 
-The code for `ext_mention_debug` is commented out in `application.conf`; similar code is also provided for `ext_relation_mention_feature_wordseq` and `ext_relation_mention_feature_deppath`.
+The code for `ext_mention_debug` is commented out in `application.conf`; similar code is also provided for `ext_relation_mention_feature_wordseq`, `ext_relation_mention_feature_deppath`, and `mention_text_num_words`.
 
 Now that we have our extractors, let's see how we can [write the inference rules](inference_rules.md).

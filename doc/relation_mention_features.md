@@ -341,4 +341,4 @@ for row in sys.stdin:
 ```
 
 
-Next, we need to perform [entity linking](entity_linking.md).
+Next, we need to [extract features from entity mentions](entity_mention_features.md). (These will be useful when performing entity linking).

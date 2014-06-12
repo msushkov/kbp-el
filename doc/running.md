@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Running KBP application
 ====
 
@@ -77,7 +81,7 @@ To see some example results, type in:
      paul simon       | senator         | per:title
     (10 rows)
 
-These results are the highest-confidence *(entity1, relation, entity2)* tuples produced by the system where the relation is 'per:title'. We can see that the system seems to do well at identifying people's titles.
+These results are the highest-confidence *(entity1, relation, entity2)* tuples produced by the system where the relation is 'per:title'. We can see that the system seems can identify some people's titles.
 
 
 Let us now [compute a score](evaluating.md) for the 2010 KBP slot filling task.

@@ -19,11 +19,13 @@ To validate this step, you should see:
 
     >> git branch
       * master
+      
     >> ls
-    README.md           env.sh              evaluation          udf
-    application.conf        env_db.sh           run.sh
-    data                evaluate_entitylinking.sh   schema.sql
-    doc             evaluate_slotfilling.sh     setup_database.sh
+    README.md           env.sh                       evaluation           udf
+    application.conf    env_db.sh                    run.sh
+    data                evaluate_entitylinking.sh    schema.sql
+    doc                 evaluate_slotfilling.sh      setup_database.sh
+
 	
 From now on we will be working in the `kbp-el` directory.
 
@@ -70,7 +72,7 @@ The initial database dump contains the following tables:
 - `incompatible_relations`: Contains 104 tuples of the form *(relation1, relation2)* where relation2 is incompatible with relation1. This is used to generate negative examples (given *(e1, relation1, e2)*, *(e1, relation2, e2)* will be a negative example).
 - `kb`: Contains tuples of the form *(entity1, relation, entity2)*; this is the knowledge base used for distant supervision.
 - `relation_types`: 26 of the typed relations we care to extract.
-- `sentence`: contains processed sentence data with [NLP extractor](http://deepdive.stanford.edu/doc/walkthrough-extras.html#nlp_extractor). This table contains tokenized words, lemmatized words, POS tags, NER tags, dependency paths for each sentence. There are 70805 sentences, which is 0.2% of the full corpus for 2010.
+- `sentence`: contains processed sentence data with an [NLP extractor](http://deepdive.stanford.edu/doc/walkthrough-extras.html#nlp_extractor). This table contains tokenized words, lemmatized words, POS tags, NER tags, dependency paths for each sentence. There are 70805 sentences, which is 0.2% of the full corpus for 2010.
 - `usstate`: Contains a list of the 51 U.S. states (including DC).
 
 There are 4 additional tables that the system will need to create, to be used by the extractors. The tables are:
