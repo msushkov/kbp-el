@@ -48,6 +48,10 @@ for row in sys.stdin:
     # keep track of words whose NER tags we look at
     history = {}
 
+
+    # keep track of words whose NER tags we look at
+    history = {}
+
     # go through each word in the sentence
     for i in range(0, len(words)):
         # if we already looked at this word's NER tag, skip it
@@ -55,18 +59,18 @@ for row in sys.stdin:
             continue
 
         # the NER tag for the current word
-        curr_ner = ner[i]
+        nerc = ner[i]
 
         # skip this word if this NER tag should be ignored
-        if curr_ner in EXT_MENTION_IGNORE_TYPE:
+        if nerc in EXT_MENTION_IGNORE_TYPE:
             continue
 
         # collapse specific location types
-        if curr_ner in ["CITY", "COUNTRY", "STATE_OR_PROVINCE"]:
-            curr_ner = "LOCATION"
+        if nerc in ["CITY", "COUNTRY", "STATE_OR_PROVINCE"]:
+            nerc = "LOCATION"
 
         # if the current word has a valid NER tag
-        if curr_ner != 'O' and curr_ner != 'NULL':
+        if nerc != 'O':
             j = i
 
             # go through each of the words after the current word until the end of the sentence
@@ -78,7 +82,7 @@ for row in sys.stdin:
                     nerj = "LOCATION"
 
                 # go until the NER tags of word 1 and word 2 do not match
-                if nerj != curr_ner:
+                if nerj != nerc:
                     break
 
             # at this point we have a mention that consists of consecutive words with the same NER 
@@ -92,7 +96,6 @@ for row in sys.stdin:
                 j = i + 1
                 word = words[i]
                 history[i] = 1
-
             # if our mention is multiple words, combine them and mark that we have already seen them
             else:
                 word = " ".join(words[i:j])
@@ -100,14 +103,14 @@ for row in sys.stdin:
                     history[w] = 1
 
             # doc_id, mention_id, sentence_id, word, type, start_pos, end_pos
-            output = [doc_id, mention_id, sentence_id, word.lower(), curr_ner, str(i), str(j)]
+            output = [doc_id, mention_id, sentence_id, word.lower(), nerc, str(i), str(j)]
 
             # make sure each of the strings we will output is encoded as utf-8
             map(lambda x: x.decode('utf-8', 'ignore'), output)
 
             print "\t".join(output)
-        
-        # if this word has an NER tag of '0' or NULL
+
+        # if this word has an NER tag of '0'
         else:
             # if the current word is one of the known titles, then we have a TITLE mention
             if words[i].lower() in EXT_MENTION_TITLE_TYPE:
@@ -124,4 +127,3 @@ for row in sys.stdin:
                 map(lambda x: x.decode('utf-8', 'ignore'), output)
 
                 print "\t".join(output)
-            
