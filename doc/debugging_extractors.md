@@ -24,4 +24,4 @@ Note that if you change the inut SQL query to an extractor, you will also need t
 
 The code for `ext_mention_debug` is commented out in `application.conf`; similar code is also provided for `ext_relation_mention_feature_wordseq` and `ext_relation_mention_feature_deppath`.
 
-Now that we have our extractors, let's see how we can write the inference rules.
+Now that we have our extractors, let's see how we can [write the inference rules](inference_rules.md).

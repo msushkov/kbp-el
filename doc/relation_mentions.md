@@ -37,3 +37,6 @@ ext_relation_mention {
      AFP_ENG_20020206.0348.LDC2007T07 | AFP_ENG_20020206.0348.LDC2007T07_1186_1193 | AFP_ENG_20020206.0348.LDC2007T07_1015_1025 | defense | washington | org:LOCATION_of_headquarters | 
      AFP_ENG_20020206.0348.LDC2007T07 | AFP_ENG_20020206.0348.LDC2007T07_1186_1193 | AFP_ENG_20020206.0348.LDC2007T07_1065_1072 | defense | tuesday    | org:founded                  | 
      AFP_ENG_20020206.0348.LDC2007T07 | AFP_ENG_20020206.0348.LDC2007T07_1186_1193 | AFP_ENG_20020206.0348.LDC2007T07_1135_1139 | defense | iran       | org:LOCATION_of_headquarters |
+
+
+Now that we have written our extractors, let us see how we can [debug them](debugging_extractors.md) without having to repeatedly run DeepDive.

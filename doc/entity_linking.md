@@ -5,7 +5,15 @@ layout: default
 Entity linking
 ====
 
-To identify which mentions in text refer to which entities, we need to perform entity linking. This involves extracting specific features from *(entity, mention)* pairs. 
+TODO: finish!
+
+To identify which mentions in text refer to which entities, we need to perform entity linking. This involves extracting specific features from *(entity, mention)* pairs.
+
+We will perform probabilistic entity linking - we will have a random variable for a given *(entity, mention)* pair that will tell us, after DeepDive runs, how confident the system is in the pair being linked.
+
+At a high leve, we first want to generate candidate pairs that might be linked, and then let DeepDive figure out which of these links are most likely to hold.
+
+In this example we do entity linking in two rounds, each of which will use its own set of features to generate candidate pairs. The first round includes basic features such as exact string match, while the second round adds more sophisticated features. Here we will use the entity feature tables from our initial database.
 
 # Exact string match between entities and mentions
 
@@ -122,4 +130,4 @@ Let's show the results with the mention and entity text for clarity:
 All of these are SQL extractors, which means that they have no UDF but simply execute a query.
 
 
-Next, we need to [add training examples](relation_mentions.md).
+Next, we need to [add training examples](training_data.md).

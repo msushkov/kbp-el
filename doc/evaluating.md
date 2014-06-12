@@ -40,26 +40,26 @@ To get the score, type in:
     [MAIN]                  work dir: /tmp
                           } << main [2.405 seconds]
 
-In this log, the precision is 62.5 (human agreement rate is around 70), and recall is low
-since our sample is 0.2% of the full corpus.
+In this log, the precision is 62.5 (human agreement rate is around 70), and recall is low since our sample is 0.2% of the full corpus.
 
-For the ease of error analysis, we also include a relational-form of the ground truth. To
-see the ground truth, type in:
+For the ease of error analysis, we also include a relational-form of the ground truth. To see the ground truth, type in:
 
     >> source env_db.sh 
-    >> psql $DBNAME -c "SELECT * FROM ea limit 10;"
-     query |                  sub                   |           rel            |           obj            
-    -------+----------------------------------------+--------------------------+--------------------------
-     SF208 | kendra wilkinson                       | per:age                  | 23
-     SF209 | chelsea library                        | org:alternate_names      | chelsea district library
-     SF212 | chad white                             | per:age                  | 22
-     SF211 | paul kim                               | per:age                  | 24
-     SF210 | crown prosecution service              | org:alternate_names      | cps
-     SF262 | noordhoff craniofacial foundation      | org:alternate_names      | ncf
-     SF263 | national christmas tree association    | org:city_of_headquarters | chesterfield
-     SF260 | north phoenix baptist church           | org:city_of_headquarters | phoenix
-     SF228 | professional rodeo cowboys association | org:alternate_names      | prca
-     SF229 | new hampshire institute of politics    | org:city_of_headquarters | manchester
-    (10 rows)
+    >> psql $DBNAME -c "SELECT DISTINCT ON (sub) * FROM ea ORDER BY sub DESC limit 10;"
 
-Now that we have set up the application and have run it end to end, let's look at the code.
+   query |        sub        |           rel           |        obj         
+  -------+-------------------+-------------------------+--------------------
+   SF279 | trista sutter     | per:alternate_names     | trista
+   SF245 | susan boyle       | per:country_of_birth    | scotland
+   SF282 | steve mcpherson   | per:title               | president
+   SF285 | spencer pratt     | per:title               | manager
+   SF274 | simon cowell      | per:cities_of_residence | london
+   SF284 | sean preston      | per:age                 | three
+   SF216 | samsung           | org:founded_by          | lee byung- chull
+   SF296 | robert morgenthau | per:member_of           | navy
+   SF276 | richard lindzen   | per:alternate_names     | richard s. lindzen
+   SF268 | raul castro       | per:date_of_birth       | june 3, 1931
+  (10 rows)
+
+
+Now that we have set up the application and have run it end to end, let's look at how to [write extractors](writing_extractors.md).

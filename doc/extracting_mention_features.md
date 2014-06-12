@@ -92,32 +92,37 @@ for row in sys.stdin:
 
   # go through all pairs of mentions
   for m1 in mentions:
-    # make sure that the first mention is a PER or ORG
-    if m1["type"] not in ["PERSON", "ORGANIZATION"]:
-      continue
+      start1 = m1["start"]
+      end1 = m1["end"]
 
-    for m2 in mentions:
-      if m1["mention_id"] == m2["mention_id"]:
-        continue
+      if m1["type"] not in ["PERSON", "ORGANIZATION"]:
+          continue
 
-      # the spans of the mentions
-      span1 = ddlib.Span(begin_word_id=m1["start"], length=m1["end"] - m1["start"])
-      span2 = ddlib.Span(begin_word_id=m2["start"], length=m2["end"] - m2["start"])
+      for m2 in mentions:
+          if m1["mention_id"] == m2["mention_id"]:
+              continue
 
-      # the lemma sequence between the mention spans
-      lemma_between = ddlib.tokens_between_spans(lemma, span1, span2)
-      if lemma_between.is_inversed:
-        feature = "WORDSEQ_INV:" + "_".join(lemma_between.elements).lower()
-      else:
-        feature = "WORDSEQ_" + "_".join(lemma_between.elements).lower()
+          start2 = m2["start"]
+          end2 = m2["end"]
 
-      # doc_id, mid1, mid2, word1, word2, type1, type2, feature
-      output = [doc_id, m1["mention_id"], m2["mention_id"], m1["word"], m2["word"], m1["type"], m2["type"], feature]
-      
-      # make sure each of the strings we will output is encoded as utf-8
-      map(lambda x: x.decode('utf-8', 'ignore'), output)
+          # the spans of the mentions
+          span1 = ddlib.Span(begin_word_id=start1, length=end1 - start1)
+          span2 = ddlib.Span(begin_word_id=start2, length=end2 - start2)
 
-      print "\t".join(output)
+          # the lemma sequence between the mention spans
+          lemma_between = ddlib.tokens_between_spans(lemma, span1, span2)
+          if lemma_between.is_inversed:
+              feature = "WORDSEQ_INV:" + "_".join(lemma_between.elements).lower()
+          else:
+              feature = "WORDSEQ_" + "_".join(lemma_between.elements).lower()
+
+          # doc_id, mid1, mid2, word1, word2, type1, type2, feature
+          output = [doc_id, m1["mention_id"], m2["mention_id"], m1["word"], m2["word"], m1["type"], m2["type"], feature]
+          
+          # make sure each of the strings we will output is encoded as utf-8
+          map(lambda x: x.decode('utf-8', 'ignore'), output)
+
+          print "\t".join(output)
 ```
 
 ## Relation mention feature: dependency path
@@ -174,7 +179,7 @@ The script `$APP_HOME/udf/ext_relation_mention_features_deppath.py` is the UDF f
 ```python
 #! /usr/bin/env python
 
-import sys, json
+import sys
 from lib import dd as ddlib
 
 # the delimiter used to separate columns in the input
@@ -230,7 +235,9 @@ for row in sys.stdin:
 
   # go through all pairs of mentions
   for m1 in mentions:
-    # make sure that the first mention is a PER or ORG
+    start1 = m1["start"]
+    end1 = m1["end"]
+
     if m1["type"] not in ["PERSON", "ORGANIZATION"]:
       continue
 
@@ -238,11 +245,10 @@ for row in sys.stdin:
       if m1["mention_id"] == m2["mention_id"]:
         continue
 
-      # the features we will extract from this mention pair
-      features = []
+      start2 = m2["start"]
+      end2 = m2["end"]
 
-      # get the list of edges that constitute the dependency path between the mentions
-      edges = ddlib.dep_path_between_words(word_obj_list, m1["end"] - 1, m2["end"] - 1)
+      edges = ddlib.dep_path_between_words(word_obj_list, end1 - 1, end2 - 1)
 
       if len(edges) > 0:
         num_roots = 0 # the number of root nodes
@@ -283,7 +289,7 @@ for row in sys.stdin:
                 left_path = left_path + ("--" + curr_edge.label + "->")
               else:
                 left_path = left_path + ("--" + curr_edge.label + "->" + curr_edge.word2.lemma.lower())
-          
+      
           # going from the root to the right
           else:
             num_right += 1
@@ -300,14 +306,14 @@ for row in sys.stdin:
               else:
                 # word1 is the parent for right to left
                 right_path = right_path + (curr_edge.word1.lemma.lower() + "<-" + curr_edge.label + "--")
-        
+  
         # if the root is at the end or at the beginning (direction was all up or all down)
         if num_right == 0:
           root = "|SAMEPATH"
         elif num_left == 0:
           root = "SAMEPATH|"
 
-        # if the edges have a disconnect (if there is more than 1 root)
+        # if the edges have a disconnect
         elif num_roots > 1:
           root = "|NONEROOT|"
 
@@ -315,24 +321,23 @@ for row in sys.stdin:
         else:
           root = "|" + root + "|"
 
-        # reconstruct the dependency path
         path = left_path + root + right_path
 
-        # doc_id, mid1, mid2, word1, word2, feature, type1, type2
-        features.append([doc_id, m1["mention_id"], m2["mention_id"], m1["word"], m2["word"], path, m1["type"], m2["type"]])
+        feat = [doc_id, m1["mention_id"], m2["mention_id"], m1["word"], m2["word"], m1["type"], m2["type"], path]
+
+        # make sure each of the strings we will output is encoded as utf-8
+        map(lambda x: x.decode('utf-8', 'ignore'), feat)
+        print "\t".join(feat)
 
         if 'wife' in path or 'widow' in path or 'husband' in path:
           feature = 'LEN_%d_wife/widow/husband' % (num_left + num_right)
-          
-          # doc_id, mid1, mid2, word1, word2, feature, type1, type2
-          features.append([doc_id, m1["mention_id"], m2["mention_id"], m1["word"], m2["word"], feature, m1["type"], m2["type"]])
 
-      # output all the features for this mention pair
-      for feat in features:
-        # make sure each of the strings we will output is encoded as utf-8
-        map(lambda x: x.decode('utf-8', 'ignore'), feat)
+          feat = [doc_id, m1["mention_id"], m2["mention_id"], m1["word"], m2["word"], m1["type"], m2["type"], feature]
 
-        print "\t".join(feat)
+          # make sure each of the strings we will output is encoded as utf-8
+          map(lambda x: x.decode('utf-8', 'ignore'), feat)
+
+          print "\t".join(feat)
 ```
 
 

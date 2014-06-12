@@ -5,7 +5,13 @@ layout: default
 Writing inference rules
 ====
 
-Now we need to tell DeepDive how to generate a factor graph to perform probabilistic inference. We want ultimately to predict the `is_correct` column of the `relation_instances` table, but this output variables relies on the system's predictions for entity linking as well as the `is_correct` column of the `relation_mentions` table.
+TODO: finish
+
+Now we need to tell DeepDive how to generate a factor graph to perform probabilistic inference. We want ultimately to predict the `is_correct` column of the `relation_instances` table, but this output variables relies on the system's predictions for `is_correct` columsn of the entity linking tables, as well as the `is_correct` column of the `relation_mentions` table.
+
+# Entity linking
+
+TODO
 
 # Relation mentions
 
@@ -32,10 +38,6 @@ relation_mention_lr {
 ```
 
 This rule generates a model similar to a logistic regression classifier. For each row in the input query we are adding a factor that connects to the `relation_mentions.is_correct` variable with a different weight for each feature name.
-
-# Entity linking
-
-TODO
 
 # Relation instances
 

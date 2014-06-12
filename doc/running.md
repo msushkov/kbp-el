@@ -1,68 +1,71 @@
 Running KBP application
 ====
 
-TODO: update the output
-
 Make sure you are in the `kbp` directory. To run the application, type in:
 
-    >> time sh run.sh
+    >> sh run.sh
     ...
-    04:26:09 [profiler] INFO  --------------------------------------------------
-    04:26:09 [profiler] INFO  Summary Report
-    04:26:09 [profiler] INFO  --------------------------------------------------
-    04:26:09 [profiler] INFO  ext_cleanup SUCCESS [251 ms]
-    04:26:09 [profiler] INFO  ext_mention SUCCESS [16997 ms]
-    04:26:09 [profiler] INFO  ext_coref_candidate SUCCESS [2399 ms]
-    04:26:09 [profiler] INFO  ext_relation_mention_feature_deppath SUCCESS [34105 ms]
-    04:26:09 [profiler] INFO  ext_relation_mention_feature SUCCESS [63297 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_extstr_person SUCCESS [67563 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_extstr_organization SUCCESS [2258 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_extstr_title SUCCESS [3781 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_extstr_title2 SUCCESS [5060 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_extstr_location SUCCESS [8089 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_alias_person SUCCESS [23261 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_coref SUCCESS [24390 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_alias_title SUCCESS [32075 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_alias_location SUCCESS [44660 ms]
-    04:26:09 [profiler] INFO  ext_el_feature_alias_organization SUCCESS [48183 ms]
-    04:26:09 [profiler] INFO  ext_relation_mention_positive SUCCESS [33341 ms]
-    04:26:09 [profiler] INFO  ext_relation_mention_negative SUCCESS [189 ms]
-    04:26:09 [profiler] INFO  ext_relation_mention SUCCESS [3606 ms]
-    04:26:09 [profiler] INFO  inference_grounding SUCCESS [16311 ms]
-    04:26:09 [profiler] INFO  inference SUCCESS [47145 ms]
-    04:26:09 [profiler] INFO  calibration plot written to /Users/czhang/Desktop/dd2/deepdive/out/2014-05-22T042159/calibration/relation_mentions.is_correct.png [0 ms]
-    04:26:09 [profiler] INFO  calibration SUCCESS [14562 ms]
-    04:26:09 [profiler] INFO  --------------------------------------------------
-    04:26:09 [taskManager] INFO  Completed task_id=report with Success(Success(()))
-    04:26:09 [profiler] DEBUG ending report_id=report
-    04:26:09 [taskManager] INFO  1/1 tasks eligible.
-    04:26:09 [taskManager] INFO  Tasks not_eligible: Set()
-    04:26:09 [taskManager] DEBUG Sending task_id=shutdown to Actor[akka://deepdive/user/taskManager#1841581299]
-    04:26:09 [profiler] DEBUG starting report_id=shutdown
-    04:26:09 [EventStream] DEBUG shutting down: StandardOutLogger started
+    03:45:02 [profiler] INFO  --------------------------------------------------
+    03:45:02 [profiler] INFO  Summary Report
+    03:45:02 [profiler] INFO  --------------------------------------------------
+    03:45:02 [profiler] INFO  ext_cleanup SUCCESS [314 ms]
+    03:45:02 [profiler] INFO  ext_mention SUCCESS [28486 ms]
+    03:45:02 [profiler] INFO  wiki_link SUCCESS [290888 ms]
+    03:45:02 [profiler] INFO  wiki_redirect SUCCESS [293188 ms]
+    03:45:02 [profiler] INFO  top_bing_result SUCCESS [293212 ms]
+    03:45:02 [profiler] INFO  everything_nil SUCCESS [301676 ms]
+    03:45:02 [profiler] INFO  exact_str_match SUCCESS [407718 ms]
+    03:45:02 [profiler] INFO  ext_relation_mention_feature_deppath SUCCESS [441965 ms]
+    03:45:02 [profiler] INFO  fbalias_person SUCCESS [462850 ms]
+    03:45:02 [profiler] INFO  mention_text_num_words SUCCESS [467824 ms]
+    03:45:02 [profiler] INFO  fbalias_location SUCCESS [8390 ms]
+    03:45:02 [profiler] INFO  fbalias_title SUCCESS [11168 ms]
+    03:45:02 [profiler] INFO  ext_relation_mention_feature_wordseq SUCCESS [494969 ms]
+    03:45:02 [profiler] INFO  fbalias_organization SUCCESS [35173 ms]
+    03:45:02 [profiler] INFO  bing_result SUCCESS [498072 ms]
+    03:45:02 [profiler] INFO  el_round_1 SUCCESS [96079 ms]
+    03:45:02 [profiler] INFO  consistent_types_person SUCCESS [4392 ms]
+    03:45:02 [profiler] INFO  no_given_name SUCCESS [15937 ms]
+    03:45:02 [profiler] INFO  no_family_name SUCCESS [19788 ms]
+    03:45:02 [profiler] INFO  context SUCCESS [21099 ms]
+    03:45:02 [profiler] INFO  no_time_event SUCCESS [32584 ms]
+    03:45:02 [profiler] INFO  state_ambiguous SUCCESS [34845 ms]
+    03:45:02 [profiler] INFO  consistent_types_location SUCCESS [33320 ms]
+    03:45:02 [profiler] INFO  no_film SUCCESS [45308 ms]
+    03:45:02 [profiler] INFO  city_town_ambiguous SUCCESS [45406 ms]
+    03:45:02 [profiler] INFO  no_social_network_user SUCCESS [50566 ms]
+    03:45:02 [profiler] INFO  dont_trust_single_name SUCCESS [91064 ms]
+    03:45:02 [profiler] INFO  entity_popularity SUCCESS [97629 ms]
+    03:45:02 [profiler] INFO  consistent_types_organization SUCCESS [62900 ms]
+    03:45:02 [profiler] INFO  consistent_types_title2 SUCCESS [1122 ms]
+    03:45:02 [profiler] INFO  consistent_types_title SUCCESS [2755 ms]
+    03:45:02 [profiler] INFO  el_round_2 SUCCESS [28774 ms]
+    03:45:02 [profiler] INFO  ext_relation_mention_positive SUCCESS [11183 ms]
+    03:45:02 [profiler] INFO  ext_relation_mention_negative SUCCESS [170 ms]
+    03:45:02 [profiler] INFO  ext_relation_mention SUCCESS [7760 ms]
+    03:45:02 [profiler] INFO  ext_relation_instance_candidates SUCCESS [89707 ms]
+    03:45:02 [profiler] INFO  inference_grounding SUCCESS [132017 ms]
+    03:45:02 [profiler] INFO  inference SUCCESS [209790 ms]
+    03:45:02 [profiler] INFO  calibration plot written to /Users/msushkov/Dropbox/Stanford/deepdive/out/2014-06-12T032411/calibration/el_candidate_link_2.is_correct.png [0 ms]
+    03:45:02 [profiler] INFO  calibration plot written to /Users/msushkov/Dropbox/Stanford/deepdive/out/2014-06-12T032411/calibration/el_candidate_link.is_correct.png [0 ms]
+    03:45:02 [profiler] INFO  calibration plot written to /Users/msushkov/Dropbox/Stanford/deepdive/out/2014-06-12T032411/calibration/relation_mentions.is_correct.png [0 ms]
+    03:45:02 [profiler] INFO  calibration plot written to /Users/msushkov/Dropbox/Stanford/deepdive/out/2014-06-12T032411/calibration/relation_instances.is_correct.png [0 ms]
+    03:45:02 [profiler] INFO  calibration SUCCESS [42412 ms]
+    03:45:02 [profiler] INFO  --------------------------------------------------
+    03:45:02 [taskManager] INFO  Completed task_id=report with Success(Success(()))
+    03:45:02 [taskManager] INFO  1/1 tasks eligible.
+    03:45:02 [taskManager] INFO  Tasks not_eligible: Set()
     Not interrupting system thread Thread[process reaper,10,system]
-    [success] Total time: 251 s, completed May 22, 2014 4:26:09 AM
-        
-    real  4m15.001s
-    user  2m30.093s
-    sys 0m26.283s
+    [success] Total time: 1253 s, completed Jun 12, 2014 3:45:02 AM
 
 To see some example results, type in:
 
     >> source env_db.sh
-    >> psql $DBNAME -c "select word1, word2, rel from relation_mentions_is_correct_inference where rel = 'per:title' order by expectation desc limit 10;"
-              word1          |   word2    |    rel    
-    -------------------------+------------+-----------
-     jose eduardo dos santos | president  | per:title
-     kevin stallings         | coach      | per:title
-     anthony hamilton        | father     | per:title
-     karyn bosnak            | author     | per:title
-     mahmoud ahmadinejad     | president  | per:title
-     fulgencio batista       | dictator   | per:title
-     raul castro             | president  | per:title
-     dean spiliotes          | consultant | per:title
-     simon cowell            | judge      | per:title
-     castro                  | elder      | per:title
-    (10 rows)
+    >> psql $DBNAME -c "select word1, word2, rel from relation_mentions_is_correct_inference where rel = 'per:title' order by expectation, word1, word2 desc limit 10;"
 
-These results are the highest-confidence *(mention1, relation, mention2)* tuples produced by the system where the relation is 'per:title'. We can see that the system seems to do well at identifying people's titles.
+
+
+These results are the highest-confidence *(entity1, relation, entity2)* tuples produced by the system where the relation is 'per:title'. We can see that the system seems to do well at identifying people's titles.
+
+
+Let us now [compute a score](evaluating.md) for the 2010 KBP slot filling task.

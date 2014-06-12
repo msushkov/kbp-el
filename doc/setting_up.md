@@ -57,15 +57,21 @@ The initial database dump contains the following tables:
 - `ea`: Contains 2348 tuples which make up the ground truth for the evaluation; to be used for error analysis.
 - `eid_to_fid`: Contains 811053 tuples which give a mapping between the KBP id of an entity and the Freebase id of an entity (used in entity linking evaluation).
 - `el_kbp_eval_query`: Contains 2250 tuples which make up the ground truth for entity linking evaluation.
-- `entities`: A set of 5000577 entities from Freebase, as well as the NIL entity (for entity linking - a mention could link to the NIL entity).
+- `entities`: A set of 5000578 entities from Freebase, including the NIL entity (for entity linking - a mention could link to the NIL entity).
 - `entity_feature_bing_query`: Contains 649 entity features: for a given keyword, the entity that shows up in the search results, and its results ranking.
-- `entity_feature_hasneed`: Contains 
-- `sentence`: contains processed sentence data by an [NLP extractor](http://deepdive.stanford.edu/doc/walkthrough-extras.html#nlp_extractor). This table contains tokenized words, lemmatized words, POS tags, NER tags, dependency paths for each sentence. There are 70805 sentences, which is 0.2% of the full corpus for 2010.
-- `kb`: Contains tuples of the form *(entity1, relation, entity2)*; this is the knowledge base used for distant supervision.
+- `entity_feature_hasneed`: Contains 116840 entities that need disambiguation.
+- `entity_feature_need_nodup`: Contains 195577 entities that need deduplication.
+- `entity_feature_popularity`: Contains the popularities of 725376 entities (popularity of 80 is the highest).
+- `entity_feature_wikidisambiguation`: Contains 797583 Wikipedia disambiguation page titles for entities.
+- `entity_feature_wikilink`: Contains 3179270 tuples that contain the anchor text and frequency of internal Wikipedia page links to entities.
+- `entity_feature_wikiredirect`: Contains 1310072 Wikipedia page redirect titles for entities.
 - `fbalias`: Freebase aliases for entities. An alias is an alternate name for an entity; for example, William Henry Gates III is an alias for Bill Gates.
-- `relation_types`: The typed relations we care to extract.
+- `freebase`: A partial dump of Freebase. Contains 10 million tuples of the form *(subject, predicate, object)*.
 - `incompatible_relations`: Contains tuples of the form (relation1, relation2) where relation2 is incompatible with relation1. This is used to generate negative examples (given (e1, relation1, e2), (e1, relation2, e2) will be a negative example).
-- 
+- `kb`: Contains tuples of the form *(entity1, relation, entity2)*; this is the knowledge base used for distant supervision.
+- `relation_types`: The typed relations we care to extract.
+- `sentence`: contains processed sentence data by an [NLP extractor](http://deepdive.stanford.edu/doc/walkthrough-extras.html#nlp_extractor). This table contains tokenized words, lemmatized words, POS tags, NER tags, dependency paths for each sentence. There are 70805 sentences, which is 0.2% of the full corpus for 2010.
+- `usstate`: Contains a list of the U.S. states (including DC).
 
 There are 4 additional tables that the system will need to create, to be used by the extractors. The tables are:
 - `mentions` (populated by `ext_mention`)
