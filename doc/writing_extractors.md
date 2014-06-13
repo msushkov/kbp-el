@@ -17,7 +17,8 @@ As stated in the [overview](../README.md), the extractors perform the following 
   - Consistent types
   etc.
 - [Add positive and negative training examples for relation mentions](training_data.md)
-- [Extract the relation mentions](relation_mentions.md)
+- [Extract mention-level relation candidates](relation_mentions.md)
+- [Extract entity-level relation candidates](relation_instances.md)
 
 Note that the entity linking step is necessary because our training data is at the entity level, but in order for the system to learn text patterns, this needs to be mapped to the mention level. That entity -> mention mapping is the entity linking.
 
