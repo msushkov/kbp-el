@@ -8,7 +8,7 @@ Knowledge Base Population (KBP)
 In this document we will build an application for [the slot filling task](http://surdeanu.info/kbp2014/KBP2014_TaskDefinition_EnglishSlotFilling_1.1.pdf) of the 
 [TAC KBP competition](http://www.nist.gov/tac/2014/KBP/). Slot filling involves extracting information about entities in text; the goal is to use a seed knowledge base to create an augmented knowledge base of *(entity, relation, entity)* tuples (the second entity is referred to as the "slot").[The relationships are defined by the competition guidelines](http://surdeanu.info/kbp2014/TAC_KBP_2014_Slot_Descriptions.pdf).
 
-This example uses a sample of the data for the 2010 task. Note that the data provided in this example application is only 0.2% of the original corpus so the recall (and thus the F1 score) will be low. However, using 100% of the 2010 corpus, this example system achieves an F1 score of XX on the KBP task, which [beats the top result](http://nlp.cs.rpi.edu/paper/kbp2010overview.pdf) from the 2010 competition.
+This example uses a sample of the data for the 2010 task. Note that the data provided in this example application is only 0.2% of the original corpus so the recall (and thus the F1 score) will be low. However, using 100% of the 2010 corpus, this example system achieves an F1 score of XX on the KBP task, which [beats the top result of 29](http://nlp.cs.rpi.edu/paper/kbp2010overview.pdf) from the 2010 competition.
 
 Note that in order to run the system on the full data set, you need to replace 2 tables with their full versions (but with the same exact schema): `sentence` and `freebase`.
 
