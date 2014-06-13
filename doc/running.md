@@ -84,4 +84,4 @@ To see some example results, type in:
 These results are the highest-confidence *(entity1, relation, entity2)* tuples produced by the system where the relation is 'per:title'. We can see that the system seems can identify some people's titles.
 
 
-Let us now [compute a score](evaluating.md) for the 2010 KBP slot filling task.
+Let us now [compute a score](evaluating.md) for the 2010 TAC KBP task.

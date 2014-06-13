@@ -19,7 +19,6 @@ To validate this step, you should see:
 
     >> git branch
       * master
-      
     >> ls
     README.md           env.sh                       evaluation           udf
     application.conf    env_db.sh                    run.sh
@@ -67,8 +66,8 @@ The initial database dump contains the following tables:
 - `entity_feature_wikidisambiguation`: Contains 797583 Wikipedia disambiguation page titles for entities.
 - `entity_feature_wikilink`: Contains 3179270 tuples that contain the anchor text and frequency of internal Wikipedia page links to entities.
 - `entity_feature_wikiredirect`: Contains 1310072 Wikipedia page redirect titles for entities.
-- `fbalias`: Freebase aliases for entities. An alias is an alternate name for an entity; for example, William Henry Gates III is an alias for Bill Gates.
-- `freebase`: A partial dump of Freebase. Contains 10 million tuples of the form *(subject, predicate, object)*.
+- `fbalias`: Contains 1403565 Freebase aliases for entities. An alias is an alternate name for an entity; for example, William Henry Gates III is an alias for Bill Gates.
+- `freebase`: A partial dump of Freebase. Contains 10 million tuples of the form *(subject, predicate, object)*. As of spring 2014, this made up about 10% of the full Freebase dump.
 - `incompatible_relations`: Contains 104 tuples of the form *(relation1, relation2)* where relation2 is incompatible with relation1. This is used to generate negative examples (given *(e1, relation1, e2)*, *(e1, relation2, e2)* will be a negative example).
 - `kb`: Contains tuples of the form *(entity1, relation, entity2)*; this is the knowledge base used for distant supervision.
 - `relation_types`: 26 of the typed relations we care to extract.

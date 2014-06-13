@@ -10,6 +10,8 @@ In this document we will build an application for [the slot filling task](http:/
 
 This example uses a sample of the data for the 2010 task. Note that the data provided in this example application is only 0.2% of the original corpus so the recall (and thus the F1 score) will be low. However, using 100% of the 2010 corpus, this example system achieves an F1 score of 37 on the KBP task.
 
+Note that in order to run the system on the full data set, you need to replace 2 tables with their full versions (but with the same exact schema): `sentence` and `freebase`.
+
 ## Application overview
 
 The application is an extension of the [mention-level extraction system](http://deepdive.stanford.edu/doc/walkthrough-mention.html), so please make sure you have gone through that part of the tutorial and have an understanding of basic relation extraction using DeepDive. The main difference here is that we are now concerned with **entity-level relationships**, not mention-level. In other words,

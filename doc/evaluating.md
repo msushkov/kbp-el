@@ -5,7 +5,7 @@ layout: default
 Evaluating the results
 ====
 
-This example contains scorers for both the TAC KBP [slot filling](http://surdeanu.info/kbp2014/KBP2014_TaskDefinition_EnglishSlotFilling_1.1.pdf) as well as the TAC KBP [entity linking](http://nlp.cs.rpi.edu/kbp/2014/KBP2014EL_V0.2.pdf) tasks.
+This example contains scorers for both the 2010 TAC KBP [slot filling](http://surdeanu.info/kbp2014/KBP2014_TaskDefinition_EnglishSlotFilling_1.1.pdf) as well as the 2010 TAC KBP [entity linking](http://nlp.cs.rpi.edu/kbp/2014/KBP2014EL_V0.2.pdf) tasks.
 
 The example system will not achieve a high score on either task because our sample of 70805 sentences is only 0.2% of the full corpus.
 
