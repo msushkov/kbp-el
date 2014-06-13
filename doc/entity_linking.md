@@ -577,10 +577,6 @@ el_round_2 {
 ```bash
 #! /bin/bash
 
-#! /bin/bash
-
-# TODO: update
-
 echo "create table el_candidate_nodistinct2_round2..."
 date
 psql $DBNAME -c """
