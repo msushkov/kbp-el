@@ -2,10 +2,10 @@
 layout: default
 ---
 
-Generating relation mentions
+Extracting relation mentions
 ====
 
-As the final extractor, we generate the non-example relation mentions that we want to run inference on. Each of these relation mentions will have NULL in the `is_correct` column, meaning that DeepDive will treat it as a random variable and will perform inference on its value. Since we have already generated the `relation_mention_features` table, we can simply use that, along with the `relation_types` table, to get the appropriately-typed relation mentions.
+We now need to generate the non-example relation mentions that we want to run inference on. Each of these relation mentions will have NULL in the `is_correct` column, meaning that DeepDive will treat it as a random variable and will perform inference on its value. Since we have already generated the `relation_mention_features` table, we can simply use that, along with the `relation_types` table, to get the appropriately-typed relation mentions.
 
 This extractor is defined in `application.conf` using the following code:
 
@@ -39,4 +39,4 @@ ext_relation_mention {
      AFP_ENG_20020206.0348.LDC2007T07 | AFP_ENG_20020206.0348.LDC2007T07_1186_1193 | AFP_ENG_20020206.0348.LDC2007T07_1135_1139 | defense | iran       | org:LOCATION_of_headquarters |
 
 
-Now that we have written our extractors, let us see how we can [debug them](debugging_extractors.md) without having to repeatedly run DeepDive.
+Finally, we need an extractor to generate [entity-level relation candidates](relation_instances.md).

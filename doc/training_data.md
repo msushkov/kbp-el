@@ -5,15 +5,15 @@ layout: default
 Adding training data
 ====
 
-In order for the system to learn text patterns that indicate the presence of certain relationships between entities, we must provide training examples. We have an entity-level knowledge base of (entity1, relation, entity2) tuples (prodived in the database dump). Since our training data is entity-level but we need mention-level examples, we will use the distant supervision approach: for a given (entity1, relation, entity2) training example form the knowledge base, label all instances of (mention1, relation, mention2), where mention1 is a mention for the entity entity1 and mention2 is a mention for entity2, as being positive examples. To generate negative examples, use a list of incompatible relations.
+In order for the system to learn text patterns that indicate the presence of certain relationships between entities, we must provide training examples. We have an entity-level knowledge base of *(entity1, relation, entity2)* tuples (prodived in the database dump). Since our training data is entity-level but we need mention-level examples, we will use the distant supervision approach: for a given *(entity1, relation, entity2)* training example form the knowledge base, label all instances of *(mention1, relation, mention2)*, where mention1 is a mention for the entity entity1 and mention2 is a mention for entity2, as being positive examples. To generate negative examples, use a list of incompatible relations.
 
 Refer to http://www.stanford.edu/~jurafsky/mintz.pdf for a discussion on distant supervision.
 
 # Positive examples
 
-The positive examples come from the existing knowledge base table, `kb`. The table contains tuples of the form (entity1, relation, entity2). Note that our training data is entity-level; however, in order for the system to learn text patterns this data needs to be mapped to the mention level. Also note that since we are adding positive examples we insert True into the `is_correct` column of the `relation_mentions` table.
+The positive examples come from the existing knowledge base table, `kb`. The table contains tuples of the form *(entity1, relation, entity2)*. Note that our training data is entity-level; however, in order for the system to learn text patterns this data needs to be mapped to the mention level. Also note that since we are adding positive examples we insert True into the `is_correct` column of the `relation_mentions` table.
 
-For each (entity1, relation, entity2) tuple in the knowledge base, the extractor finds mentions m1 and m2 that link to entities entity1 and entity2, respectively, and then joins the result with the relation mention feature table in order to extract the rellevant relation mention information. This extractor is defined in `application.conf` using the following code:
+For each *(entity1, relation, entity2)* tuple in the knowledge base, the extractor finds mentions m1 and m2 that link to entities entity1 and entity2, respectively, and then joins the result with the relation mention feature table in order to extract the rellevant relation mention information. This extractor is defined in `application.conf` using the following code:
 
 ```bash
 ext_relation_mention_positive {
