@@ -77,7 +77,7 @@ psql -p $PGPORT -h $PGHOST -U $PGUSER $DBNAME -c """
             t6.words                  AS words, 
             ''::text                  AS slot_value_id
         FROM 
-            relation_instances_is_correct_inference t0, 
+            relation_mentions_is_correct_inference t0, 
             el_candidate_link_2 t1, 
             entities t3,  
             mentions t5, 

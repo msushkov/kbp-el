@@ -39,7 +39,13 @@ ext_relation_instance_candidates {
 
 **Query result:** non-training relation mentions, e.g.:
 	
-
-
+   subject_id | object_id |        rel        | is_correct | id 
+  ------------+-----------+-------------------+------------+----
+   m.0100xcrx | m.01kkgn  | per:date_of_birth |            |   
+   m.0100xcrx | m.01kkgn  | per:date_of_death |            |   
+   m.0101n248 | m.046ddwr | per:title         |            |   
+   m.0101n59g | m.02rd6v2 | per:children      |            |   
+   m.0101n59g | m.02rd6v2 | per:other_family  |            |   
+   
 
 Now that we have written our extractors, let us see how we can [debug them](debugging_extractors.md) without having to repeatedly run DeepDive.
