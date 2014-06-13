@@ -65,7 +65,7 @@ This rule generates a model similar to a logistic regression classifier. For eac
 
 # Relation instances
 
-To find the entity-level relations, we want to predict the value of the `is_correct` column of the `relation_instances` tables. The value of this colun will be influenced by the values of the entity linking variables as well as the value of the mention-level variables.
+To find the entity-level relations, we want to predict the value of the `is_correct` column of the `relation_instances` tables. The value of this column will be influenced by the values of the entity linking variables as well as the value of the mention-level variables.
 
 This inference rule is defined in `application.conf` as follows:
 
