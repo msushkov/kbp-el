@@ -8,7 +8,7 @@ Knowledge Base Population (KBP)
 In this document we will build an application for [the slot filling task](http://surdeanu.info/kbp2014/KBP2014_TaskDefinition_EnglishSlotFilling_1.1.pdf) of the 
 [TAC KBP competition](http://www.nist.gov/tac/2014/KBP/). Slot filling involves extracting information about entities in text; the goal is to use a seed knowledge base to create an augmented knowledge base of *(entity, relation, entity)* tuples (the second entity is referred to as the "slot").[The relationships are defined by the competition guidelines](http://surdeanu.info/kbp2014/TAC_KBP_2014_Slot_Descriptions.pdf).
 
-This example uses a sample of the data for the 2010 task. Note that the data provided in this example application is only 0.2% of the original corpus so the recall (and thus the F1 score) will be low. However, using 100% of the 2010 corpus, this example system achieves an F1 score of 37 on the KBP task.
+This example uses a sample of the data for the 2010 task. Note that the data provided in this example application is only 0.2% of the original corpus so the recall (and thus the F1 score) will be low. However, using 100% of the 2010 corpus, this example system achieves an F1 score of XX on the KBP task, which [beats the top result](http://nlp.cs.rpi.edu/paper/kbp2010overview.pdf) from the 2010 competition.
 
 Note that in order to run the system on the full data set, you need to replace 2 tables with their full versions (but with the same exact schema): `sentence` and `freebase`.
 
@@ -24,6 +24,8 @@ given the following input:
 
 instead of producing a set of *(mention1, relation, mention2)* tuples as the final output, we want to produces tuples of the form *(entity1, relation, entity2)*.
 
+Note that in order to obtain the entity-level result we need to perform **entity linking**, which will associate mentions in text with Freebase entities (the mentions "Barack Hussein Obama" and "President Barack Obama" all refer to the entity **Barack Obama**). 
+
 This tutorial will walk you through building a full DeepDive application that extracts relationships between entities in raw text. We use **news articles and blogs** as our input data and want to **extract all pairs of entities** that participate in the KBP relations (e.g. *Barack Obama* and *Michelle Obama* for the `spouse` relation).
 
 The application performs the following high-level steps:
@@ -32,7 +34,7 @@ The application performs the following high-level steps:
 2. Extract features. This includes steps to:
   - Extract entity mentions from sentences
   - Extract lexical and syntactic features from mention-level relation candidates (entity mention pairs in the same sentence)
-  - Perform entity linking (linking Freebase entities to mentions in text)
+  - Link Freebase entities to mentions in text (entity linking)
   - Generate positive and negative training examples for relation candidates
   - Extract the non-example mention-level relation candidates
   - Extract the entity-level relation candidates by combining the mention-level candidates with entity linking

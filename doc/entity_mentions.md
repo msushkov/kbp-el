@@ -33,13 +33,16 @@ The input query simply selects the appropriate columns from the sentence table a
 
 **Input:** sentences along with NER tags. Specically, each line in the input to this extractor UDF is a row in the `sentence` table in TSV format, e.g.:
 
+    doc_id  sentence_id words ner character_offset_begin  character_offset_end
     AFP_ENG_20070405.0102.LDC2009T13    AFP_ENG_20070405.0102.LDC2009T13_55 Larijani~^~,~^~head~^~of~^~Iran~^~'s~^~supreme~^~national~^~security~^~council~^~,~^~is~^~a~^~natural~^~conservative~^~but~^~his~^~moderate~^~and~^~distinctly~^~undramatic~^~language~^~contrasts~^~starkly~^~with~^~the~^~more~^~volatile~^~rhetoric~^~of~^~President~^~Mahmoud~^~Ahmadinejad~^~. PERSON~^~O~^~O~^~O~^~COUNTRY~^~O~^~ORGANIZATION~^~ORGANIZATION~^~ORGANIZATION~^~ORGANIZATION~^~O~^~O~^~O~^~O~^~IDEOLOGY~^~O~^~O~^~O~^~O~^~O~^~O~^~O~^~O~^~O~^~O~^~O~^~O~^~O~^~O~^~O~^~TITLE~^~PERSON~^~PERSON~^~O   497~^~505~^~507~^~512~^~515~^~519~^~522~^~530~^~539~^~548~^~555~^~557~^~560~^~562~^~570~^~583~^~587~^~591~^~600~^~604~^~615~^~626~^~635~^~645~^~653~^~658~^~662~^~667~^~676~^~685~^~688~^~698~^~706~^~717   505~^~506~^~511~^~514~^~519~^~521~^~529~^~538~^~547~^~555~^~556~^~559~^~561~^~569~^~582~^~586~^~590~^~599~^~603~^~614~^~625~^~634~^~644~^~652~^~657~^~661~^~666~^~675~^~684~^~687~^~697~^~705~^~717~^~718
 
 **Output:** rows in `mentions` table, e.g.:
 
-    AFP_ENG_20070405.0102.LDC2009T13    AFP_ENG_20070405.0102.LDC2009T13_497_505    AFP_ENG_20070405.0102.LDC2009T13_55 larijani    PERSON  0   1
-    AFP_ENG_20070405.0102.LDC2009T13    AFP_ENG_20070405.0102.LDC2009T13_515_519    AFP_ENG_20070405.0102.LDC2009T13_55 iran    LOCATION    4   5
-    AFP_ENG_20070405.0102.LDC2009T13    AFP_ENG_20070405.0102.LDC2009T13_522_555    AFP_ENG_20070405.0102.LDC2009T13_55 supreme national security council   ORGANIZATION    6   10
+                  doc_id              |                mention_id                |             sentence_id             |               word                |     type     | start_pos | end_pos 
+    ----------------------------------+------------------------------------------+-------------------------------------+-----------------------------------+--------------+-----------+---------
+     AFP_ENG_20070405.0102.LDC2009T13 | AFP_ENG_20070405.0102.LDC2009T13_497_505 | AFP_ENG_20070405.0102.LDC2009T13_55 | larijani                          | PERSON       |         0 |       1
+     AFP_ENG_20070405.0102.LDC2009T13 | AFP_ENG_20070405.0102.LDC2009T13_515_519 | AFP_ENG_20070405.0102.LDC2009T13_55 | iran                              | LOCATION     |         4 |       5
+     AFP_ENG_20070405.0102.LDC2009T13 | AFP_ENG_20070405.0102.LDC2009T13_522_555 | AFP_ENG_20070405.0102.LDC2009T13_55 | supreme national security council | ORGANIZATION |         6 |      10
     ...
 
 A mention can consist of multiple words (e.g. Barack Obama); the way we can identify these is if all of these words have the same NER tag. This extractor goes through all the words in the sentence and outputs as a mention the consecutive words that have the same NER tag.

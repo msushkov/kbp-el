@@ -5,7 +5,7 @@ layout: default
 Writing extractors
 ====
 
-In order to extract the necessary features from text and set up the tables for DeepDIve's learning and inference steps, we must add extractors. The extractors are created in `application.conf`. Several extractors in this example are [TSV extractors](http://deepdive.stanford.edu/doc/extractors.html#tsv_extractor) and some are [command-line extractors](http://deepdive.stanford.edu/doc/extractors.html#cmd_extractor), and the UDFs for them are contained in `APP_HOME/udf`. However, the majority are [SQL extractors](http://deepdive.stanford.edu/doc/extractors.html#sql_extractor) that do not have UDFs.
+In order to extract the necessary features from text and set up the tables for DeepDive's learning and inference steps, we must add extractors. The extractors are created in `application.conf`. Several extractors in this example are [TSV extractors](http://deepdive.stanford.edu/doc/extractors.html#tsv_extractor) and some are [command-line extractors](http://deepdive.stanford.edu/doc/extractors.html#cmd_extractor), and the UDFs for them are contained in `APP_HOME/udf`. However, the majority are [SQL extractors](http://deepdive.stanford.edu/doc/extractors.html#sql_extractor) that do not have UDFs.
 
 As stated in the [overview](../README.md), the extractors perform the following high-level tasks:
 

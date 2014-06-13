@@ -32,9 +32,11 @@ mention_text_num_words {
 
 **Output:** rows in `mention_feature_text_num_words` table, e.g.:
 
-	AFP_ENG_20070405.0102.LDC2009T13	AFP_ENG_20070405.0102.LDC2009T13_497_505	1
-	AFP_ENG_20070405.0102.LDC2009T13	AFP_ENG_20070405.0102.LDC2009T13_515_519	1
-	AFP_ENG_20070405.0102.LDC2009T13	AFP_ENG_20070405.0102.LDC2009T13_522_555	4
+	              doc_id              |                   mid                    | feature 
+	----------------------------------+------------------------------------------+---------
+	 AFP_ENG_20070405.0102.LDC2009T13 | AFP_ENG_20070405.0102.LDC2009T13_497_505 | 1
+	 AFP_ENG_20070405.0102.LDC2009T13 | AFP_ENG_20070405.0102.LDC2009T13_515_519 | 1
+	 AFP_ENG_20070405.0102.LDC2009T13 | AFP_ENG_20070405.0102.LDC2009T13_522_555 | 4
 
 The script `$APP_HOME/udf/ext_relation_mention_features_wordseq.py` is the UDF for this extractor:
 

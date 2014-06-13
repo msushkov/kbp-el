@@ -425,9 +425,11 @@ dont_trust_single_name {
   dependencies: ["el_round_1", "mention_text_num_words"]
 }
 
-## Context rule
+## Context for mentions of entities that have multiple canonical forms
 
-This extractor produces the set of tuples *(entity, mention)* that come from `el_candidate_link` where the entity needs de-duplication and there exists another mention in the same document but in a different sentence that has the same text as one of the entity's duplicate forms.
+This extractor produces the set of tuples *(entity, mention)* that come from `el_candidate_link`, where the entity needs de-duplication (e.g. the state Texas could be written as "Texas" or "TX") and there exists another mention in the same document that has the same text as one of the entity's canonical forms.
+
+For example, let's say we observe the mentions "Texas" and "TX" in the same document. If the tuple *(Texas, "Texas")* or *(Texas, "TX")* is present in `el_candidate_link`, this extractor would output it.
 
 This extractor is defined using the following code in `application.conf`:
 
