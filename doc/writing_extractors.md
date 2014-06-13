@@ -10,7 +10,7 @@ In order to extract the necessary features from text and set up the tables for D
 As stated in the [overview](../README.md), the extractors perform the following high-level tasks:
 
 - [Extract entity mentions from sentences](entity_mentions.md)
-- [Extract lexical and syntactic features for relation mentions (entity mentions pairs in the same sentence)](extracting_mention_features.md)
+- [Extract lexical and syntactic features for relation mentions (entity mentions pairs in the same sentence)](relation_mention_features.md)
 - [Extract candidates for entity linking based on several features (linking Freebase entities to mentions in text).](entity_linking.md) These features include:
   - Exact string match
   - Freebase alias
