@@ -26,6 +26,7 @@ mention_text_num_words {
 
 **Input:** an entity mention. Specically, each line in the input to this extractor UDF is a row of the input query in TSV format, e.g.:
 
+	doc_id	mention_id	word
 	AFP_ENG_20070405.0102.LDC2009T13	AFP_ENG_20070405.0102.LDC2009T13_497_505	larijani
 	AFP_ENG_20070405.0102.LDC2009T13	AFP_ENG_20070405.0102.LDC2009T13_515_519	iran
 	AFP_ENG_20070405.0102.LDC2009T13	AFP_ENG_20070405.0102.LDC2009T13_522_555	supreme national security council
