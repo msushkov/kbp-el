@@ -24,10 +24,10 @@ psql $DBNAME -c """
     SELECT * from el_wiki_redirect;
 
   INSERT INTO el_candidate_nodistinct2
-    SELECT * from el_top_bing_result;
+    SELECT * from el_top_search_engine_result;
 
   INSERT INTO el_candidate_nodistinct2
-    SELECT * from el_bing_result;
+    SELECT * from el_search_engine_result;
 
   INSERT INTO el_candidate_nodistinct2
     SELECT * from el_fbalias;
