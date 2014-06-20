@@ -14,6 +14,8 @@ echo "Creating the database..."
 date
 createdb $DBNAME
 
+psql $DBNAME < schema.sql
+
 # combine the dump files together
 echo "Combining DB dump files..."
 date
